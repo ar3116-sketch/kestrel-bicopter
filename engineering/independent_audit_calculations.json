@@ -1,0 +1,392 @@
+{
+  "audited_revision": "Kestrel_Mini_R4",
+  "nominal_mass_g": 664.8991240710566,
+  "growth_mass_g": 731.3890364781623,
+  "source_table_transcription": "Visually checked against source/motor_2.jpg; matches R3",
+  "cg_mm": [
+    -0.8203731111402404,
+    -0.029451941404107968,
+    4.4397748720765895
+  ],
+  "pivot_z_mm": 35,
+  "pitch_arm_m": 0.03056022512792341,
+  "trim_deg_positive_is_thrust_toward_nose": 1.5377056560851694,
+  "common_tilt_remaining_symmetric_deg": 18.46229434391483,
+  "linear_full_state_controllability_rank": 12,
+  "local_model_states": 12,
+  "force_cases": [
+    {
+      "mass_g": 664.8991240710566,
+      "voltage_V": 12,
+      "installed_factor_assumed": 0.85,
+      "max_total_gf": 1210.3999999999999,
+      "hover_motor_A": 9.600346929728575,
+      "hover_total_with_5W_A": 19.617360526123818,
+      "vertical_TW": 1.8204265221300646,
+      "pod20_TW": 1.710641369528577,
+      "pod20_bank20_TW": 1.607477071757104,
+      "pod20_bank20_with_10pct_diff_headroom_TW": 1.4613427925064582
+    },
+    {
+      "mass_g": 664.8991240710566,
+      "voltage_V": 12,
+      "installed_factor_assumed": 0.75,
+      "max_total_gf": 1068.0,
+      "hover_motor_A": 11.167297361334812,
+      "hover_total_with_5W_A": 22.751261389336292,
+      "vertical_TW": 1.6062586959971161,
+      "pod20_TW": 1.5093894437016857,
+      "pod20_bank20_TW": 1.4183621221386216,
+      "pod20_bank20_with_10pct_diff_headroom_TW": 1.2894201110351105
+    },
+    {
+      "mass_g": 664.8991240710566,
+      "voltage_V": 12,
+      "installed_factor_assumed": 0.65,
+      "max_total_gf": 925.6,
+      "hover_motor_A": 13.851034288639656,
+      "hover_total_with_5W_A": 28.11873524394598,
+      "vertical_TW": 1.3920908698641672,
+      "pod20_TW": 1.3081375178747943,
+      "pod20_bank20_TW": 1.2292471725201386,
+      "pod20_bank20_with_10pct_diff_headroom_TW": 1.1174974295637623
+    },
+    {
+      "mass_g": 664.8991240710566,
+      "voltage_V": 16,
+      "installed_factor_assumed": 0.85,
+      "max_total_gf": 1525.4666666666667,
+      "hover_motor_A": 8.15721977855416,
+      "hover_total_with_5W_A": 16.62693955710832,
+      "vertical_TW": 2.2942828640328345,
+      "pod20_TW": 2.1559206773272144,
+      "pod20_bank20_TW": 2.0259027514841406,
+      "pod20_bank20_with_10pct_diff_headroom_TW": 1.8417297740764913
+    },
+    {
+      "mass_g": 664.8991240710566,
+      "voltage_V": 16,
+      "installed_factor_assumed": 0.75,
+      "max_total_gf": 1346.0,
+      "hover_motor_A": 9.562050100798192,
+      "hover_total_with_5W_A": 19.436600201596384,
+      "vertical_TW": 2.0243672329701483,
+      "pod20_TW": 1.9022829505828363,
+      "pod20_bank20_TW": 1.787561251309536,
+      "pod20_bank20_with_10pct_diff_headroom_TW": 1.6250556830086689
+    },
+    {
+      "mass_g": 664.8991240710566,
+      "voltage_V": 16,
+      "installed_factor_assumed": 0.65,
+      "max_total_gf": 1166.5333333333335,
+      "hover_motor_A": 11.45907506889027,
+      "hover_total_with_5W_A": 23.23065013778054,
+      "vertical_TW": 1.754451601907462,
+      "pod20_TW": 1.6486452238384584,
+      "pod20_bank20_TW": 1.5492197511349315,
+      "pod20_bank20_with_10pct_diff_headroom_TW": 1.4083815919408467
+    },
+    {
+      "mass_g": 731.3890364781623,
+      "voltage_V": 12,
+      "installed_factor_assumed": 0.85,
+      "max_total_gf": 1210.3999999999999,
+      "hover_motor_A": 10.743612391932203,
+      "hover_total_with_5W_A": 21.903891450531074,
+      "vertical_TW": 1.6549332019364222,
+      "pod20_TW": 1.5551285177532517,
+      "pod20_bank20_TW": 1.4613427925064582,
+      "pod20_bank20_with_10pct_diff_headroom_TW": 1.3284934477331436
+    },
+    {
+      "mass_g": 731.3890364781623,
+      "voltage_V": 12,
+      "installed_factor_assumed": 0.75,
+      "max_total_gf": 1068.0,
+      "hover_motor_A": 12.905595724919277,
+      "hover_total_with_5W_A": 26.22785811650522,
+      "vertical_TW": 1.4602351781791962,
+      "pod20_TW": 1.372172221546987,
+      "pod20_bank20_TW": 1.2894201110351102,
+      "pod20_bank20_with_10pct_diff_headroom_TW": 1.1722001009410092
+    },
+    {
+      "mass_g": 731.3890364781623,
+      "voltage_V": 12,
+      "installed_factor_assumed": 0.65,
+      "max_total_gf": 925.6,
+      "hover_motor_A": 15.763712734509458,
+      "hover_total_with_5W_A": 31.944092135685583,
+      "vertical_TW": 1.26553715442197,
+      "pod20_TW": 1.189215925340722,
+      "pod20_bank20_TW": 1.117497429563762,
+      "pod20_bank20_with_10pct_diff_headroom_TW": 1.0159067541488744
+    },
+    {
+      "mass_g": 731.3890364781623,
+      "voltage_V": 16,
+      "installed_factor_assumed": 0.85,
+      "max_total_gf": 1525.4666666666667,
+      "hover_motor_A": 9.213166274304129,
+      "hover_total_with_5W_A": 18.738832548608258,
+      "vertical_TW": 2.085711694575304,
+      "pod20_TW": 1.9599278884792855,
+      "pod20_bank20_TW": 1.8417297740764913,
+      "pod20_bank20_with_10pct_diff_headroom_TW": 1.674299794614992
+    },
+    {
+      "mass_g": 731.3890364781623,
+      "voltage_V": 16,
+      "installed_factor_assumed": 0.75,
+      "max_total_gf": 1346.0,
+      "hover_motor_A": 10.748255110878013,
+      "hover_total_with_5W_A": 21.809010221756026,
+      "vertical_TW": 1.8403338481546798,
+      "pod20_TW": 1.729348136893487,
+      "pod20_bank20_TW": 1.6250556830086689,
+      "pod20_bank20_with_10pct_diff_headroom_TW": 1.4773233481896988
+    },
+    {
+      "mass_g": 731.3890364781623,
+      "voltage_V": 16,
+      "installed_factor_assumed": 0.65,
+      "max_total_gf": 1166.5333333333335,
+      "hover_motor_A": 13.076675033442584,
+      "hover_total_with_5W_A": 26.465850066885167,
+      "vertical_TW": 1.594956001734056,
+      "pod20_TW": 1.498768385307689,
+      "pod20_bank20_TW": 1.4083815919408464,
+      "pod20_bank20_with_10pct_diff_headroom_TW": 1.2803469017644058
+    },
+    {
+      "mass_g": 800,
+      "voltage_V": 12,
+      "installed_factor_assumed": 0.85,
+      "max_total_gf": 1210.3999999999999,
+      "hover_motor_A": 12.238754325259517,
+      "hover_total_with_5W_A": 24.894175317185702,
+      "vertical_TW": 1.513,
+      "pod20_TW": 1.4217549352490793,
+      "pod20_bank20_TW": 1.336012621219507,
+      "pod20_bank20_with_10pct_diff_headroom_TW": 1.2145569283813697
+    },
+    {
+      "mass_g": 800,
+      "voltage_V": 12,
+      "installed_factor_assumed": 0.75,
+      "max_total_gf": 1068.0,
+      "hover_motor_A": 14.718390804597703,
+      "hover_total_with_5W_A": 29.853448275862075,
+      "vertical_TW": 1.335,
+      "pod20_TW": 1.2544896487491877,
+      "pod20_bank20_TW": 1.1788346657819178,
+      "pod20_bank20_with_10pct_diff_headroom_TW": 1.0716678779835616
+    },
+    {
+      "mass_g": 800,
+      "voltage_V": 12,
+      "installed_factor_assumed": 0.65,
+      "max_total_gf": 925.6,
+      "hover_motor_A": 17.447600913937546,
+      "hover_total_with_5W_A": 35.311868494541756,
+      "vertical_TW": 1.157,
+      "pod20_TW": 1.087224362249296,
+      "pod20_bank20_TW": 1.0216567103443288,
+      "pod20_bank20_with_10pct_diff_headroom_TW": 0.9287788275857534
+    },
+    {
+      "mass_g": 800,
+      "voltage_V": 16,
+      "installed_factor_assumed": 0.85,
+      "max_total_gf": 1525.4666666666667,
+      "hover_motor_A": 10.293206296603149,
+      "hover_total_with_5W_A": 20.898912593206298,
+      "vertical_TW": 1.9068333333333334,
+      "pod20_TW": 1.7918372124019297,
+      "pod20_bank20_TW": 1.6837762061436858,
+      "pod20_bank20_with_10pct_diff_headroom_TW": 1.5307056419488052
+    },
+    {
+      "mass_g": 800,
+      "voltage_V": 16,
+      "installed_factor_assumed": 0.75,
+      "max_total_gf": 1346.0,
+      "hover_motor_A": 12.153439153439155,
+      "hover_total_with_5W_A": 24.61937830687831,
+      "vertical_TW": 1.6825,
+      "pod20_TW": 1.581032834472291,
+      "pod20_bank20_TW": 1.4856848877738404,
+      "pod20_bank20_with_10pct_diff_headroom_TW": 1.3506226252489457
+    },
+    {
+      "mass_g": 800,
+      "voltage_V": 16,
+      "installed_factor_assumed": 0.65,
+      "max_total_gf": 1166.5333333333335,
+      "hover_motor_A": 14.628959276018099,
+      "hover_total_with_5W_A": 29.570418552036198,
+      "vertical_TW": 1.4581666666666668,
+      "pod20_TW": 1.3702284565426524,
+      "pod20_bank20_TW": 1.287593569403995,
+      "pod20_bank20_with_10pct_diff_headroom_TW": 1.1705396085490862
+    }
+  ],
+  "mass_gates": [
+    {
+      "installed_factor_assumed": 0.85,
+      "mass_g_for_1p8_vertical_at12V": 672.4444444444443,
+      "nominal_g_to_meet_1p8_after10pct_growth": 611.3131313131312,
+      "mass_g_for_1p6_at20deg_at12V": 710.8774676245396
+    },
+    {
+      "installed_factor_assumed": 0.75,
+      "mass_g_for_1p8_vertical_at12V": 593.3333333333334,
+      "nominal_g_to_meet_1p8_after10pct_growth": 539.3939393939394,
+      "mass_g_for_1p6_at20deg_at12V": 627.2448243745938
+    },
+    {
+      "installed_factor_assumed": 0.65,
+      "mass_g_for_1p8_vertical_at12V": 514.2222222222222,
+      "nominal_g_to_meet_1p8_after10pct_growth": 467.4747474747474,
+      "mass_g_for_1p6_at20deg_at12V": 543.612181124648
+    }
+  ],
+  "authority": [
+    {
+      "angle_deg": -20,
+      "pitch_Nm_at_level_Fz_equals_W": -0.07787604430138198,
+      "pitch_accel_rad_s2": -35.094369627413336,
+      "yaw_Nm_zero_common_tilt": -0.2776694923937871,
+      "yaw_accel_rad_s2": -74.82844582730102
+    },
+    {
+      "angle_deg": -10,
+      "pitch_Nm_at_level_Fz_equals_W": -0.04048514245331085,
+      "pitch_accel_rad_s2": -18.24438524607703,
+      "yaw_Nm_zero_common_tilt": -0.13451820676313736,
+      "yaw_accel_rad_s2": -36.25096967183539
+    },
+    {
+      "angle_deg": 0,
+      "pitch_Nm_at_level_Fz_equals_W": -0.005349187902148222,
+      "pitch_accel_rad_s2": -2.410579262577491,
+      "yaw_Nm_zero_common_tilt": 0.0,
+      "yaw_accel_rad_s2": 0.0
+    },
+    {
+      "angle_deg": 10,
+      "pitch_Nm_at_level_Fz_equals_W": 0.029786766649014404,
+      "pitch_accel_rad_s2": 13.423226720922045,
+      "yaw_Nm_zero_common_tilt": 0.13451820676313736,
+      "yaw_accel_rad_s2": 36.25096967183539
+    },
+    {
+      "angle_deg": 20,
+      "pitch_Nm_at_level_Fz_equals_W": 0.06717766849708554,
+      "pitch_accel_rad_s2": 30.273211102258355,
+      "yaw_Nm_zero_common_tilt": 0.2776694923937871,
+      "yaw_accel_rad_s2": 74.82844582730102
+    }
+  ],
+  "moving_cg_shifts": [
+    {
+      "common_tilt_deg": -20,
+      "delta_CG_x_mm": -0.35103924005931403,
+      "delta_CG_z_mm": -0.06189768922578681,
+      "scope": "listed moving shapes only, excluding linkage mass motion and wire flex"
+    },
+    {
+      "common_tilt_deg": 20,
+      "delta_CG_x_mm": 0.3510392400305617,
+      "delta_CG_z_mm": -0.06189768938884901,
+      "scope": "listed moving shapes only, excluding linkage mass motion and wire flex"
+    }
+  ],
+  "rotor_gyro": [
+    {
+      "rpm": 16000,
+      "roll_deg_s": 45,
+      "prop_only_uniform_radial_gyro_Nm": 0.005306228312839009,
+      "prop_only_radial_bound_gyro_Nm": 0.015918684938517027,
+      "base_plus_prop_estimate_Nm": 0.042506228312839005,
+      "quarter_stall_margin_ratio": 3.172274813648219,
+      "motor_bell_inertia": "unknown, additional"
+    },
+    {
+      "rpm": 16000,
+      "roll_deg_s": 90,
+      "prop_only_uniform_radial_gyro_Nm": 0.010612456625678017,
+      "prop_only_radial_bound_gyro_Nm": 0.031837369877034054,
+      "base_plus_prop_estimate_Nm": 0.04781245662567801,
+      "quarter_stall_margin_ratio": 2.8202156303255594,
+      "motor_bell_inertia": "unknown, additional"
+    },
+    {
+      "rpm": 16000,
+      "roll_deg_s": 180,
+      "prop_only_uniform_radial_gyro_Nm": 0.021224913251356035,
+      "prop_only_radial_bound_gyro_Nm": 0.06367473975406811,
+      "base_plus_prop_estimate_Nm": 0.05842491325135603,
+      "quarter_stall_margin_ratio": 2.307944162790355,
+      "motor_bell_inertia": "unknown, additional"
+    },
+    {
+      "rpm": 20080,
+      "roll_deg_s": 45,
+      "prop_only_uniform_radial_gyro_Nm": 0.006659316532612955,
+      "prop_only_radial_bound_gyro_Nm": 0.019977949597838867,
+      "base_plus_prop_estimate_Nm": 0.04385931653261295,
+      "quarter_stall_margin_ratio": 3.074408088410007,
+      "motor_bell_inertia": "unknown, additional"
+    },
+    {
+      "rpm": 20080,
+      "roll_deg_s": 90,
+      "prop_only_uniform_radial_gyro_Nm": 0.01331863306522591,
+      "prop_only_radial_bound_gyro_Nm": 0.039955899195677734,
+      "base_plus_prop_estimate_Nm": 0.05051863306522591,
+      "quarter_stall_margin_ratio": 2.6691426374483003,
+      "motor_bell_inertia": "unknown, additional"
+    },
+    {
+      "rpm": 20080,
+      "roll_deg_s": 180,
+      "prop_only_uniform_radial_gyro_Nm": 0.02663726613045182,
+      "prop_only_radial_bound_gyro_Nm": 0.07991179839135547,
+      "base_plus_prop_estimate_Nm": 0.06383726613045182,
+      "quarter_stall_margin_ratio": 2.112268360998586,
+      "motor_bell_inertia": "unknown, additional"
+    },
+    {
+      "rpm": 22830,
+      "roll_deg_s": 45,
+      "prop_only_uniform_radial_gyro_Nm": 0.007571324523882161,
+      "prop_only_radial_bound_gyro_Nm": 0.022713973571646482,
+      "base_plus_prop_estimate_Nm": 0.04477132452388216,
+      "quarter_stall_margin_ratio": 3.0117812893400586,
+      "motor_bell_inertia": "unknown, additional"
+    },
+    {
+      "rpm": 22830,
+      "roll_deg_s": 90,
+      "prop_only_uniform_radial_gyro_Nm": 0.015142649047764321,
+      "prop_only_radial_bound_gyro_Nm": 0.045427947143292964,
+      "base_plus_prop_estimate_Nm": 0.05234264904776432,
+      "quarter_stall_margin_ratio": 2.5761294079127124,
+      "motor_bell_inertia": "unknown, additional"
+    },
+    {
+      "rpm": 22830,
+      "roll_deg_s": 180,
+      "prop_only_uniform_radial_gyro_Nm": 0.030285298095528643,
+      "prop_only_radial_bound_gyro_Nm": 0.09085589428658593,
+      "base_plus_prop_estimate_Nm": 0.06748529809552864,
+      "quarter_stall_margin_ratio": 1.9980861210559602,
+      "motor_bell_inertia": "unknown, additional"
+    }
+  ],
+  "prop_inertia_uniform_radial_kg_m2": 4.03225e-06,
+  "prop_inertia_radial_bound_kg_m2": 1.209675e-05,
+  "note": "Preliminary force/control screens; no measured hardware performance or validated flight dynamics."
+}

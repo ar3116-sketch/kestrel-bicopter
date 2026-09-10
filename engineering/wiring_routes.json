@@ -1,0 +1,422 @@
+[
+  {
+    "name": "L_ESC_VBAT",
+    "net": "VBAT",
+    "awg": 18,
+    "length_mm": 21.72,
+    "cut_length_mm": 37,
+    "from": "Power splice +",
+    "to": "ESC L +",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "L_ESC_GND",
+    "net": "GND",
+    "awg": 18,
+    "length_mm": 17.33,
+    "cut_length_mm": 33,
+    "from": "Power splice -",
+    "to": "ESC L -",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "L_Phase_0",
+    "net": "PHASE_L0",
+    "awg": 18,
+    "length_mm": 147.59,
+    "cut_length_mm": 183,
+    "from": "ESC L phase0",
+    "to": "Motor L phase0",
+    "slack_extra_mm": 20
+  },
+  {
+    "name": "L_Phase_1",
+    "net": "PHASE_L1",
+    "awg": 18,
+    "length_mm": 146.32,
+    "cut_length_mm": 182,
+    "from": "ESC L phase1",
+    "to": "Motor L phase1",
+    "slack_extra_mm": 20
+  },
+  {
+    "name": "L_Phase_2",
+    "net": "PHASE_L2",
+    "awg": 18,
+    "length_mm": 145.51,
+    "cut_length_mm": 181,
+    "from": "ESC L phase2",
+    "to": "Motor L phase2",
+    "slack_extra_mm": 20
+  },
+  {
+    "name": "L_Servo_0",
+    "net": "SERVO_L",
+    "awg": 24,
+    "length_mm": 75.7,
+    "cut_length_mm": 91,
+    "from": "Servo L",
+    "to": "FC S9/S10",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "L_Servo_1",
+    "net": "6V_SERVO",
+    "awg": 24,
+    "length_mm": 65.34,
+    "cut_length_mm": 81,
+    "from": "Servo L",
+    "to": "UBEC output",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "L_Servo_2",
+    "net": "GND",
+    "awg": 24,
+    "length_mm": 66.2,
+    "cut_length_mm": 82,
+    "from": "Servo L",
+    "to": "UBEC output",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "L_ESC_signal",
+    "net": "ESC_L",
+    "awg": 26,
+    "length_mm": 29.82,
+    "cut_length_mm": 45,
+    "from": "FC S1/S2",
+    "to": "ESC L signal",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "L_ESC_signal_ground",
+    "net": "GND",
+    "awg": 26,
+    "length_mm": 31.88,
+    "cut_length_mm": 47,
+    "from": "FC GND",
+    "to": "ESC L signal GND",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "R_ESC_VBAT",
+    "net": "VBAT",
+    "awg": 18,
+    "length_mm": 21.72,
+    "cut_length_mm": 37,
+    "from": "Power splice +",
+    "to": "ESC R +",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "R_ESC_GND",
+    "net": "GND",
+    "awg": 18,
+    "length_mm": 22.97,
+    "cut_length_mm": 38,
+    "from": "Power splice -",
+    "to": "ESC R -",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "R_Phase_0",
+    "net": "PHASE_R0",
+    "awg": 18,
+    "length_mm": 147.59,
+    "cut_length_mm": 183,
+    "from": "ESC R phase0",
+    "to": "Motor R phase0",
+    "slack_extra_mm": 20
+  },
+  {
+    "name": "R_Phase_1",
+    "net": "PHASE_R1",
+    "awg": 18,
+    "length_mm": 146.32,
+    "cut_length_mm": 182,
+    "from": "ESC R phase1",
+    "to": "Motor R phase1",
+    "slack_extra_mm": 20
+  },
+  {
+    "name": "R_Phase_2",
+    "net": "PHASE_R2",
+    "awg": 18,
+    "length_mm": 145.51,
+    "cut_length_mm": 181,
+    "from": "ESC R phase2",
+    "to": "Motor R phase2",
+    "slack_extra_mm": 20
+  },
+  {
+    "name": "R_Servo_0",
+    "net": "SERVO_R",
+    "awg": 24,
+    "length_mm": 75.7,
+    "cut_length_mm": 91,
+    "from": "Servo R",
+    "to": "FC S9/S10",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "R_Servo_1",
+    "net": "6V_SERVO",
+    "awg": 24,
+    "length_mm": 65.34,
+    "cut_length_mm": 81,
+    "from": "Servo R",
+    "to": "UBEC output",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "R_Servo_2",
+    "net": "GND",
+    "awg": 24,
+    "length_mm": 66.2,
+    "cut_length_mm": 82,
+    "from": "Servo R",
+    "to": "UBEC output",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "R_ESC_signal",
+    "net": "ESC_R",
+    "awg": 26,
+    "length_mm": 29.82,
+    "cut_length_mm": 45,
+    "from": "FC S1/S2",
+    "to": "ESC R signal",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "R_ESC_signal_ground",
+    "net": "GND",
+    "awg": 26,
+    "length_mm": 31.88,
+    "cut_length_mm": 47,
+    "from": "FC GND",
+    "to": "ESC R signal GND",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "Battery_stock_positive",
+    "net": "VBAT",
+    "awg": 14,
+    "length_mm": 13.69,
+    "cut_length_mm": 29,
+    "from": "B1 pack +",
+    "to": "XT60 battery half +",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "Battery_stock_negative",
+    "net": "GND",
+    "awg": 14,
+    "length_mm": 13.69,
+    "cut_length_mm": 29,
+    "from": "B1 pack -",
+    "to": "XT60 battery half -",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "B1_positive",
+    "net": "VBAT",
+    "awg": 14,
+    "length_mm": 121.06,
+    "cut_length_mm": 137,
+    "from": "XT60 +",
+    "to": "Power splice +",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "B1_negative",
+    "net": "GND",
+    "awg": 14,
+    "length_mm": 121.06,
+    "cut_length_mm": 137,
+    "from": "XT60 -",
+    "to": "Power splice -",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "UBEC_input_0",
+    "net": "VBAT",
+    "awg": 22,
+    "length_mm": 103.97,
+    "cut_length_mm": 119,
+    "from": "Power splice",
+    "to": "UBEC input",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "FC_input_0",
+    "net": "VBAT",
+    "awg": 26,
+    "length_mm": 35.21,
+    "cut_length_mm": 51,
+    "from": "Power splice",
+    "to": "FC battery input",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "Capacitor_0",
+    "net": "VBAT",
+    "awg": 24,
+    "length_mm": 113.67,
+    "cut_length_mm": 129,
+    "from": "Power splice",
+    "to": "C1",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "UBEC_input_1",
+    "net": "GND",
+    "awg": 22,
+    "length_mm": 112.79,
+    "cut_length_mm": 128,
+    "from": "Power splice",
+    "to": "UBEC input",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "FC_input_1",
+    "net": "GND",
+    "awg": 26,
+    "length_mm": 34.29,
+    "cut_length_mm": 50,
+    "from": "Power splice",
+    "to": "FC battery input",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "Capacitor_1",
+    "net": "GND",
+    "awg": 24,
+    "length_mm": 118.14,
+    "cut_length_mm": 134,
+    "from": "Power splice",
+    "to": "C1",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "Receiver_0",
+    "net": "5V_FC",
+    "awg": 26,
+    "length_mm": 25.32,
+    "cut_length_mm": 41,
+    "from": "RP1 5V",
+    "to": "FC 5V",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "Receiver_1",
+    "net": "GND",
+    "awg": 26,
+    "length_mm": 25.32,
+    "cut_length_mm": 41,
+    "from": "RP1 GND",
+    "to": "FC GND",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "Receiver_2",
+    "net": "CRSF_TX",
+    "awg": 26,
+    "length_mm": 25.32,
+    "cut_length_mm": 41,
+    "from": "RP1 TX",
+    "to": "FC RX2",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "Receiver_3",
+    "net": "CRSF_RX",
+    "awg": 26,
+    "length_mm": 25.32,
+    "cut_length_mm": 41,
+    "from": "RP1 RX",
+    "to": "FC TX2",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "Balance_0",
+    "net": "CELL_TAP_0",
+    "awg": 26,
+    "length_mm": 19.16,
+    "cut_length_mm": 35,
+    "from": "B1 balance tap",
+    "to": "J2 pin 1",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "Balance_1",
+    "net": "CELL_TAP_1",
+    "awg": 26,
+    "length_mm": 19.16,
+    "cut_length_mm": 35,
+    "from": "B1 balance tap",
+    "to": "J2 pin 2",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "Balance_2",
+    "net": "CELL_TAP_2",
+    "awg": 26,
+    "length_mm": 19.16,
+    "cut_length_mm": 35,
+    "from": "B1 balance tap",
+    "to": "J2 pin 3",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "Balance_3",
+    "net": "CELL_TAP_3",
+    "awg": 26,
+    "length_mm": 19.16,
+    "cut_length_mm": 35,
+    "from": "B1 balance tap",
+    "to": "J2 pin 4",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "Balance_4",
+    "net": "CELL_TAP_4",
+    "awg": 26,
+    "length_mm": 19.16,
+    "cut_length_mm": 35,
+    "from": "B1 balance tap",
+    "to": "J2 pin 5",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "Antenna_coax",
+    "net": "RF",
+    "awg": 30,
+    "length_mm": 74.91,
+    "cut_length_mm": 90,
+    "from": "RP1 UFL",
+    "to": "T antenna",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "Buzzer_wire_0",
+    "net": "BUZZER+",
+    "awg": 26,
+    "length_mm": 63.65,
+    "cut_length_mm": 79,
+    "from": "Buzzer",
+    "to": "FC buzzer pad",
+    "slack_extra_mm": 0
+  },
+  {
+    "name": "Buzzer_wire_1",
+    "net": "BUZZER-",
+    "awg": 26,
+    "length_mm": 63.67,
+    "cut_length_mm": 79,
+    "from": "Buzzer",
+    "to": "FC buzzer pad",
+    "slack_extra_mm": 0
+  }
+]

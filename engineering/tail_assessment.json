@@ -1,0 +1,243 @@
+{
+  "status": "sensitivity screen only; no aerodynamic qualification",
+  "tail_members": [
+    {
+      "name": "P19_Tapered_tail_boom",
+      "label": "P19 Tapered tail boom",
+      "printed": true,
+      "installed": true,
+      "volume_mm3": 18361.63456772555,
+      "mass_g": 22.76842686397968,
+      "center_mm": [
+        -159.9164898866427,
+        1.565387379772516e-05,
+        -13.208721939004292
+      ],
+      "bbox_mm": [
+        150.0,
+        56.58045782892244,
+        64.47876923076923
+      ],
+      "valid": true,
+      "solids": 1,
+      "evidence": "Continuous tail profile; split at x=-105mm for printer fit; internal splice not released; locally cleared harness passage with 0.6mm radial assembly allowance"
+    },
+    {
+      "name": "P04_Tail_spine",
+      "label": "P04 Tail spine",
+      "printed": true,
+      "installed": true,
+      "volume_mm3": 2538.0304330139043,
+      "mass_g": 3.1471577369372414,
+      "center_mm": [
+        -121.44742511661532,
+        3.865642083852371e-12,
+        4.550873316978805
+      ],
+      "bbox_mm": [
+        163.31097450322804,
+        12.0,
+        35.46741093710729
+      ],
+      "valid": true,
+      "solids": 1,
+      "evidence": "Long tail spine; rear segment follows rising boom; fit/reinforcement proof required"
+    },
+    {
+      "name": "P05_Vertical_tail_fin",
+      "label": "P05 Vertical tail fin",
+      "printed": true,
+      "installed": true,
+      "volume_mm3": 1764.1,
+      "mass_g": 2.187484,
+      "center_mm": [
+        -256.4465733235077,
+        0.65,
+        6.113976909850161
+      ],
+      "bbox_mm": [
+        52.0,
+        1.3,
+        70.0
+      ],
+      "valid": true,
+      "solids": 1,
+      "evidence": "Designed geometry; print and fit verification pending"
+    },
+    {
+      "name": "P05_Horizontal_tailplane",
+      "label": "P05 Horizontal tailplane",
+      "printed": true,
+      "installed": true,
+      "volume_mm3": 1324.8000000000018,
+      "mass_g": 1.6427520000000022,
+      "center_mm": [
+        -227.03623188405797,
+        8.581434006764484e-17,
+        -13.4
+      ],
+      "bbox_mm": [
+        31.0,
+        48.0,
+        1.1999999999999993
+      ],
+      "valid": true,
+      "solids": 1,
+      "evidence": "Designed geometry; print and fit verification pending"
+    },
+    {
+      "name": "P24_Tailwheel_fork",
+      "label": "P24 Tailwheel fork",
+      "printed": true,
+      "installed": true,
+      "volume_mm3": 662.9251845925623,
+      "mass_g": 0.8220272288947773,
+      "center_mm": [
+        -185.20194676920187,
+        -2.1168631630561565e-16,
+        -42.77447081410198
+      ],
+      "bbox_mm": [
+        19.62173910844163,
+        7.0,
+        25.486594182738163
+      ],
+      "valid": true,
+      "solids": 1,
+      "evidence": "Designed geometry; print and fit verification pending"
+    },
+    {
+      "name": "P25_Tailwheel",
+      "label": "P25 Tailwheel",
+      "printed": true,
+      "installed": true,
+      "volume_mm3": 233.94701527850202,
+      "mass_g": 0.2900942989453425,
+      "center_mm": [
+        -188.0,
+        2.1260365918324054e-16,
+        -50.5
+      ],
+      "bbox_mm": [
+        10.991078979887277,
+        3.0,
+        11.0
+      ],
+      "valid": true,
+      "solids": 1,
+      "evidence": "Designed geometry; print and fit verification pending"
+    },
+    {
+      "name": "Tailwheel_M2_axle",
+      "label": "Tailwheel M2 axle",
+      "printed": false,
+      "installed": true,
+      "volume_mm3": 28.27433388230821,
+      "mass_g": 0.0,
+      "center_mm": [
+        -188.0,
+        0.0,
+        -50.499999999999986
+      ],
+      "bbox_mm": [
+        2.0,
+        9.0,
+        2.0
+      ],
+      "valid": true,
+      "solids": 1,
+      "evidence": "Simplified installation envelope; verify received part"
+    }
+  ],
+  "tail_allocated_mass_g": 30.857942128757045,
+  "tail_cg_mm": [
+    -167.34676789717494,
+    0.04608930200719624,
+    -11.176043229562994
+  ],
+  "aircraft_cg_mm": [
+    -0.8203731111402404,
+    -0.029451941404107968,
+    4.4397748720765895
+  ],
+  "hypothetical_cg_without_tail_mm": [
+    7.284245326224367,
+    -0.03312843337956534,
+    5.19977599660519
+  ],
+  "tail_bbox_inertia_about_aircraft_cg_kg_m2": [
+    2.5920038387934754e-05,
+    0.0009570417883176384,
+    0.0009439862095850954
+  ],
+  "tail_fraction_of_bbox_inertia": [
+    0.011211949094398982,
+    0.43128510916808144,
+    0.254392444545118
+  ],
+  "boom_side_area_m2": 0.005780768693577544,
+  "fin_side_area_m2": 0.0013569999999999997,
+  "summed_side_area_m2": 0.0071377686935775436,
+  "area_first_moment_m3": 0.0012774511314220536,
+  "ideal_yaw_candidate_Nm": 0.11350156088241292,
+  "differential_tilt_after_trim_deg": 8.46229434391483,
+  "cases": [
+    {
+      "crosswind_m_s": 3,
+      "assumed_force_coefficient": 1,
+      "side_force_N": 0.03934694992334621,
+      "yaw_moment_Nm": 0.00704194936196407,
+      "fraction_of_ideal_yaw_candidate": 0.062042753484769224
+    },
+    {
+      "crosswind_m_s": 3,
+      "assumed_force_coefficient": 1.5,
+      "side_force_N": 0.05902042488501932,
+      "yaw_moment_Nm": 0.010562924042946106,
+      "fraction_of_ideal_yaw_candidate": 0.09306413022715385
+    },
+    {
+      "crosswind_m_s": 5,
+      "assumed_force_coefficient": 1,
+      "side_force_N": 0.10929708312040613,
+      "yaw_moment_Nm": 0.019560970449900194,
+      "fraction_of_ideal_yaw_candidate": 0.1723409819021367
+    },
+    {
+      "crosswind_m_s": 5,
+      "assumed_force_coefficient": 1.5,
+      "side_force_N": 0.1639456246806092,
+      "yaw_moment_Nm": 0.029341455674850293,
+      "fraction_of_ideal_yaw_candidate": 0.2585114728532051
+    },
+    {
+      "crosswind_m_s": 8,
+      "assumed_force_coefficient": 1,
+      "side_force_N": 0.27980053278823974,
+      "yaw_moment_Nm": 0.0500760843517445,
+      "fraction_of_ideal_yaw_candidate": 0.44119291366947005
+    },
+    {
+      "crosswind_m_s": 8,
+      "assumed_force_coefficient": 1.5,
+      "side_force_N": 0.4197007991823596,
+      "yaw_moment_Nm": 0.07511412652761676,
+      "fraction_of_ideal_yaw_candidate": 0.6617893705042052
+    },
+    {
+      "crosswind_m_s": 10,
+      "assumed_force_coefficient": 1,
+      "side_force_N": 0.43718833248162453,
+      "yaw_moment_Nm": 0.07824388179960078,
+      "fraction_of_ideal_yaw_candidate": 0.6893639276085468
+    },
+    {
+      "crosswind_m_s": 10,
+      "assumed_force_coefficient": 1.5,
+      "side_force_N": 0.6557824987224368,
+      "yaw_moment_Nm": 0.11736582269940117,
+      "fraction_of_ideal_yaw_candidate": 1.0340458914128203
+    }
+  ],
+  "physical_tests_performed": false
+}

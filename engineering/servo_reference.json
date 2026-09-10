@@ -1,0 +1,22 @@
+{
+  "selected_provisionally": "Blue Bird BMS-115WV+",
+  "source": "https://www.blue-bird-model.com/products_detail/55.htm",
+  "accessed": "2026-09-09",
+  "body_dimensions_mm": [23.2, 10, 23],
+  "catalogue_mass_g": 11,
+  "catalogue_mass_tolerance_g": 0.5,
+  "design_allocation_each_g": 12,
+  "catalogue_torque_at6V_kgf_cm": 5.5,
+  "catalogue_torque_at6V_Nm": 0.53936575,
+  "no_load_speed_at6V_s_per60deg": 0.13,
+  "operating_voltage_range_V": [3.6, 8.4],
+  "selected_supply_V": 6,
+  "maximum_published_signal_frequency_Hz": 333,
+  "initial_signal_frequency_Hz": 50,
+  "neutral_pulse_us": [1500, 1520],
+  "horn_spline_teeth": 25,
+  "bearings": "dual",
+  "unknowns": ["continuous torque", "stall current", "loaded bandwidth", "exact shaft and mounting-ear interface in CAD", "actual OEM horn geometry and spline fit"],
+  "status": "manufacturer installation envelope; not received, fit checked, configured or tested",
+  "torque_interpretation": "catalogue maximum is not credited as a continuous rating; quarter-catalogue is an assumed engineering screen"
+}

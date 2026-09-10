@@ -1,0 +1,346 @@
+{
+  "constructive_clearances": [
+    {
+      "wire": "Antenna_coax",
+      "part": "P06_Cabin_upper",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "Antenna_coax",
+      "part": "P19_Tapered_tail_boom",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "B1_negative",
+      "part": "P01_Battery_keel",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "B1_negative",
+      "part": "P15_L_ESC_tray",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "B1_positive",
+      "part": "P01_Battery_keel",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "B1_positive",
+      "part": "P15_R_ESC_tray",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "L_Phase_0",
+      "part": "P06_Cabin_upper",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "L_Phase_0",
+      "part": "P22_Cable_raceway_1",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "L_Phase_1",
+      "part": "P06_Cabin_upper",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "L_Phase_1",
+      "part": "P22_Cable_raceway_1",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "L_Phase_2",
+      "part": "P06_Cabin_upper",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "L_Phase_2",
+      "part": "P22_Cable_raceway_1",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "L_Servo_0",
+      "part": "P06_Cabin_upper",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "L_Servo_0",
+      "part": "P20_Servo_engine_cowl_1",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "L_Servo_1",
+      "part": "P06_Cabin_upper",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "L_Servo_1",
+      "part": "P20_Servo_engine_cowl_1",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "L_Servo_2",
+      "part": "P06_Cabin_upper",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "L_Servo_2",
+      "part": "P20_Servo_engine_cowl_1",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "R_Phase_0",
+      "part": "P06_Cabin_upper",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "R_Phase_0",
+      "part": "P22_Cable_raceway__1",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "R_Phase_1",
+      "part": "P06_Cabin_upper",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "R_Phase_1",
+      "part": "P22_Cable_raceway__1",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "R_Phase_2",
+      "part": "P06_Cabin_upper",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "R_Phase_2",
+      "part": "P22_Cable_raceway__1",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "R_Servo_0",
+      "part": "P06_Cabin_upper",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "R_Servo_0",
+      "part": "P20_Servo_engine_cowl__1",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "R_Servo_1",
+      "part": "P06_Cabin_upper",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "R_Servo_1",
+      "part": "P20_Servo_engine_cowl__1",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "R_Servo_2",
+      "part": "P06_Cabin_upper",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    },
+    {
+      "wire": "R_Servo_2",
+      "part": "P20_Servo_engine_cowl__1",
+      "radial_clearance_mm": 0.6,
+      "method": "Identical centerline pipe tool with radius enlarged 0.6 mm subtracted in generator; final part valid. No redundant coincident B-spline intersection."
+    }
+  ],
+  "complete": true,
+  "body_intersections": [],
+  "component_pair_intersections": [],
+  "wire_structure_intersections": [],
+  "tilt_checks": [
+    {
+      "side": "L",
+      "angle_deg": -25,
+      "prop_to_fixed_min_mm": 9.906,
+      "closest": "P20_Servo_engine_cowl_1",
+      "collisions": []
+    },
+    {
+      "side": "L",
+      "angle_deg": -20,
+      "prop_to_fixed_min_mm": 10.746,
+      "closest": "P11_L_bearing_yoke",
+      "collisions": []
+    },
+    {
+      "side": "L",
+      "angle_deg": -15,
+      "prop_to_fixed_min_mm": 11.202,
+      "closest": "P11_L_bearing_yoke",
+      "collisions": []
+    },
+    {
+      "side": "L",
+      "angle_deg": -10,
+      "prop_to_fixed_min_mm": 11.732,
+      "closest": "P11_L_bearing_yoke",
+      "collisions": []
+    },
+    {
+      "side": "L",
+      "angle_deg": -5,
+      "prop_to_fixed_min_mm": 12.333,
+      "closest": "P11_L_bearing_yoke",
+      "collisions": []
+    },
+    {
+      "side": "L",
+      "angle_deg": 0,
+      "prop_to_fixed_min_mm": 13.0,
+      "closest": "P11_L_bearing_yoke",
+      "collisions": []
+    },
+    {
+      "side": "L",
+      "angle_deg": 5,
+      "prop_to_fixed_min_mm": 12.333,
+      "closest": "P11_L_bearing_yoke",
+      "collisions": []
+    },
+    {
+      "side": "L",
+      "angle_deg": 10,
+      "prop_to_fixed_min_mm": 11.732,
+      "closest": "P11_L_bearing_yoke",
+      "collisions": []
+    },
+    {
+      "side": "L",
+      "angle_deg": 15,
+      "prop_to_fixed_min_mm": 11.202,
+      "closest": "P11_L_bearing_yoke",
+      "collisions": []
+    },
+    {
+      "side": "L",
+      "angle_deg": 20,
+      "prop_to_fixed_min_mm": 10.746,
+      "closest": "P11_L_bearing_yoke",
+      "collisions": []
+    },
+    {
+      "side": "L",
+      "angle_deg": 25,
+      "prop_to_fixed_min_mm": 10.369,
+      "closest": "P11_L_bearing_yoke",
+      "collisions": []
+    },
+    {
+      "side": "R",
+      "angle_deg": -25,
+      "prop_to_fixed_min_mm": 9.906,
+      "closest": "P20_Servo_engine_cowl__1",
+      "collisions": []
+    },
+    {
+      "side": "R",
+      "angle_deg": -20,
+      "prop_to_fixed_min_mm": 10.746,
+      "closest": "P11_R_bearing_yoke",
+      "collisions": []
+    },
+    {
+      "side": "R",
+      "angle_deg": -15,
+      "prop_to_fixed_min_mm": 11.202,
+      "closest": "P11_R_bearing_yoke",
+      "collisions": []
+    },
+    {
+      "side": "R",
+      "angle_deg": -10,
+      "prop_to_fixed_min_mm": 11.732,
+      "closest": "P11_R_bearing_yoke",
+      "collisions": []
+    },
+    {
+      "side": "R",
+      "angle_deg": -5,
+      "prop_to_fixed_min_mm": 12.333,
+      "closest": "P11_R_bearing_yoke",
+      "collisions": []
+    },
+    {
+      "side": "R",
+      "angle_deg": 0,
+      "prop_to_fixed_min_mm": 13.0,
+      "closest": "P11_R_bearing_yoke",
+      "collisions": []
+    },
+    {
+      "side": "R",
+      "angle_deg": 5,
+      "prop_to_fixed_min_mm": 12.333,
+      "closest": "P11_R_bearing_yoke",
+      "collisions": []
+    },
+    {
+      "side": "R",
+      "angle_deg": 10,
+      "prop_to_fixed_min_mm": 11.732,
+      "closest": "P11_R_bearing_yoke",
+      "collisions": []
+    },
+    {
+      "side": "R",
+      "angle_deg": 15,
+      "prop_to_fixed_min_mm": 11.202,
+      "closest": "P11_R_bearing_yoke",
+      "collisions": []
+    },
+    {
+      "side": "R",
+      "angle_deg": 20,
+      "prop_to_fixed_min_mm": 10.746,
+      "closest": "P11_R_bearing_yoke",
+      "collisions": []
+    },
+    {
+      "side": "R",
+      "angle_deg": 25,
+      "prop_to_fixed_min_mm": 10.369,
+      "closest": "P11_R_bearing_yoke",
+      "collisions": []
+    }
+  ],
+  "moving_structure_collisions": [],
+  "wire_check_method": "See wire_sampling_check.json for dense approximate mesh sampling; matching cable channels are constructive checks."
+}

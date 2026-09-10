@@ -1,0 +1,53 @@
+"""FreeCAD visual inspection controls. Neutral wire installation only."""
+import FreeCAD as App, FreeCADGui as Gui, math, json, builtins
+from pathlib import Path
+from PySide import QtGui, QtCore
+try:
+    from PySide import QtWidgets
+except ImportError:
+    QtWidgets=QtGui
+root=Path(__file__).resolve().parent
+name='Kestrel_Mini_R4'
+doc=App.getDocument(name) if name in App.listDocuments() else App.openDocument(str(root/'cad/Kestrel_Mini_R4.FCStd'))
+App.setActiveDocument(doc.Name)
+# Load once from disk at neutral; closing the dialog restores neutral.
+move=json.loads((root/'engineering/moving_objects.json').read_text())
+base={o.Name:App.Placement(o.Placement) for o in doc.Objects if hasattr(o,'Placement')}
+class Inspector(QtWidgets.QDialog):
+    def __init__(self):
+        super().__init__(Gui.getMainWindow())
+        self.setWindowTitle('Kestrel — geometry inspection')
+        self.setAttribute(QtCore.Qt.WA_DeleteOnClose)
+        layout=QtWidgets.QVBoxLayout(self)
+        label=QtWidgets.QLabel('Fit prototype · not flight released\nIndependent tilt about Y, ±25°.\nFlexible phase wires shown only at neutral.')
+        layout.addWidget(label);self.sliders={}
+        for side,title in [('1','Left'),('-1','Right')]:
+            layout.addWidget(QtWidgets.QLabel(title))
+            slider=QtWidgets.QSlider(QtCore.Qt.Horizontal);slider.setRange(-25,25);slider.setValue(0)
+            slider.valueChanged.connect(lambda value,s=side:self.tilt(s,value))
+            layout.addWidget(slider);self.sliders[side]=slider
+        shell=QtWidgets.QCheckBox('Show exterior shell');shell.setChecked(True)
+        shell.toggled.connect(lambda visible:[setattr(o.ViewObject,'Visibility',visible) for o in doc.Shell.Group]);layout.addWidget(shell)
+        guards=QtWidgets.QCheckBox('Show optional guards (+25.4 g if fitted)');guards.setChecked(False)
+        guards.toggled.connect(lambda visible:[setattr(o.ViewObject,'Visibility',visible) for o in doc.Objects if o.Name.startswith('P13_')]);layout.addWidget(guards)
+        button=QtWidgets.QPushButton('Return both rotors to neutral');button.clicked.connect(self.neutral);layout.addWidget(button)
+    def tilt(self,side,angle):
+        sy=int(side);tag='L' if sy==1 else 'R';center=App.Vector(0,sy*117,35)
+        rot=App.Rotation(App.Vector(0,1,0),angle)
+        placement=App.Placement(center-rot.multVec(center),rot)
+        for name in move[side]:doc.getObject(name).Placement=placement.multiply(base[name])
+        horn=doc.getObject(tag+'_OEM_servo_horn');hc=App.Vector(-35,sy*52,35)
+        horn.Placement=App.Placement(hc-rot.multVec(hc),rot).multiply(base[horn.Name])
+        shift=App.Vector(14*math.sin(math.radians(angle)),0,14*(math.cos(math.radians(angle))-1))
+        for o in doc.Hardware.Group:
+            if o.Name.startswith((tag+'_M2_ball_link',tag+'_ball_joint')):
+                pl=App.Placement(base[o.Name]);pl.Base=pl.Base+shift;o.Placement=pl
+        for o in doc.Wiring.Group:
+            if o.Name.startswith(tag+'_Phase_'):o.ViewObject.Visibility=(angle==0)
+        doc.recompute();Gui.updateGui()
+    def neutral(self):
+        for slider in self.sliders.values():slider.setValue(0)
+    def closeEvent(self,event):
+        self.neutral();event.accept()
+builtins.kestrel_inspector=Inspector();builtins.kestrel_inspector.show()
+Gui.activeDocument().activeView().viewAxonometric();Gui.activeDocument().activeView().fitAll()

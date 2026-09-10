@@ -1,0 +1,25 @@
+{
+  "revision": "R4 \u2014 matte-black Black Hawk inspired bicopter",
+  "native_document_reopened": true,
+  "valid_physical_shapes": 167,
+  "closed_print_meshes_including_optional": 42,
+  "installed_prints": 40,
+  "optional_prints": 2,
+  "wire_routes": 42,
+  "wire_samples": 179487,
+  "wire_method": "Approximate mesh ray-parity sampling; continuous clearance and motion flex are not proven",
+  "fixed_BRep_sampled_rotor_poses": 22,
+  "prop_to_fixed_min_mm": 9.906,
+  "detected_unresolved_intersections_in_completed_checks": 0,
+  "tilt_inspector_test": "left +20 / right -20 degrees; both reset to neutral, confirmed",
+  "nominal_mass_g": 664.8991240710566,
+  "mass_with_10percent_growth_g": 731.3890364781623,
+  "cg_mm": [
+    -0.8203731111402404,
+    -0.029451941404107968,
+    4.4397748720765895
+  ],
+  "flight_release": false,
+  "physical_tests_performed": false,
+  "scope": "Shape/mesh validity, selected packaging pairs, approximate neutral wire fitting, sampled rotor clearance, basic structure/power/control calculations. Received hardware interfaces, retention, printed strength/fatigue, actual thrust, loaded servo tracking, firmware integration and stable flight remain open."
+}

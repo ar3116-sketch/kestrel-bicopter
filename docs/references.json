@@ -1,0 +1,46 @@
+{
+  "MOTOR": [
+    "EMAX RS2205 and test chart",
+    "https://emaxmodel.com/products/emax-rs2205-racespec-motor-cooling-series"
+  ],
+  "ESC": [
+    "EMAX motor / Lightning ESC combination",
+    "https://shop.emaxmodel.com/products/emax-rs2205-2300kv-2600kv-racespec-brushless-motor-with-3-4s-30a-blheli-lightning-esc-power-combo"
+  ],
+  "SERVO": [
+    "Blue Bird BMS-115WV+ catalog",
+    "https://www.blue-bird-model.com/products_detail/55.htm"
+  ],
+  "FC": [
+    "Matek F405-TE specifications and pinout",
+    "https://www.mateksys.com/?portfolio=f405-te"
+  ],
+  "BEC": [
+    "Hobbywing UBEC 5A",
+    "https://www.hobbywing.com/en/products/ubec-5a93.html"
+  ],
+  "RX": [
+    "RadioMaster RP1",
+    "https://www.radiomasterrc.com/products/rp1-expresslrs-2-4ghz-nano-receiver"
+  ],
+  "BATTERY": [
+    "Tattu battery family reference - not a selected SKU",
+    "https://www.genstattu.com/blog/tattu-fpv-battery-recommend"
+  ],
+  "PRINTER": [
+    "Elegoo Centauri Carbon",
+    "https://www.elegoo.com/pages/elegoo-centauri-carbon"
+  ],
+  "MIXER": [
+    "Betaflight mixer documentation",
+    "https://betaflight.com/docs/wiki/guides/current/Mixer"
+  ],
+  "AERO": [
+    "NASA drag equation",
+    "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/drag-equation/"
+  ],
+  "COEFFICIENT": [
+    "NASA coefficient and flow-condition limitations",
+    "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/drag-coefficient/"
+  ]
+}

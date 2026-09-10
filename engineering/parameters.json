@@ -1,0 +1,13 @@
+{
+  "rotor_y": 117.0,
+  "pivot_z": 35.0,
+  "prop_z": 58.0,
+  "prop_radius": 63.5,
+  "guard_inner_radius": 69.5,
+  "guard_outer_radius": 71.1,
+  "tilt_limit_deg": 25,
+  "density_print_g_cm3": 1.24,
+  "battery_mass_g": 170.0,
+  "battery_x": 39.0,
+  "guards_installed": false
+}

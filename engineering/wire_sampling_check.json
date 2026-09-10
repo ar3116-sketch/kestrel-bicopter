@@ -1,0 +1,1697 @@
+{
+  "complete": true,
+  "method": "Dense circular-section point samples versus triangle-mesh ray parity",
+  "continuous_exact_proof": false,
+  "flight_release": false,
+  "nominal_centerline_step_mm": 0.5,
+  "mesh_linear_deflection_mm": 0.05,
+  "angles_per_ring": 16,
+  "radial_fractions": [
+    0,
+    0.5,
+    1
+  ],
+  "ray_directions": [
+    "+X",
+    "+Y"
+  ],
+  "limitations": [
+    "Finite spatial samples may miss shallow or small intersections between samples.",
+    "Mesh deflection is a meshing request, not a proved global error bound.",
+    "Circular sections are perpendicular to reconstructed centerline tangents.",
+    "Neutral wire routing only; bend stiffness and moving service-loop sweep are not verified.",
+    "Concentric routed passages are constructive exclusions, not independently tested here.",
+    "All-wire electronics terminal overlaps are not screened; main-power leads versus nonterminal electronics and power-splice versus shell are screened separately."
+  ],
+  "constructive_exclusions": [
+    {
+      "wire": "Antenna_coax",
+      "part": "P06_Cabin_upper",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "Antenna_coax",
+      "part": "P19_Tapered_tail_boom",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "B1_negative",
+      "part": "P01_Battery_keel",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "B1_negative",
+      "part": "P03_Avionics_deck",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "B1_negative",
+      "part": "P15_L_ESC_tray",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "B1_positive",
+      "part": "P01_Battery_keel",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "B1_positive",
+      "part": "P03_Avionics_deck",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "B1_positive",
+      "part": "P15_R_ESC_tray",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "L_Phase_0",
+      "part": "P06_Cabin_upper",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "L_Phase_0",
+      "part": "P22_Cable_raceway_1",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "L_Phase_1",
+      "part": "P06_Cabin_upper",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "L_Phase_1",
+      "part": "P22_Cable_raceway_1",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "L_Phase_2",
+      "part": "P06_Cabin_upper",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "L_Phase_2",
+      "part": "P22_Cable_raceway_1",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "L_Servo_0",
+      "part": "P06_Cabin_upper",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "L_Servo_0",
+      "part": "P20_Servo_engine_cowl_1",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "L_Servo_1",
+      "part": "P06_Cabin_upper",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "L_Servo_1",
+      "part": "P20_Servo_engine_cowl_1",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "L_Servo_2",
+      "part": "P06_Cabin_upper",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "L_Servo_2",
+      "part": "P20_Servo_engine_cowl_1",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "R_Phase_0",
+      "part": "P06_Cabin_upper",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "R_Phase_0",
+      "part": "P22_Cable_raceway__1",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "R_Phase_1",
+      "part": "P06_Cabin_upper",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "R_Phase_1",
+      "part": "P22_Cable_raceway__1",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "R_Phase_2",
+      "part": "P06_Cabin_upper",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "R_Phase_2",
+      "part": "P22_Cable_raceway__1",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "R_Servo_0",
+      "part": "P06_Cabin_upper",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "R_Servo_0",
+      "part": "P20_Servo_engine_cowl__1",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "R_Servo_1",
+      "part": "P06_Cabin_upper",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "R_Servo_1",
+      "part": "P20_Servo_engine_cowl__1",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "R_Servo_2",
+      "part": "P06_Cabin_upper",
+      "radial_channel_allowance_mm": 0.6
+    },
+    {
+      "wire": "R_Servo_2",
+      "part": "P20_Servo_engine_cowl__1",
+      "radial_channel_allowance_mm": 0.6
+    }
+  ],
+  "parts": [
+    {
+      "name": "P01_Battery_keel",
+      "triangles": 5752
+    },
+    {
+      "name": "P02_Crossbeam",
+      "triangles": 6454
+    },
+    {
+      "name": "P03_Avionics_deck",
+      "triangles": 4198
+    },
+    {
+      "name": "P09_Cabin_side_glazing_0",
+      "triangles": 6376
+    },
+    {
+      "name": "P09_Cabin_side_glazing_0_segment_2",
+      "triangles": 34
+    },
+    {
+      "name": "P09_Cabin_side_glazing_0_segment_3",
+      "triangles": 32
+    },
+    {
+      "name": "P09_Cabin_side_glazing_1",
+      "triangles": 8710
+    },
+    {
+      "name": "P09_Cabin_side_glazing_1_segment_2",
+      "triangles": 34
+    },
+    {
+      "name": "P09_Cabin_side_glazing_1_segment_3",
+      "triangles": 32
+    },
+    {
+      "name": "P06_Cabin_upper",
+      "triangles": 64572
+    },
+    {
+      "name": "P07_Cabin_lower",
+      "triangles": 5182
+    },
+    {
+      "name": "P08_Windshield",
+      "triangles": 126
+    },
+    {
+      "name": "P08_Windshield_segment_2",
+      "triangles": 92
+    },
+    {
+      "name": "P08_Windshield_segment_3",
+      "triangles": 148
+    },
+    {
+      "name": "P08_Windshield_segment_4",
+      "triangles": 92
+    },
+    {
+      "name": "P19_Tapered_tail_boom",
+      "triangles": 4432
+    },
+    {
+      "name": "P04_Tail_spine",
+      "triangles": 544
+    },
+    {
+      "name": "P05_Vertical_tail_fin",
+      "triangles": 12
+    },
+    {
+      "name": "P05_Horizontal_tailplane",
+      "triangles": 16
+    },
+    {
+      "name": "P17_Shoulder_cowl__1",
+      "triangles": 440
+    },
+    {
+      "name": "P20_Servo_engine_cowl__1",
+      "triangles": 6900
+    },
+    {
+      "name": "P22_Cable_raceway__1",
+      "triangles": 7914
+    },
+    {
+      "name": "P10_Main_gear__1",
+      "triangles": 2612
+    },
+    {
+      "name": "P23_Main_wheel__1",
+      "triangles": 25918
+    },
+    {
+      "name": "P17_Shoulder_cowl_1",
+      "triangles": 436
+    },
+    {
+      "name": "P20_Servo_engine_cowl_1",
+      "triangles": 7166
+    },
+    {
+      "name": "P22_Cable_raceway_1",
+      "triangles": 8196
+    },
+    {
+      "name": "P10_Main_gear_1",
+      "triangles": 2592
+    },
+    {
+      "name": "P23_Main_wheel_1",
+      "triangles": 25918
+    },
+    {
+      "name": "P24_Tailwheel_fork",
+      "triangles": 1578
+    },
+    {
+      "name": "P25_Tailwheel",
+      "triangles": 26284
+    },
+    {
+      "name": "P11_L_bearing_yoke",
+      "triangles": 2076
+    },
+    {
+      "name": "P12_L_motor_cradle",
+      "triangles": 4166
+    },
+    {
+      "name": "P14_L_servo_retainer",
+      "triangles": 32
+    },
+    {
+      "name": "P15_L_ESC_tray",
+      "triangles": 220
+    },
+    {
+      "name": "P11_R_bearing_yoke",
+      "triangles": 2076
+    },
+    {
+      "name": "P12_R_motor_cradle",
+      "triangles": 4166
+    },
+    {
+      "name": "P14_R_servo_retainer",
+      "triangles": 32
+    },
+    {
+      "name": "P15_R_ESC_tray",
+      "triangles": 224
+    },
+    {
+      "name": "P16_Antenna_mast",
+      "triangles": 1008
+    }
+  ],
+  "routes": [
+    {
+      "center_samples": 45,
+      "total_samples": 1485,
+      "reconstructed_length_mm": 21.719490872002797,
+      "maximum_adjacent_center_chord_mm": 0.493619582853091,
+      "wire": "L_ESC_VBAT",
+      "diameter_mm": 2.5,
+      "saved_route_length_mm": 21.719490872002797,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 1406,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P06_Cabin_upper",
+          "bbox_samples": 1485,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield_segment_3",
+          "bbox_samples": 843,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 36,
+      "total_samples": 1188,
+      "reconstructed_length_mm": 17.33191878106649,
+      "maximum_adjacent_center_chord_mm": 0.4951900828572364,
+      "wire": "L_ESC_GND",
+      "diameter_mm": 2.5,
+      "saved_route_length_mm": 17.33191878106649,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 1128,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P06_Cabin_upper",
+          "bbox_samples": 1188,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield_segment_3",
+          "bbox_samples": 875,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 297,
+      "total_samples": 9801,
+      "reconstructed_length_mm": 147.59259030808713,
+      "maximum_adjacent_center_chord_mm": 0.49862294093231463,
+      "wire": "L_Phase_0",
+      "diameter_mm": 2.5,
+      "saved_route_length_mm": 147.59259030808713,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 2142,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P09_Cabin_side_glazing_1",
+          "bbox_samples": 444,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield_segment_3",
+          "bbox_samples": 1148,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P12_L_motor_cradle",
+          "bbox_samples": 318,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 294,
+      "total_samples": 9702,
+      "reconstructed_length_mm": 146.31779859203175,
+      "maximum_adjacent_center_chord_mm": 0.49937781339369464,
+      "wire": "L_Phase_1",
+      "diameter_mm": 2.5,
+      "saved_route_length_mm": 146.31779859203175,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 1949,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P09_Cabin_side_glazing_1",
+          "bbox_samples": 473,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield_segment_3",
+          "bbox_samples": 1148,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P12_L_motor_cradle",
+          "bbox_samples": 327,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 293,
+      "total_samples": 9669,
+      "reconstructed_length_mm": 145.51067846785614,
+      "maximum_adjacent_center_chord_mm": 0.49832416723840606,
+      "wire": "L_Phase_2",
+      "diameter_mm": 2.5,
+      "saved_route_length_mm": 145.51067846785614,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 1749,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P09_Cabin_side_glazing_1",
+          "bbox_samples": 520,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield_segment_3",
+          "bbox_samples": 1155,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P12_L_motor_cradle",
+          "bbox_samples": 336,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 153,
+      "total_samples": 5049,
+      "reconstructed_length_mm": 75.69705091986962,
+      "maximum_adjacent_center_chord_mm": 0.49800592535258587,
+      "wire": "L_Servo_0",
+      "diameter_mm": 1.3,
+      "saved_route_length_mm": 75.69705091986962,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 3443,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P02_Crossbeam",
+          "bbox_samples": 631,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P03_Avionics_deck",
+          "bbox_samples": 4,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 132,
+      "total_samples": 4356,
+      "reconstructed_length_mm": 65.33879951937098,
+      "maximum_adjacent_center_chord_mm": 0.49876857643525446,
+      "wire": "L_Servo_1",
+      "diameter_mm": 1.3,
+      "saved_route_length_mm": 65.33879951937098,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 2758,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P02_Crossbeam",
+          "bbox_samples": 359,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 134,
+      "total_samples": 4422,
+      "reconstructed_length_mm": 66.19787500846098,
+      "maximum_adjacent_center_chord_mm": 0.49772770548421236,
+      "wire": "L_Servo_2",
+      "diameter_mm": 1.3,
+      "saved_route_length_mm": 66.19787500846098,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 2817,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P02_Crossbeam",
+          "bbox_samples": 376,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 61,
+      "total_samples": 2013,
+      "reconstructed_length_mm": 29.82399954292746,
+      "maximum_adjacent_center_chord_mm": 0.4970635050396537,
+      "wire": "L_ESC_signal",
+      "diameter_mm": 0.9,
+      "saved_route_length_mm": 29.82399954292746,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 2013,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P02_Crossbeam",
+          "bbox_samples": 36,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P03_Avionics_deck",
+          "bbox_samples": 1,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P06_Cabin_upper",
+          "bbox_samples": 2013,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield_segment_3",
+          "bbox_samples": 95,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 65,
+      "total_samples": 2145,
+      "reconstructed_length_mm": 31.87992432102329,
+      "maximum_adjacent_center_chord_mm": 0.498121494131258,
+      "wire": "L_ESC_signal_ground",
+      "diameter_mm": 0.9,
+      "saved_route_length_mm": 31.87992432102329,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 2145,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P02_Crossbeam",
+          "bbox_samples": 39,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P06_Cabin_upper",
+          "bbox_samples": 2145,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield_segment_3",
+          "bbox_samples": 335,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 45,
+      "total_samples": 1485,
+      "reconstructed_length_mm": 21.719490872002797,
+      "maximum_adjacent_center_chord_mm": 0.493619582853091,
+      "wire": "R_ESC_VBAT",
+      "diameter_mm": 2.5,
+      "saved_route_length_mm": 21.719490872002797,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 1406,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P06_Cabin_upper",
+          "bbox_samples": 1485,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield",
+          "bbox_samples": 843,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 47,
+      "total_samples": 1551,
+      "reconstructed_length_mm": 22.968433441856213,
+      "maximum_adjacent_center_chord_mm": 0.4993068477756259,
+      "wire": "R_ESC_GND",
+      "diameter_mm": 2.5,
+      "saved_route_length_mm": 22.968433441856213,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 1422,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P06_Cabin_upper",
+          "bbox_samples": 1551,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield",
+          "bbox_samples": 949,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield_segment_3",
+          "bbox_samples": 142,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 297,
+      "total_samples": 9801,
+      "reconstructed_length_mm": 147.59259030808713,
+      "maximum_adjacent_center_chord_mm": 0.49862294093231463,
+      "wire": "R_Phase_0",
+      "diameter_mm": 2.5,
+      "saved_route_length_mm": 147.59259030808713,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 2142,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P09_Cabin_side_glazing_0",
+          "bbox_samples": 444,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield",
+          "bbox_samples": 1148,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P12_R_motor_cradle",
+          "bbox_samples": 318,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 294,
+      "total_samples": 9702,
+      "reconstructed_length_mm": 146.31779859203175,
+      "maximum_adjacent_center_chord_mm": 0.49937781339369464,
+      "wire": "R_Phase_1",
+      "diameter_mm": 2.5,
+      "saved_route_length_mm": 146.31779859203175,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 1949,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P09_Cabin_side_glazing_0",
+          "bbox_samples": 473,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield",
+          "bbox_samples": 1148,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P12_R_motor_cradle",
+          "bbox_samples": 327,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 293,
+      "total_samples": 9669,
+      "reconstructed_length_mm": 145.51067846785614,
+      "maximum_adjacent_center_chord_mm": 0.49832416723840606,
+      "wire": "R_Phase_2",
+      "diameter_mm": 2.5,
+      "saved_route_length_mm": 145.51067846785614,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 1749,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P09_Cabin_side_glazing_0",
+          "bbox_samples": 520,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield",
+          "bbox_samples": 1155,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P12_R_motor_cradle",
+          "bbox_samples": 336,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 153,
+      "total_samples": 5049,
+      "reconstructed_length_mm": 75.69705091986962,
+      "maximum_adjacent_center_chord_mm": 0.49800592535258587,
+      "wire": "R_Servo_0",
+      "diameter_mm": 1.3,
+      "saved_route_length_mm": 75.69705091986962,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 3443,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P02_Crossbeam",
+          "bbox_samples": 631,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P03_Avionics_deck",
+          "bbox_samples": 4,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 132,
+      "total_samples": 4356,
+      "reconstructed_length_mm": 65.33879951937098,
+      "maximum_adjacent_center_chord_mm": 0.49876857643525446,
+      "wire": "R_Servo_1",
+      "diameter_mm": 1.3,
+      "saved_route_length_mm": 65.33879951937098,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 2758,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P02_Crossbeam",
+          "bbox_samples": 359,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 134,
+      "total_samples": 4422,
+      "reconstructed_length_mm": 66.19787500846098,
+      "maximum_adjacent_center_chord_mm": 0.49772770548421236,
+      "wire": "R_Servo_2",
+      "diameter_mm": 1.3,
+      "saved_route_length_mm": 66.19787500846098,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 2817,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P02_Crossbeam",
+          "bbox_samples": 376,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 61,
+      "total_samples": 2013,
+      "reconstructed_length_mm": 29.82399954292746,
+      "maximum_adjacent_center_chord_mm": 0.4970635050396537,
+      "wire": "R_ESC_signal",
+      "diameter_mm": 0.9,
+      "saved_route_length_mm": 29.82399954292746,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 2013,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P02_Crossbeam",
+          "bbox_samples": 36,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P03_Avionics_deck",
+          "bbox_samples": 1,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P06_Cabin_upper",
+          "bbox_samples": 2013,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield",
+          "bbox_samples": 95,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 65,
+      "total_samples": 2145,
+      "reconstructed_length_mm": 31.87992432102329,
+      "maximum_adjacent_center_chord_mm": 0.498121494131258,
+      "wire": "R_ESC_signal_ground",
+      "diameter_mm": 0.9,
+      "saved_route_length_mm": 31.87992432102329,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 2145,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P02_Crossbeam",
+          "bbox_samples": 39,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P06_Cabin_upper",
+          "bbox_samples": 2145,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield",
+          "bbox_samples": 335,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 29,
+      "total_samples": 957,
+      "reconstructed_length_mm": 13.689537513216356,
+      "maximum_adjacent_center_chord_mm": 0.4888952700359197,
+      "wire": "Battery_stock_positive",
+      "diameter_mm": 3.5,
+      "saved_route_length_mm": 13.689537513216356,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 957,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P06_Cabin_upper",
+          "bbox_samples": 957,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 29,
+      "total_samples": 957,
+      "reconstructed_length_mm": 13.689537513216356,
+      "maximum_adjacent_center_chord_mm": 0.4888952700359197,
+      "wire": "Battery_stock_negative",
+      "diameter_mm": 3.5,
+      "saved_route_length_mm": 13.689537513216356,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 957,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P06_Cabin_upper",
+          "bbox_samples": 957,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 244,
+      "total_samples": 8052,
+      "reconstructed_length_mm": 121.05970358521515,
+      "maximum_adjacent_center_chord_mm": 0.4981880534560478,
+      "wire": "B1_positive",
+      "diameter_mm": 3.5,
+      "saved_route_length_mm": 121.05970358521515,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P06_Cabin_upper",
+          "bbox_samples": 8052,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield",
+          "bbox_samples": 791,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 244,
+      "total_samples": 8052,
+      "reconstructed_length_mm": 121.05970358521515,
+      "maximum_adjacent_center_chord_mm": 0.4981880534560478,
+      "wire": "B1_negative",
+      "diameter_mm": 3.5,
+      "saved_route_length_mm": 121.05970358521515,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P06_Cabin_upper",
+          "bbox_samples": 8052,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield_segment_3",
+          "bbox_samples": 791,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 209,
+      "total_samples": 6897,
+      "reconstructed_length_mm": 103.9748171528891,
+      "maximum_adjacent_center_chord_mm": 0.49987892355329183,
+      "wire": "UBEC_input_0",
+      "diameter_mm": 1.6,
+      "saved_route_length_mm": 103.9748171528891,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 6835,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P06_Cabin_upper",
+          "bbox_samples": 6897,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield",
+          "bbox_samples": 775,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 72,
+      "total_samples": 2376,
+      "reconstructed_length_mm": 35.20587670608948,
+      "maximum_adjacent_center_chord_mm": 0.49585501098228746,
+      "wire": "FC_input_0",
+      "diameter_mm": 1.1,
+      "saved_route_length_mm": 35.20587670608948,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 1376,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P02_Crossbeam",
+          "bbox_samples": 418,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P06_Cabin_upper",
+          "bbox_samples": 2376,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield_segment_3",
+          "bbox_samples": 298,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 229,
+      "total_samples": 7557,
+      "reconstructed_length_mm": 113.67431435969439,
+      "maximum_adjacent_center_chord_mm": 0.4985714773859171,
+      "wire": "Capacitor_0",
+      "diameter_mm": 1.1,
+      "saved_route_length_mm": 113.67431435969439,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 7504,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P06_Cabin_upper",
+          "bbox_samples": 7557,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield",
+          "bbox_samples": 858,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 227,
+      "total_samples": 7491,
+      "reconstructed_length_mm": 112.79297415080165,
+      "maximum_adjacent_center_chord_mm": 0.499083956378897,
+      "wire": "UBEC_input_1",
+      "diameter_mm": 1.6,
+      "saved_route_length_mm": 112.79297415080165,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 7410,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P06_Cabin_upper",
+          "bbox_samples": 7491,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield",
+          "bbox_samples": 711,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield_segment_3",
+          "bbox_samples": 219,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 70,
+      "total_samples": 2310,
+      "reconstructed_length_mm": 34.288759134597214,
+      "maximum_adjacent_center_chord_mm": 0.4969365119975382,
+      "wire": "FC_input_1",
+      "diameter_mm": 1.1,
+      "saved_route_length_mm": 34.288759134597214,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 1343,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P02_Crossbeam",
+          "bbox_samples": 391,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P06_Cabin_upper",
+          "bbox_samples": 2310,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield_segment_3",
+          "bbox_samples": 498,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 238,
+      "total_samples": 7854,
+      "reconstructed_length_mm": 118.14498922322409,
+      "maximum_adjacent_center_chord_mm": 0.4985019979507142,
+      "wire": "Capacitor_1",
+      "diameter_mm": 1.1,
+      "saved_route_length_mm": 118.14498922322409,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 7792,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P06_Cabin_upper",
+          "bbox_samples": 7854,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield",
+          "bbox_samples": 800,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield_segment_3",
+          "bbox_samples": 149,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 52,
+      "total_samples": 1716,
+      "reconstructed_length_mm": 25.315669104536695,
+      "maximum_adjacent_center_chord_mm": 0.4963842713023247,
+      "wire": "Receiver_0",
+      "diameter_mm": 0.9,
+      "saved_route_length_mm": 25.315669104536695,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 1716,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P02_Crossbeam",
+          "bbox_samples": 85,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P06_Cabin_upper",
+          "bbox_samples": 1716,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 52,
+      "total_samples": 1716,
+      "reconstructed_length_mm": 25.315669104536695,
+      "maximum_adjacent_center_chord_mm": 0.4963842713023247,
+      "wire": "Receiver_1",
+      "diameter_mm": 0.9,
+      "saved_route_length_mm": 25.315669104536695,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 1716,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P02_Crossbeam",
+          "bbox_samples": 85,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P06_Cabin_upper",
+          "bbox_samples": 1716,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 52,
+      "total_samples": 1716,
+      "reconstructed_length_mm": 25.315669104536695,
+      "maximum_adjacent_center_chord_mm": 0.4963842713023247,
+      "wire": "Receiver_2",
+      "diameter_mm": 0.9,
+      "saved_route_length_mm": 25.315669104536695,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 1716,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P02_Crossbeam",
+          "bbox_samples": 85,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P06_Cabin_upper",
+          "bbox_samples": 1716,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 52,
+      "total_samples": 1716,
+      "reconstructed_length_mm": 25.315669104536695,
+      "maximum_adjacent_center_chord_mm": 0.4963842713023247,
+      "wire": "Receiver_3",
+      "diameter_mm": 0.9,
+      "saved_route_length_mm": 25.315669104536695,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 1716,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P02_Crossbeam",
+          "bbox_samples": 85,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P06_Cabin_upper",
+          "bbox_samples": 1716,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 40,
+      "total_samples": 1320,
+      "reconstructed_length_mm": 19.161221783844166,
+      "maximum_adjacent_center_chord_mm": 0.49130505014491743,
+      "wire": "Balance_0",
+      "diameter_mm": 0.8,
+      "saved_route_length_mm": 19.161221783844166,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 1320,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P07_Cabin_lower",
+          "bbox_samples": 1320,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 40,
+      "total_samples": 1320,
+      "reconstructed_length_mm": 19.161221783844166,
+      "maximum_adjacent_center_chord_mm": 0.49130505014491743,
+      "wire": "Balance_1",
+      "diameter_mm": 0.8,
+      "saved_route_length_mm": 19.161221783844166,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 1320,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P07_Cabin_lower",
+          "bbox_samples": 1320,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 40,
+      "total_samples": 1320,
+      "reconstructed_length_mm": 19.161221783844166,
+      "maximum_adjacent_center_chord_mm": 0.49130505014491743,
+      "wire": "Balance_2",
+      "diameter_mm": 0.8,
+      "saved_route_length_mm": 19.161221783844166,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 1320,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P06_Cabin_upper",
+          "bbox_samples": 19,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P07_Cabin_lower",
+          "bbox_samples": 1306,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 40,
+      "total_samples": 1320,
+      "reconstructed_length_mm": 19.161221783844166,
+      "maximum_adjacent_center_chord_mm": 0.49130505014491743,
+      "wire": "Balance_3",
+      "diameter_mm": 0.8,
+      "saved_route_length_mm": 19.161221783844166,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 1320,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P06_Cabin_upper",
+          "bbox_samples": 113,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P07_Cabin_lower",
+          "bbox_samples": 1207,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 40,
+      "total_samples": 1320,
+      "reconstructed_length_mm": 19.161221783844166,
+      "maximum_adjacent_center_chord_mm": 0.49130505014491743,
+      "wire": "Balance_4",
+      "diameter_mm": 0.8,
+      "saved_route_length_mm": 19.161221783844166,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 1320,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P06_Cabin_upper",
+          "bbox_samples": 220,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P07_Cabin_lower",
+          "bbox_samples": 1100,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 151,
+      "total_samples": 4983,
+      "reconstructed_length_mm": 74.91356923599815,
+      "maximum_adjacent_center_chord_mm": 0.4994237778635833,
+      "wire": "Antenna_coax",
+      "diameter_mm": 1.1,
+      "saved_route_length_mm": 74.91356923599815,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 131,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P16_Antenna_mast",
+          "bbox_samples": 627,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 129,
+      "total_samples": 4257,
+      "reconstructed_length_mm": 63.651477239390466,
+      "maximum_adjacent_center_chord_mm": 0.49727714357325076,
+      "wire": "Buzzer_wire_0",
+      "diameter_mm": 0.8,
+      "saved_route_length_mm": 63.651477239390466,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 4257,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P02_Crossbeam",
+          "bbox_samples": 9,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P06_Cabin_upper",
+          "bbox_samples": 4257,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield_segment_3",
+          "bbox_samples": 1349,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield_segment_4",
+          "bbox_samples": 1334,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    },
+    {
+      "center_samples": 129,
+      "total_samples": 4257,
+      "reconstructed_length_mm": 63.66520481301652,
+      "maximum_adjacent_center_chord_mm": 0.4973843600851193,
+      "wire": "Buzzer_wire_1",
+      "diameter_mm": 0.8,
+      "saved_route_length_mm": 63.66520481301652,
+      "length_match": true,
+      "sampled_part_pairs": [
+        {
+          "part": "P01_Battery_keel",
+          "bbox_samples": 4257,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P02_Crossbeam",
+          "bbox_samples": 9,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P06_Cabin_upper",
+          "bbox_samples": 4257,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield_segment_3",
+          "bbox_samples": 1350,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        },
+        {
+          "part": "P08_Windshield_segment_4",
+          "bbox_samples": 1320,
+          "confirmed_inside_samples": 0,
+          "ray_disagreement_samples": 0
+        }
+      ]
+    }
+  ],
+  "hits": [],
+  "ambiguous_hits": [],
+  "cad_sha256": "7e44cf3ad5349101e07916ddf32f236f91612449f8fee76157d2c610aa4bbd3f",
+  "canonical_build_sha256": "226313dd918fa6fcd7d9861c6bfa42a256a6bc6a47987f4ee249814a8a46824e",
+  "classifier_sanity_checks": "Solid box and nested-shell cavity pass both ray directions",
+  "route_count": 42,
+  "installed_printed_parts": 40,
+  "elapsed_s": 2.0,
+  "current_step": "Complete",
+  "power_splice_shell_check": {
+    "sample_count": 7975,
+    "hits": [],
+    "ray_disagreements": []
+  },
+  "sampled_pair_count": 136,
+  "total_wire_samples": 179487,
+  "main_power_electronics_check": {
+    "terminal_exclusions": [
+      "J1_XT60",
+      "Power_splice_insulated"
+    ],
+    "hits": [],
+    "ray_disagreements": []
+  },
+  "result": "No sampled overlap detected; approximate screen only"
+}

@@ -1,0 +1,8 @@
+outputs/
+tmp/
+__pycache__/
+*.pyc
+.DS_Store
+*.FCStd1
+*.FCBak
+*.log

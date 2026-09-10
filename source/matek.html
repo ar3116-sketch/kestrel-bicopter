@@ -1,0 +1,963 @@
+﻿<!DOCTYPE html>
+<html lang="zh-Hans" class="html_stretched responsive av-preloader-disabled  html_header_top html_logo_left html_main_nav_header html_menu_right html_slim html_header_sticky html_header_shrinking html_mobile_menu_phone html_header_searchicon html_content_align_center html_header_unstick_top_disabled html_header_stretch_disabled html_av-submenu-hidden html_av-submenu-display-click html_av-overlay-side html_av-overlay-side-classic html_av-submenu-noclone html_entry_id_10725 av-cookies-no-cookie-consent av-no-preview av-default-lightbox html_text_menu_active av-mobile-menu-switch-default">
+<head>
+<meta charset="UTF-8" />
+<meta name="robots" content="index, follow" />
+
+
+<!-- mobile setting -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Scripts/CSS and wp_head hook -->
+<title>(EOL)Flight Controller F405-TE &#8211; MATEKSYS</title>
+<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel="alternate" type="application/rss+xml" title="MATEKSYS &raquo; Feed" href="https://www.mateksys.com/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="MATEKSYS &raquo; 评论 Feed" href="https://www.mateksys.com/?feed=comments-rss2" />
+
+<!-- google webfont font replacement -->
+
+			<script type='text/javascript'>
+
+				(function() {
+
+					/*	check if webfonts are disabled by user setting via cookie - or user must opt in.	*/
+					var html = document.getElementsByTagName('html')[0];
+					var cookie_check = html.className.indexOf('av-cookies-needs-opt-in') >= 0 || html.className.indexOf('av-cookies-can-opt-out') >= 0;
+					var allow_continue = true;
+					var silent_accept_cookie = html.className.indexOf('av-cookies-user-silent-accept') >= 0;
+
+					if( cookie_check && ! silent_accept_cookie )
+					{
+						if( ! document.cookie.match(/aviaCookieConsent/) || html.className.indexOf('av-cookies-session-refused') >= 0 )
+						{
+							allow_continue = false;
+						}
+						else
+						{
+							if( ! document.cookie.match(/aviaPrivacyRefuseCookiesHideBar/) )
+							{
+								allow_continue = false;
+							}
+							else if( ! document.cookie.match(/aviaPrivacyEssentialCookiesEnabled/) )
+							{
+								allow_continue = false;
+							}
+							else if( document.cookie.match(/aviaPrivacyGoogleWebfontsDisabled/) )
+							{
+								allow_continue = false;
+							}
+						}
+					}
+
+					if( allow_continue )
+					{
+						var f = document.createElement('link');
+
+						f.type 	= 'text/css';
+						f.rel 	= 'stylesheet';
+						f.href 	= 'https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=auto';
+						f.id 	= 'avia-google-webfont';
+
+						document.getElementsByTagName('head')[0].appendChild(f);
+					}
+				})();
+
+			</script>
+			<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.mateksys.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.8"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link rel='stylesheet' id='avia-grid-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/css/grid.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-base-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/css/base.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-layout-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/css/layout.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-audioplayer-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/audio-player/audio-player.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-blog-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/blog/blog.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-postslider-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/postslider/postslider.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-button-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/buttons/buttons.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-buttonrow-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/buttonrow/buttonrow.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-button-fullwidth-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/buttons_fullwidth/buttons_fullwidth.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-catalogue-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/catalogue/catalogue.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-comments-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/comments/comments.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-contact-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/contact/contact.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-slideshow-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/slideshow/slideshow.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-slideshow-contentpartner-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/contentslider/contentslider.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-countdown-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/countdown/countdown.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-gallery-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/gallery/gallery.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-gallery-hor-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/gallery_horizontal/gallery_horizontal.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-maps-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/google_maps/google_maps.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-gridrow-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/grid_row/grid_row.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-heading-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/heading/heading.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-rotator-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/headline_rotator/headline_rotator.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-hr-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/hr/hr.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-icon-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/icon/icon.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-icon-circles-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/icon_circles/icon_circles.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-iconbox-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/iconbox/iconbox.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-icongrid-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/icongrid/icongrid.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-iconlist-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/iconlist/iconlist.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-image-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/image/image.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-image-diff-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/image_diff/image_diff.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-hotspot-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/image_hotspots/image_hotspots.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-sc-lottie-animation-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/lottie_animation/lottie_animation.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-magazine-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/magazine/magazine.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-masonry-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/masonry_entries/masonry_entries.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-siteloader-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/css/avia-snippet-site-preloader.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-menu-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/menu/menu.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-notification-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/notification/notification.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-numbers-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/numbers/numbers.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-portfolio-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/portfolio/portfolio.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-post-metadata-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/post_metadata/post_metadata.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-progress-bar-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/progressbar/progressbar.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-promobox-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/promobox/promobox.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-sc-search-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/search/search.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-slideshow-accordion-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/slideshow_accordion/slideshow_accordion.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-slideshow-feature-image-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/slideshow_feature_image/slideshow_feature_image.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-slideshow-fullsize-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/slideshow_fullsize/slideshow_fullsize.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-slideshow-fullscreen-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/slideshow_fullscreen/slideshow_fullscreen.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-slideshow-ls-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/slideshow_layerslider/slideshow_layerslider.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-social-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/social_share/social_share.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-tabsection-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/tab_section/tab_section.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-table-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/table/table.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-tabs-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/tabs/tabs.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-team-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/team/team.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-testimonials-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/testimonials/testimonials.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-timeline-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/timeline/timeline.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-toggles-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/toggles/toggles.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-video-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/video/video.css?ver=5.6.10' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='avia-scs-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/css/shortcodes.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-fold-unfold-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/css/avia-snippet-fold-unfold.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-popup-css-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/js/aviapopup/magnific-popup.min.css?ver=5.6.10' type='text/css' media='screen' />
+<link rel='stylesheet' id='avia-lightbox-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/css/avia-snippet-lightbox.css?ver=5.6.10' type='text/css' media='screen' />
+<link rel='stylesheet' id='avia-widget-css-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/css/avia-snippet-widget.css?ver=5.6.10' type='text/css' media='screen' />
+<link rel='stylesheet' id='avia-dynamic-css' href='https://www.mateksys.com/wp-content/uploads/dynamic_avia/enfold.css?ver=6a7c94ee8fdc1' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-custom-css' href='https://www.mateksys.com/wp-content/themes/enfold5610/css/custom.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-single-post-10725-css' href='https://www.mateksys.com/wp-content/uploads/dynamic_avia/avia_posts_css/post-10725.css?ver=ver-1786550746' type='text/css' media='all' />
+<script type="text/javascript" src="https://www.mateksys.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/js/avia-js.js?ver=5.6.10" id="avia-js-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/js/avia-compat.js?ver=5.6.10" id="avia-compat-js"></script>
+<link rel="https://api.w.org/" href="https://www.mateksys.com/index.php?rest_route=/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.mateksys.com/index.php?rest_route=/wp/v2/portfolio/10725" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.mateksys.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.8" />
+<link rel="canonical" href="https://www.mateksys.com/?portfolio=f405-te" />
+<link rel='shortlink' href='https://www.mateksys.com/?p=10725' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.mateksys.com/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=https%3A%2F%2Fwww.mateksys.com%2F%3Fportfolio%3Df405-te" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.mateksys.com/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=https%3A%2F%2Fwww.mateksys.com%2F%3Fportfolio%3Df405-te&#038;format=xml" />
+<link rel="profile" href="https://gmpg.org/xfn/11" />
+<link rel="alternate" type="application/rss+xml" title="MATEKSYS RSS2 Feed" href="https://www.mateksys.com/?feed=rss2" />
+<link rel="pingback" href="https://www.mateksys.com/xmlrpc.php" />
+<!--[if lt IE 9]><script src="https://www.mateksys.com/wp-content/themes/enfold5610/js/html5shiv.js"></script><![endif]-->
+<link rel="icon" href="http://www.mateksys.com/wp-content/uploads/2013/04/matek-M.jpg" type="image/x-icon">
+<style type="text/css">
+		@font-face {font-family: 'entypo-fontello'; font-weight: normal; font-style: normal; font-display: auto;
+		src: url('https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.woff2') format('woff2'),
+		url('https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.woff') format('woff'),
+		url('https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.ttf') format('truetype'),
+		url('https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.svg#entypo-fontello') format('svg'),
+		url('https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.eot'),
+		url('https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.eot?#iefix') format('embedded-opentype');
+		} #top .avia-font-entypo-fontello, body .avia-font-entypo-fontello, html body [data-av_iconfont='entypo-fontello']:before{ font-family: 'entypo-fontello'; }
+		</style>
+
+<!--
+Debugging Info for Theme support: 
+
+Theme: Enfold
+Version: 5.6.10
+Installed: enfold5610
+AviaFramework Version: 5.6
+AviaBuilder Version: 5.3
+aviaElementManager Version: 1.0.1
+ML:256-PU:97-PLA:4
+WP:6.8.8
+Compress: CSS:disabled - JS:disabled
+Updates: disabled
+PLAu:4
+-->
+</head>
+
+<body id="top" class="wp-singular portfolio-template-default single single-portfolio postid-10725 wp-theme-enfold5610 stretched rtl_columns av-curtain-numeric open_sans " itemscope="itemscope" itemtype="https://schema.org/WebPage" >
+
+	
+	<div id='wrap_all'>
+
+	
+<header id='header' class='all_colors header_color light_bg_color  av_header_top av_logo_left av_main_nav_header av_menu_right av_slim av_header_sticky av_header_shrinking av_header_stretch_disabled av_mobile_menu_phone av_header_searchicon av_header_unstick_top_disabled av_seperator_small_border av_bottom_nav_disabled ' data-av_shrink_factor='50' role="banner" itemscope="itemscope" itemtype="https://schema.org/WPHeader" >
+
+		<div  id='header_main' class='container_wrap container_wrap_logo'>
+
+        <div class='container av-logo-container'><div class='inner-container'><span class='logo avia-standard-logo'><a href='https://www.mateksys.com/' class='' aria-label='MATEKSYS' ><img src="http://www.mateksys.com/wp-content/uploads/2013/04/mateksys-logo.png" height="100" width="300" alt='MATEKSYS' title='' /></a></span><nav class='main_menu' data-selectname='Select a page'  role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" ><div class="avia-menu av-main-nav-wrap"><ul role="menu" class="menu av-main-nav" id="avia-menu"><li role="menuitem" id="menu-item-2386" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-top-level menu-item-top-level-1"><a href="https://www.mateksys.com/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Home</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li role="menuitem" id="menu-item-2272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-top-level menu-item-top-level-2"><a href="https://www.mateksys.com/?page_id=2270" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Products</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
+
+
+<ul class="sub-menu">
+	<li role="menuitem" id="menu-item-6296" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.mateksys.com/?page_id=6292" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">New</span></a></li>
+	<li role="menuitem" id="menu-item-2866" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.mateksys.com/?page_id=2845" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">PDB &#038; BEC</span></a></li>
+	<li role="menuitem" id="menu-item-3866" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.mateksys.com/?page_id=3834" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Flight Controllers</span></a></li>
+	<li role="menuitem" id="menu-item-2864" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.mateksys.com/?page_id=2849" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">GNSS</span></a></li>
+	<li role="menuitem" id="menu-item-13201" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.mateksys.com/?page_id=13197" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Airspeed</span></a></li>
+	<li role="menuitem" id="menu-item-2983" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.mateksys.com/?page_id=2980" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">CAN Peripherals</span></a></li>
+	<li role="menuitem" id="menu-item-12228" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.mateksys.com/?page_id=12174" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">mLRS RX &#038; TX Series</span></a></li>
+	<li role="menuitem" id="menu-item-2867" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.mateksys.com/?page_id=2843" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">ELRS RX Series</span></a></li>
+	<li role="menuitem" id="menu-item-6500" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.mateksys.com/?page_id=2851" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Others</span></a></li>
+	<li role="menuitem" id="menu-item-7644" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.mateksys.com/?page_id=7637" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">ArduPilot Compatible</span></a></li>
+	<li role="menuitem" id="menu-item-2862" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.mateksys.com/?page_id=2853" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Discontinued</span></a></li>
+</ul>
+</li>
+<li role="menuitem" id="menu-item-2271" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-top-level menu-item-top-level-3"><a href="https://www.mateksys.com/?page_id=731" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Blog</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li role="menuitem" id="menu-item-2293" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-top-level menu-item-top-level-4"><a title="Supports and Warranty" href="https://www.mateksys.com/?page_id=1122" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Supports</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
+
+
+<ul class="sub-menu">
+	<li role="menuitem" id="menu-item-8914" class="menu-item menu-item-type-post_type menu-item-object-post"><a href="https://www.mateksys.com/?p=5159" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Firmwares</span></a></li>
+	<li role="menuitem" id="menu-item-8915" class="menu-item menu-item-type-post_type menu-item-object-post"><a title="FAQ" href="https://www.mateksys.com/?p=5712" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">FAQs</span></a></li>
+	<li role="menuitem" id="menu-item-13274" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://antifake.mateksys.com" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">anti-fake</span></a></li>
+</ul>
+</li>
+<li role="menuitem" id="menu-item-2297" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-mega-parent  menu-item-top-level menu-item-top-level-5"><a title="联系我们" href="https://www.mateksys.com/?page_id=1167" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Contact</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li id="menu-item-search" class="noMobile menu-item menu-item-search-dropdown menu-item-avia-special" role="menuitem"><a aria-label="Search" href="?s=" rel="nofollow" data-avia-search-tooltip="
+
+&lt;form role=&quot;search&quot; action=&quot;https://www.mateksys.com/&quot; id=&quot;searchform&quot; method=&quot;get&quot; class=&quot;&quot;&gt;
+	&lt;div&gt;
+		&lt;input type=&quot;submit&quot; value=&quot;&quot; id=&quot;searchsubmit&quot; class=&quot;button avia-font-entypo-fontello&quot; /&gt;
+		&lt;input type=&quot;text&quot; id=&quot;s&quot; name=&quot;s&quot; value=&quot;&quot; placeholder=&#039;Search&#039; /&gt;
+			&lt;/div&gt;
+&lt;/form&gt;
+" aria-hidden='false' data-av_icon='' data-av_iconfont='entypo-fontello'><span class="avia_hidden_link_text">Search</span></a></li><li class="av-burger-menu-main menu-item-avia-special " role="menuitem">
+	        			<a href="#" aria-label="Menu" aria-hidden="false">
+							<span class="av-hamburger av-hamburger--spin av-js-hamburger">
+								<span class="av-hamburger-box">
+						          <span class="av-hamburger-inner"></span>
+						          <strong>Menu</strong>
+								</span>
+							</span>
+							<span class="avia_hidden_link_text">Menu</span>
+						</a>
+	        		   </li></ul></div></nav></div> </div> 
+		<!-- end container_wrap-->
+		</div>
+<div class="header_bg"></div>
+<!-- end header -->
+</header>
+
+	<div id='main' class='all_colors' data-scroll-offset='88'>
+
+	<div   class='main_color container_wrap_first container_wrap fullsize'  ><div class='container av-section-cont-open' ><main  role="main" itemprop="mainContentOfPage"  class='template-page content  av-content-full alpha units'><div class='post-entry post-entry-type-page post-entry-10725'><div class='entry-content-wrapper clearfix'><div  class='av-special-heading av-ot6q05-86957efc005ae18c341a186dc3b777d9 av-special-heading-h2 blockquote modern-quote modern-centered  avia-builder-el-0  el_before_av_slideshow  avia-builder-el-first '><h2 class='av-special-heading-tag'  itemprop="headline"  >Flight Controller F405-TE</h2><div class='av-subheading av-subheading_below'><p>STM32F405RGT6, ICM42688P, SPL06, OSD, SD slot, 6x UARTs, 1x I2C, 11x PWM outputs</p>
+</div><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<div  class='avia-slideshow av-l8va4fxe-44de6d1cf2d77a11715b518e400682f5 avia-slideshow-featured_large av_slideshow avia-slide-slider  avia-builder-el-1  el_after_av_heading  el_before_av_icon_box  av-slideshow-ui av-control-default av-slideshow-manual av-loop-once av-loop-manual-endless av-default-height-applied avia-slideshow-1' data-slideshow-options="{&quot;animation&quot;:&quot;slide&quot;,&quot;autoplay&quot;:false,&quot;loop_autoplay&quot;:&quot;once&quot;,&quot;interval&quot;:5,&quot;loop_manual&quot;:&quot;manual-endless&quot;,&quot;autoplay_stopper&quot;:false,&quot;noNavigation&quot;:false,&quot;bg_slider&quot;:false,&quot;keep_padding&quot;:false,&quot;hoverpause&quot;:false,&quot;show_slide_delay&quot;:0}"  itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject" ><ul class='avia-slideshow-inner ' style='padding-bottom: 40%;'><li  class='avia-slideshow-slide av-l8va4fxe-44de6d1cf2d77a11715b518e400682f5__0  av-single-slide slide-1 slide-odd'><div data-rel='slideshow-1' class='avia-slide-wrap '   ><img fetchpriority="high" class="wp-image-10734 avia-img-lazy-loading-not-10734"  src='https://www.mateksys.com/wp-content/uploads/2022/10/F405-TE_1.jpg' width='1500' height='600' title='F405-TE_1' alt=''  itemprop="thumbnailUrl"   /></div></li></ul></div>
+<article  class='iconbox iconbox_left av-m9rw8czf-dd120cbe63c576eff824c7d3f9a02248  avia-builder-el-2  el_after_av_slideshow  el_before_av_icon_box '  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><div class="iconbox_content"><header class="entry-content-header"><div class="iconbox_icon heading-color" aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'></div><h3 class='iconbox_content_title '  itemprop="headline" >EOL</h3></header><div class='iconbox_content_container '  itemprop="text" ><p>Discontinued since Apr. of 2025</p>
+</div></div><footer class="entry-footer"></footer></article>
+<article  class='iconbox iconbox_left av-m3jo41tr-84f073eeb65570e4593bf4daba8a2c94  avia-builder-el-3  el_after_av_icon_box  el_before_av_icon_box '  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><div class="iconbox_content"><header class="entry-content-header"><div class="iconbox_icon heading-color" aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'></div><h3 class='iconbox_content_title '  itemprop="headline" >NOTIFICATION</h3></header><div class='iconbox_content_container '  itemprop="text" ><p><strong>Recently we have noticed that there are fake F405-TE on market.  If you are unsure if the F405-TE you purchased is genuine,  you can send some high res photos of both sides of the flight controller board to service@mateksys.com. We will check out it for you.</strong></p>
+<p>Please purchase our products from authorized dealers <a href="https://www.mateksys.com/?page_id=1212" target="_blank" rel="noopener">https://www.mateksys.com/?page_id=1212</a></p>
+</div></div><footer class="entry-footer"></footer></article>
+<article  class='iconbox iconbox_left av-l8vbhr3m-830d7e45c223cef314e3fe85ad1040b6  avia-builder-el-4  el_after_av_icon_box  el_before_av_button '  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><div class="iconbox_content"><header class="entry-content-header"><div class="iconbox_icon heading-color" aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'></div><h3 class='iconbox_content_title '  itemprop="headline" >Tips</h3></header><div class='iconbox_content_container '  itemprop="text" ><p>INAV, DSHOT can not work on S3, S5,S7 because of DMA clash,  pls use ONESHOT or MULTISHOT and calibrate ESC PWM range.</p>
+<p>This DMA clash will be fixed from INAV 7.x.x.</p>
+<p>BetaFlight,  set dshot_bitbang = ON  when using X6 and X8 DSHOT.</p>
+<p>BetaFlight, Target name was renamed as <strong>MatekF405TE_SD</strong></p>
+<p>ArduPilot,  set LOG_BACKEND_TYPE = 1 (File) for SD card logging</p>
+<div id="gtx-trans" style="position: absolute; left: -11px; top: 35.1875px;">
+<div class="gtx-trans-icon"></div>
+</div>
+</div></div><footer class="entry-footer"></footer></article>
+<div  class='avia-button-wrap av-3n7eo1x-f770de8d6dc4a89accf961dced1f71f2-wrap avia-button-right  avia-builder-el-5  el_after_av_icon_box  el_before_av_tab_container '><a href='https://www.mateksys.com/?p=5159#tab-id-14'  class='avia-button av-3n7eo1x-f770de8d6dc4a89accf961dced1f71f2 avia-icon_select-yes-left-icon avia-size-medium avia-position-right avia-color-theme-color'  target="_blank"  rel="noopener noreferrer" ><span class='avia_button_icon avia_button_icon_left' aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'></span><span class='avia_iconbox_title' >Firmwares</span></a></div>
+<div  class='tabcontainer av-l8va7cpn-59a3d24f940ce06d08df897b16d6b845 top_tab  avia-builder-el-6  el_after_av_button  avia-builder-el-last ' role='tablist'>
+<section class='av_tab_section av_tab_section av-2yujgat-fa5e7939b1027024890f3b91e096d310'  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><div class='tab active_tab' role='tab' tabindex='0' data-fake-id='#tab-id-1' aria-controls='tab-id-1-content'  itemprop="headline" >Gallery</div><div id='tab-id-1-content' class='tab_content active_tab_content' aria-hidden="false"><div class='tab_inner_content invers-color'  itemprop="text" ><p><img decoding="async" class="alignnone size-full wp-image-10740" src="https://www.mateksys.com/wp-content/uploads/2022/10/F405-TE_2.jpg" alt="" width="1500" height="600" /><img decoding="async" class="alignnone size-full wp-image-10735" src="https://www.mateksys.com/wp-content/uploads/2022/10/F405-TE_3.jpg" alt="" width="1500" height="600" /></p>
+</div></div></section>
+<section class='av_tab_section av_tab_section av-ira2lh-3aa94752426e9a1323b3d762ec997dfd'  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><div class='tab' role='tab' tabindex='0' data-fake-id='#tab-id-2' aria-controls='tab-id-2-content'  itemprop="headline" >Specifications</div><div id='tab-id-2-content' class='tab_content' aria-hidden="true"><div class='tab_inner_content invers-color'  itemprop="text" ><h4>Specifications</h4>
+<ul>
+<li>MCU: 168MHz STM32F405RGT6</li>
+<li>IMU: ICM42688-P (SPI)</li>
+<li>Baro: SPL06-001 (I2C)</li>
+<li>OSD: AT7456E (SPI)</li>
+<li>Blackbox: MicroSD slot (SPI)</li>
+<li>6x UARTs,  1x Softserial_Tx option(INAV/BF)</li>
+<li>11x PWM outputs (8x Dshot compatible with BF/ArduPilot)</li>
+<li>1x I2C</li>
+<li>4x ADC (VBAT, Current, RSSI, Airspeed)</li>
+<li>1x spare PINIO</li>
+<li>4x individual ESC power/signal pads</li>
+<li>1x Group of  G/S1/S2/S3/S4 pads for 4in1 ESC Signal/GND</li>
+<li>Built in inverter on UART2-RX for SBUS input</li>
+<li>Switchable Dual Camera Input</li>
+</ul>
+<h4>PDB Specifications</h4>
+<ul>
+<li>Input: 9~36V (3~8S LiPo)</li>
+<li>PDB: 4x 35A (Max.4x 50A)</li>
+<li>BEC: 5V 1.5A</li>
+<li>BEC: 12V 2A</li>
+<li>LDO 3.3V: 200mA</li>
+<li>Current Senor: 220A,  3.3V ADC  (INAV/BF scale 150,  ArduPilot  66.7 A/V)</li>
+<li>Battery Voltage divider 1K:20K (INAV scale 2100,  BF scale 210,  ArduPilot BATT_VOLT_MULT 21.0)</li>
+</ul>
+<h4>Firmware</h4>
+<ul>
+<li>ArduPilot: MatekF405-TE</li>
+<li>INAV: MATEKF405TE_SD</li>
+<li>BetaFlight: <strong>MATEKF405TE_SD</strong></li>
+</ul>
+<h4>Physical</h4>
+<ul>
+<li>Mounting: 30.5 x 30.5mm, Φ4mm with Grommets Φ3mm</li>
+<li>Dimensions:  36 x 46 mm</li>
+<li>Weight: 10g</li>
+</ul>
+<h4>Including</h4>
+<ul>
+<li>1x F405-TE</li>
+<li>6x silicon grommets M4 to M3</li>
+<li>1x Rubycon ZLH 35V/470uF (Low ESR)</li>
+</ul>
+</div></div></section>
+<section class='av_tab_section av_tab_section av-1z3xq11-6d595224b6704b49587a84a53153fbec'  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><div class='tab' role='tab' tabindex='0' data-fake-id='#tab-id-3' aria-controls='tab-id-3-content'  itemprop="headline" >Layout</div><div id='tab-id-3-content' class='tab_content' aria-hidden="true"><div class='tab_inner_content invers-color'  itemprop="text" ><p><img decoding="async" class="alignnone size-full wp-image-10741" src="https://www.mateksys.com/wp-content/uploads/2022/10/F405-TE_layout.jpg" alt="" width="1500" height="2138" /></p>
+</div></div></section>
+<section class='av_tab_section av_tab_section av-1jtt72d-c6677e24ff240aaa6c492bf433d70602'  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><div class='tab' role='tab' tabindex='0' data-fake-id='#tab-id-4' aria-controls='tab-id-4-content'  itemprop="headline" >Wiring</div><div id='tab-id-4-content' class='tab_content' aria-hidden="true"><div class='tab_inner_content invers-color'  itemprop="text" ><p><img loading="lazy" decoding="async" class="alignnone size-full wp-image-10742" src="https://www.mateksys.com/wp-content/uploads/2022/10/F405-TE_wiring.jpg" alt="" width="1500" height="2056" /></p>
+</div></div></section>
+<section class='av_tab_section av_tab_section av-1cpx39h-f794a9592ff29f43ed34985be012dd21'  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><div class='tab' role='tab' tabindex='0' data-fake-id='#tab-id-5' aria-controls='tab-id-5-content'  itemprop="headline" >INAV/BF mapping</div><div id='tab-id-5-content' class='tab_content' aria-hidden="true"><div class='tab_inner_content invers-color'  itemprop="text" ><table width="869">
+<tbody>
+<tr>
+<td colspan="4" width="535"></td>
+<td width="165">INAV/BF MultiRotor</td>
+<td width="169">INAV Plane</td>
+</tr>
+<tr>
+<td rowspan="12" width="100">PWM</td>
+<td>S1</td>
+<td>5 V tolerant I/O</td>
+<td>TIM8_CH4</td>
+<td width="165">Motor</td>
+<td width="169">Motor</td>
+</tr>
+<tr>
+<td>S2</td>
+<td>5 V tolerant I/O</td>
+<td>TIM8_CH3</td>
+<td width="165">Motor</td>
+<td width="169">Motor</td>
+</tr>
+<tr>
+<td>S3</td>
+<td>5 V tolerant I/O</td>
+<td>TIM1_CH3N</td>
+<td width="165">Motor</td>
+<td width="169">Servo</td>
+</tr>
+<tr>
+<td>S4</td>
+<td>5 V tolerant I/O</td>
+<td>TIM1_CH1</td>
+<td width="165">Motor</td>
+<td width="169">Servo</td>
+</tr>
+<tr>
+<td>S5</td>
+<td>5 V tolerant I/O</td>
+<td>TIM2_CH4</td>
+<td width="165">Motor</td>
+<td width="169">Servo</td>
+</tr>
+<tr>
+<td>S6</td>
+<td>5 V tolerant I/O</td>
+<td>TIM2_CH3</td>
+<td width="165">Motor</td>
+<td width="169">Servo</td>
+</tr>
+<tr>
+<td>S7</td>
+<td>5 V tolerant I/O</td>
+<td>TIM2_CH2</td>
+<td width="165">Motor</td>
+<td width="169">Servo</td>
+</tr>
+<tr>
+<td>S8</td>
+<td>5 V tolerant I/O</td>
+<td>TIM2_CH1</td>
+<td width="165">Motor</td>
+<td width="169">Servo</td>
+</tr>
+<tr>
+<td>S9</td>
+<td>5 V tolerant I/O</td>
+<td>TIM12_CH1</td>
+<td width="165">Servo</td>
+<td width="169">Servo</td>
+</tr>
+<tr>
+<td>S10</td>
+<td>5 V tolerant I/O</td>
+<td>TIM13_CH1</td>
+<td width="165">Servo</td>
+<td width="169">Servo</td>
+</tr>
+<tr>
+<td>&#8211;</td>
+<td>&#8211;</td>
+<td>&#8211;</td>
+<td width="165">&#8211;</td>
+<td width="169">&#8211;</td>
+</tr>
+<tr>
+<td>LED</td>
+<td>5 V tolerant I/O</td>
+<td>TIM3_CH4</td>
+<td>2812LED</td>
+<td>2812LED</td>
+</tr>
+<tr>
+<td colspan="6" width="869"></td>
+</tr>
+<tr>
+<td rowspan="4">ADC</td>
+<td width="114">Vbat Pad</td>
+<td width="131">1K:20K divider builtin<br />
+9~36V</td>
+<td width="190">Vbat ADC<br />
+ADC_CHANNEL_1, PC4</td>
+<td colspan="2" width="334">BF scale 210, INAV scale 2100, Ardu</td>
+</tr>
+<tr>
+<td width="114">Curr pad</td>
+<td>0~3.3V</td>
+<td width="190">Current ADC<br />
+ADC_CHANNEL_2, PC5</td>
+<td colspan="2" width="334">scale 150</td>
+</tr>
+<tr>
+<td width="114">RSSI Pad</td>
+<td>0~3.3V</td>
+<td width="190">RSSI ADC<br />
+ADC_CHANNEL_3, PB0</td>
+<td colspan="2" width="334">Analog RSSI, Spare ADC</td>
+</tr>
+<tr>
+<td width="114">ADC Pad</td>
+<td width="131">no divider builtin<br />
+0~3.3V</td>
+<td width="190">AirS ADC<br />
+ADC_CHANNEL_4, PC0</td>
+<td colspan="2" width="334">Analog Airspeed(INAV)</p>
+<p>Spare ADC(BF)</td>
+</tr>
+<tr>
+<td colspan="6"></td>
+</tr>
+<tr>
+<td rowspan="5" width="100">I2C</td>
+<td rowspan="5" width="114">I2C1</td>
+<td rowspan="5" width="131">5V tolerant I/O</td>
+<td>Compass</td>
+<td colspan="2" width="334">QMC5883 / HMC5883 /IST8310 / IST8308 / MAG3110 / LIS3MDL</td>
+</tr>
+<tr>
+<td>OLED</td>
+<td colspan="2">0.96&#8243;</td>
+</tr>
+<tr>
+<td>onboard Barometer</td>
+<td colspan="2">SPL06-001</td>
+</tr>
+<tr>
+<td>Digital Airspeed sensor</td>
+<td colspan="2">MS4525 (INAV)</td>
+</tr>
+<tr>
+<td>Temperature sensor</td>
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="6" width="869"></td>
+</tr>
+<tr>
+<td rowspan="13" width="100">UART<br />
+5V tolerant I/O</td>
+<td>USB</td>
+<td></td>
+<td>USB</td>
+<td colspan="2"></td>
+</tr>
+<tr>
+<td>TX1 RX1</td>
+<td rowspan="5">5V tolerant I/O</td>
+<td>UART1</td>
+<td colspan="2" width="334">USER</td>
+</tr>
+<tr>
+<td>TX3 RX3</td>
+<td>UART3</td>
+<td colspan="2" width="334">USER</td>
+</tr>
+<tr>
+<td>TX4 RX4</td>
+<td>UART4</td>
+<td colspan="2" width="334">USER</td>
+</tr>
+<tr>
+<td>TX5 RX5</td>
+<td>UART5</td>
+<td colspan="2" width="334">GPS</td>
+</tr>
+<tr>
+<td>TX6 RX6</td>
+<td>UART6</td>
+<td colspan="2" width="334">USER</td>
+</tr>
+<tr>
+<td rowspan="7" width="114"> TX2 RX2<br />
+SBUS</td>
+<td rowspan="7">5V tolerant I/O</td>
+<td>UART2</td>
+<td colspan="2" width="334">RC input/Receiver</td>
+</tr>
+<tr>
+<td>SBUS pad</td>
+<td colspan="2" width="334">for SBUS receiver,  SBUS pad = RX2+inverter</td>
+</tr>
+<tr>
+<td>RX2 pad</td>
+<td colspan="2" width="334">IBUS/DSM/PPM, INAV doesn&#8217;t support PPM</td>
+</tr>
+<tr>
+<td>TX2 &#038; RX2</td>
+<td colspan="2" width="334">CRSF</td>
+</tr>
+<tr>
+<td>TX2 pad</td>
+<td width="165">SmartPort Telemetry</td>
+<td width="169">INAV enable Softserial_Tx1</p>
+<p>BF  &#8220;resource SERIAL_TX 11 A02&#8221;</td>
+</tr>
+<tr>
+<td>TX2 pad</td>
+<td colspan="2" width="334">FPORT, uninverted S.Port/F.Port signal (hacked)</td>
+</tr>
+<tr>
+<td>TX2 pad</td>
+<td colspan="2" width="334">SRXL2</td>
+</tr>
+</tbody>
+</table>
+</div></div></section>
+<section class='av_tab_section av_tab_section av-rqoqed-fe6b358674451aa868ca10f04ef6cb3e'  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><div class='tab' role='tab' tabindex='0' data-fake-id='#tab-id-6' aria-controls='tab-id-6-content'  itemprop="headline" >ArduPilot mapping</div><div id='tab-id-6-content' class='tab_content' aria-hidden="true"><div class='tab_inner_content invers-color'  itemprop="text" ><table width="869">
+<tbody>
+<tr>
+<td colspan="6" width="869">ArduPilot</td>
+</tr>
+<tr>
+<td rowspan="13" width="100">PWM<br />
+5V tolerant I/O</td>
+<td>S1</td>
+<td>PWM1 GPIO50</td>
+<td>TIM8_CH4</td>
+<td>DMA/DShot</td>
+<td rowspan="2">Group1</td>
+</tr>
+<tr>
+<td>S2</td>
+<td>PWM2 GPIO51</td>
+<td>TIM8_CH3</td>
+<td>DMA/DShot</td>
+</tr>
+<tr>
+<td>S3</td>
+<td>PWM3 GPIO52</td>
+<td>TIM1_CH3N</td>
+<td>DMA/DShot</td>
+<td rowspan="2">Group2</td>
+</tr>
+<tr>
+<td>S4</td>
+<td>PWM4 GPIO53</td>
+<td>TIM1_CH1</td>
+<td>DMA/DShot</td>
+</tr>
+<tr>
+<td>S5</td>
+<td>PWM5 GPIO54</td>
+<td>TIM2_CH4</td>
+<td>DMA/DShot</td>
+<td rowspan="4">Gourp3</td>
+</tr>
+<tr>
+<td>S6</td>
+<td>PWM6 GPIO55</td>
+<td>TIM2_CH3</td>
+<td>DMA/DShot</td>
+</tr>
+<tr>
+<td>S7</td>
+<td>PWM7 GPIO56</td>
+<td>TIM2_CH2</td>
+<td>DMA/DShot</td>
+</tr>
+<tr>
+<td>S8</td>
+<td>PWM8 GPIO57</td>
+<td>TIM2_CH1</td>
+<td>DMA/DShot</td>
+</tr>
+<tr>
+<td>S9</td>
+<td>PWM9 GPIO58</td>
+<td>TIM12_CH1</td>
+<td>NO DMA</td>
+<td>Gourp4</td>
+</tr>
+<tr>
+<td>S10</td>
+<td>PWM10 GPIO59</td>
+<td>TIM13_CH1</td>
+<td>NO DMA</td>
+<td>Gourp5</td>
+</tr>
+<tr>
+<td>&#8211;</td>
+<td>&#8211;</td>
+<td>&#8211;</td>
+<td>&#8211;</td>
+<td>&#8211;</td>
+</tr>
+<tr>
+<td rowspan="2">LED pad</td>
+<td>PWM12 GPIO61</td>
+<td>TIM3_CH4</td>
+<td rowspan="2">DMA/DShot</td>
+<td rowspan="2">Gourp7</td>
+</tr>
+<tr>
+<td colspan="2">SERVO12_FUNCTION 120,   NTF_LED_TYPES  neopixel</td>
+</tr>
+<tr>
+<td colspan="6" width="869">Mixing Dshot and normal PWM operation for outputs is restricted into groups, ie. enabling Dshot for an output in a group requires that ALL outputs in that group be configured and used as Dshot, rather than PWM outputs.<br />
+If servo and motor are mixed in same group, make sure this group run lowest PWM frequency according to the servo specification. ie. Servo supports Max. 50Hz, ESC must run at 50Hz in this group.</td>
+</tr>
+<tr>
+<td colspan="6"></td>
+</tr>
+<tr>
+<td rowspan="4">ADC</td>
+<td width="114">Vbat Pad</td>
+<td width="131">1K:20K divider builtin<br />
+0~60V</td>
+<td>on board battery voltage</td>
+<td width="165">BATT_VOLT_PIN<br />
+BATT_VOLT_MULT</td>
+<td width="169">14<br />
+21.0</td>
+</tr>
+<tr>
+<td width="114">Curr pad</td>
+<td>0~3.3V</td>
+<td>on board  current sensor</td>
+<td width="165">BATT_CURR_PIN<br />
+BATT_AMP_PERVLT</td>
+<td width="169">15<br />
+66.7</td>
+</tr>
+<tr>
+<td width="114">RSSI Pad</td>
+<td>0~3.3V</td>
+<td width="190">RSSI ADC,  Analog RSSI</td>
+<td width="165">RSSI_ANA_PIN<br />
+RSSI_TYPE</td>
+<td width="169">8<br />
+2</td>
+</tr>
+<tr>
+<td width="114">ADC</td>
+<td width="131">0~3.3V</td>
+<td width="190">AirS ADC,  Analog Airspeed</td>
+<td width="165">ARSPD_PIN<br />
+ARSPD_TYPE</td>
+<td width="169">10<br />
+2</td>
+</tr>
+<tr>
+<td colspan="6"></td>
+</tr>
+<tr>
+<td rowspan="3">I2C</td>
+<td rowspan="3">I2C1</td>
+<td rowspan="3">5V tolerant I/O</td>
+<td>Compass</td>
+<td>COMPASS_AUTODEC</td>
+<td>1</td>
+</tr>
+<tr>
+<td>onboard Baro SPL06-001</td>
+<td>Address</td>
+<td>0x76</td>
+</tr>
+<tr>
+<td width="190">Digital Airspeed I2C<br />
+MS4525<br />
+DLVR-L10D</td>
+<td width="165">ARSPD_BUS<br />
+ARSPD_TYPE<br />
+ARSPD_TYPE</td>
+<td width="169">1<br />
+1<br />
+9</td>
+</tr>
+<tr>
+<td colspan="6"></td>
+</tr>
+<tr>
+<td rowspan="12" width="100">UART<br />
+5V tolerant I/O</td>
+<td>USB</td>
+<td>USB</td>
+<td></td>
+<td>console</td>
+<td>SERIAL0</td>
+</tr>
+<tr>
+<td>TX1 RX1</td>
+<td>USART1</td>
+<td>with DMA</td>
+<td>telem1</td>
+<td>SERIAL1</td>
+</tr>
+<tr>
+<td>TX3 RX3</td>
+<td>USART3</td>
+<td>NO DMA</td>
+<td>telem2</td>
+<td>SERIAL2</td>
+</tr>
+<tr>
+<td>TX5 RX5</td>
+<td>UART5</td>
+<td>NO DMA</td>
+<td>GPS1</td>
+<td>SERIAL3</td>
+</tr>
+<tr>
+<td>TX4 RX4</td>
+<td>UART4</td>
+<td>NO DMA</td>
+<td>USER</td>
+<td>SERIAL4</td>
+</tr>
+<tr>
+<td>TX6 RX6</td>
+<td>USART6</td>
+<td>TX6 with DMA</td>
+<td width="165">USER</td>
+<td>SERIAL5</td>
+</tr>
+<tr>
+<td rowspan="6" width="114">TX2 RX2<br />
+SBUS</td>
+<td>USART2</td>
+<td>with DMA</td>
+<td>RC input/Receiver</td>
+<td rowspan="3">SERIAL6</td>
+</tr>
+<tr>
+<td>RX2</td>
+<td>IBUS/DSM/PPM</td>
+<td rowspan="2" width="165">BRD_ALT_CONFIG 0<br />
+Default</td>
+</tr>
+<tr>
+<td>Sbs pad</td>
+<td>SBUS</td>
+</tr>
+<tr>
+<td>TX2 &#038; RX2</td>
+<td>CRSF</td>
+<td rowspan="3" width="165">BRD_ALT_CONFIG 1<br />
+SERIAL6_PROTOCOL 23</td>
+<td width="169">SERIAL6_OPTIONS 0</td>
+</tr>
+<tr>
+<td>TX2</td>
+<td> uninverted FPort (hacked)</td>
+<td width="169">SERIAL6_OPTIONS 4</td>
+</tr>
+<tr>
+<td>TX2</td>
+<td>SRXL2</td>
+<td width="169">SERIAL6_OPTIONS 4</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>&#8220;Internal errors 0x4000 l:213 spi_fail&#8221; warining,  pls set <strong>LOG_BACKEND_TYPE = 1 (File)</strong> for SD card logging.</li>
+<li><strong>If sending highspeed serial data (eg. 921600 baud) to the board, use USART1(Serial1) or USART2(Serial6).</strong></li>
+</ul>
+<h4>Frsky Smartport Telemetry</h4>
+<ul>
+<li>non-inverted (hacked) S.Port signal</li>
+</ul>
+<ul>
+<li>any spare Uart_TX</li>
+<li>SERIALx_BAUD   57</li>
+<li>SERIALx_OPTIONS  7</li>
+<li>SERIALx_PROTOCOL  4  or 10(for yaapu)</li>
+</ul>
+<h4>DJI FPV OSD (ArduPilot 4.1)</h4>
+<p><a href="https://ardupilot.org/plane/docs/common-msp-osd-overview.html" target="_blank" rel="noopener noreferrer">https://ardupilot.org/plane/docs/common-msp-osd-overview.html</a></p>
+<ul class="simple">
+<li>OSD_TYPE = 3</li>
+<li>SERIAL4_PROTOCOL = 33</li>
+<li>MSP_OPTIONS = 0 (polling mode)</li>
+</ul>
+<h4>Relay(PINIO)</h4>
+<ul>
+<li>PINIO1,  PIO1 pad, Low Level by default</li>
+<li>PINIO2,  Camera switch, C1 ON by default</li>
+</ul>
+<p># GPIOs</p>
+<ul>
+<li>PA4  PINIO1  OUTPUT  GPIO(81)  LOW  //PIO1 pad</li>
+<li>PB5  PINIO2  OUTPUT  GPIO(82)  LOW  //camera switch</li>
+</ul>
+<p># RCx_OPTION: RC input option</p>
+<ul>
+<li>28   Relay On/Off</li>
+<li>34   Relay2 On/Off</li>
+<li>35   Relay3 On/Off</li>
+<li>36   Relay4 On/Off</li>
+</ul>
+<p>e.g.</p>
+<ul>
+<li>RELAY_PIN       81    //PIO1 GPIO</li>
+<li>RC7_OPTION   28    //Relay On/Off, Use CH7 of Transmitter to control PIO1 Low/High Level</li>
+<li>RELAY_PIN2     82    //Camera switch GPIO</li>
+<li>RC8_OPTION   34    //Relay2 On/Off, Use CH8 of Transmitter to control high/low level on PB5 pad</li>
+</ul>
+<p>The configured feature will be triggered when the auxiliary switch’s pwm value becomes higher than 1800. It will be deactivated when the value falls below 1200.</p>
+<p>Check the pwm value sent from the transmitter when the switch is high and low using the Mission Planner’s Initial Setup >> Mandatory Hardware >> Radio Calibration screen. If it does not climb higher than 1800 or lower than 1200, it is best to adjust the servo end points in the transmitter.</p>
+</div></div></section>
+<section class='av_tab_section av_tab_section av-j99d2d-6bc5e49e3cf69ed2b6d84117b64ccc39'  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><div class='tab' role='tab' tabindex='0' data-fake-id='#tab-id-7' aria-controls='tab-id-7-content'  itemprop="headline" >TIPS</div><div id='tab-id-7-content' class='tab_content' aria-hidden="true"><div class='tab_inner_content invers-color'  itemprop="text" ><ul>
+<li>F405-TE has INAV fw preloaded for QC</li>
+<li>set BLHeli32 ESC PWM rate to 48KHz or higher in BLHeliSuite</li>
+</ul>
+<h4><strong>ArduPilot</strong></h4>
+<ul>
+<li>ArduPilot fw, &#8220;Internal errors 0x4000 l:213 spi_fail&#8221; warining,  pls set <strong>LOG_BACKEND_TYPE = 1 (File)</strong> for SD card logging.</li>
+<li>Download ArduPilot firmware from <a href="https://firmware.ardupilot.org/" target="_blank" rel="noopener">HERE</a>.</li>
+</ul>
+<h4><strong>INAV</strong></h4>
+<ul>
+<li><span style="color: #ff0000;"><strong>With INAV firmware, DSHOT can not work on S3, S5,S7 because of DMA clash,  pls use ONESHOT or MULTISHOT and calibrate ESC PWM range.</strong></span></li>
+<li>Download INAV firmware 4.1.x from our website.  INAV5.x or newer directly from INAV configurator</li>
+</ul>
+<h4><strong>BetaFlight</strong></h4>
+<ul>
+<li>If using 5V passive buzzer,  CLI &#8220;set beeper_frequency = 2500&#8221;</li>
+<li><strong>MATEKF405TE_SD target was supported since BF4.4.</strong></li>
+<li><strong>set dshot_bitbang = ON  when using X6 and X8 DSHOT,</strong></li>
+<li>You may download BF 4.3 directly from BF configurator,  BF 4.2.x from our website (click &#8220;Firmwares&#8221; button at upper right corner)</li>
+<li>Barometer SPL06-001 is not supported by Betaflight.</li>
+</ul>
+</div></div></section>
+</div>
+</div></div></main><!-- close content main element --> <!-- section close by builder template -->		</div><!--end builder template--></div><!-- close default .container_wrap element -->
+
+	
+				<footer class='container_wrap socket_color' id='socket'  role="contentinfo" itemscope="itemscope" itemtype="https://schema.org/WPFooter" >
+                    <div class='container'>
+
+                        <span class='copyright'>© Copyright - Matek Systems</span>
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"1zqdfC5sUgEEgj6e",ck:"1zqdfC5sUgEEgj6e"})</script>
+                        
+                    </div>
+
+	            <!-- ####### END SOCKET CONTAINER ####### -->
+				</footer>
+
+
+					<!-- end main -->
+		</div>
+
+		<a class='avia-post-nav avia-post-prev with-image' href='https://www.mateksys.com/?portfolio=pm12s-3' ><span class="label iconfont" aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'></span><span class="entry-info-wrap"><span class="entry-info"><span class='entry-title'>Power Module PM12S-3</span><span class='entry-image'><img width="80" height="53" src="https://www.mateksys.com/wp-content/uploads/2022/10/PM12S-3_0.jpg" class="wp-image-10770 avia-img-lazy-loading-10770 attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" /></span></span></span></a><a class='avia-post-nav avia-post-next with-image' href='https://www.mateksys.com/?portfolio=f405-vtol' ><span class="label iconfont" aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'></span><span class="entry-info-wrap"><span class="entry-info"><span class='entry-image'><img width="80" height="53" src="https://www.mateksys.com/wp-content/uploads/2022/10/F405-VTOL_0.jpg" class="wp-image-10712 avia-img-lazy-loading-10712 attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" /></span><span class='entry-title'>(EOL)Flight Controller F405-VTOL</span></span></span></a><!-- end wrap_all --></div>
+
+<a href='#top' title='Scroll to top' id='scroll-top-link' aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello' tabindex='-1'><span class="avia_hidden_link_text">Scroll to top</span></a>
+
+<div id="fb-root"></div>
+
+<!--
+The IP2Location Country Blocker is using IP2Location LITE geolocation database. Please visit https://lite.ip2location.com for more information.
+-->
+
+ <script type='text/javascript'>
+ /* <![CDATA[ */  
+var avia_framework_globals = avia_framework_globals || {};
+    avia_framework_globals.frameworkUrl = 'https://www.mateksys.com/wp-content/themes/enfold5610/framework/';
+    avia_framework_globals.installedAt = 'https://www.mateksys.com/wp-content/themes/enfold5610/';
+    avia_framework_globals.ajaxurl = 'https://www.mateksys.com/wp-admin/admin-ajax.php';
+/* ]]> */ 
+</script>
+ 
+ <script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/js/waypoints/waypoints.min.js?ver=5.6.10" id="avia-waypoints-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/js/avia.js?ver=5.6.10" id="avia-default-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/js/shortcodes.js?ver=5.6.10" id="avia-shortcodes-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/audio-player/audio-player.js?ver=5.6.10" id="avia-module-audioplayer-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/chart/chart-js.min.js?ver=5.6.10" id="avia-module-chart-js-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/chart/chart.js?ver=5.6.10" id="avia-module-chart-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/contact/contact.js?ver=5.6.10" id="avia-module-contact-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/slideshow/slideshow.js?ver=5.6.10" id="avia-module-slideshow-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/countdown/countdown.js?ver=5.6.10" id="avia-module-countdown-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/gallery/gallery.js?ver=5.6.10" id="avia-module-gallery-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/gallery_horizontal/gallery_horizontal.js?ver=5.6.10" id="avia-module-gallery-hor-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/headline_rotator/headline_rotator.js?ver=5.6.10" id="avia-module-rotator-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/icon_circles/icon_circles.js?ver=5.6.10" id="avia-module-icon-circles-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/icongrid/icongrid.js?ver=5.6.10" id="avia-module-icongrid-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/iconlist/iconlist.js?ver=5.6.10" id="avia-module-iconlist-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-includes/js/underscore.min.js?ver=1.13.7" id="underscore-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/image_diff/image_diff.js?ver=5.6.10" id="avia-module-image-diff-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/image_hotspots/image_hotspots.js?ver=5.6.10" id="avia-module-hotspot-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/lottie_animation/lottie_animation.js?ver=5.6.10" id="avia-module-sc-lottie-animation-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/magazine/magazine.js?ver=5.6.10" id="avia-module-magazine-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/portfolio/isotope.min.js?ver=5.6.10" id="avia-module-isotope-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/masonry_entries/masonry_entries.js?ver=5.6.10" id="avia-module-masonry-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/menu/menu.js?ver=5.6.10" id="avia-module-menu-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/notification/notification.js?ver=5.6.10" id="avia-module-notification-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/numbers/numbers.js?ver=5.6.10" id="avia-module-numbers-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/portfolio/portfolio.js?ver=5.6.10" id="avia-module-portfolio-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/progressbar/progressbar.js?ver=5.6.10" id="avia-module-progress-bar-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/slideshow/slideshow-video.js?ver=5.6.10" id="avia-module-slideshow-video-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/slideshow_accordion/slideshow_accordion.js?ver=5.6.10" id="avia-module-slideshow-accordion-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/slideshow_fullscreen/slideshow_fullscreen.js?ver=5.6.10" id="avia-module-slideshow-fullscreen-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/slideshow_layerslider/slideshow_layerslider.js?ver=5.6.10" id="avia-module-slideshow-ls-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/tab_section/tab_section.js?ver=5.6.10" id="avia-module-tabsection-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/tabs/tabs.js?ver=5.6.10" id="avia-module-tabs-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/testimonials/testimonials.js?ver=5.6.10" id="avia-module-testimonials-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/timeline/timeline.js?ver=5.6.10" id="avia-module-timeline-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/toggles/toggles.js?ver=5.6.10" id="avia-module-toggles-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-templatebuilder/avia-shortcodes/video/video.js?ver=5.6.10" id="avia-module-video-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/js/avia-snippet-hamburger-menu.js?ver=5.6.10" id="avia-hamburger-menu-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/js/avia-snippet-parallax.js?ver=5.6.10" id="avia-parallax-support-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/js/avia-snippet-fold-unfold.js?ver=5.6.10" id="avia-fold-unfold-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/js/aviapopup/jquery.magnific-popup.min.js?ver=5.6.10" id="avia-popup-js-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/js/avia-snippet-lightbox.js?ver=5.6.10" id="avia-lightbox-activation-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/js/avia-snippet-megamenu.js?ver=5.6.10" id="avia-megamenu-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/js/avia-snippet-sticky-header.js?ver=5.6.10" id="avia-sticky-header-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/js/avia-snippet-footer-effects.js?ver=5.6.10" id="avia-footer-effects-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/js/avia-snippet-widget.js?ver=5.6.10" id="avia-widget-js-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-gutenberg/js/avia_blocks_front.js?ver=5.6.10" id="avia_blocks_front_script-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/framework/js/conditional_load/avia_google_maps_front.js?ver=5.6.10" id="avia_google_maps_front_script-js"></script>
+<script type="text/javascript" src="https://www.mateksys.com/wp-content/themes/enfold5610/config-lottie-animations/assets/lottie-player/dotlottie-player.js?ver=5.6.10" id="avia-dotlottie-script-js"></script>
+</body>
+</html>

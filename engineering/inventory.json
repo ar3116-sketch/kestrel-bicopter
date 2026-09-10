@@ -1,0 +1,3509 @@
+[
+  {
+    "name": "P01_Battery_keel",
+    "label": "P01 Battery keel",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 28447.755174081194,
+    "mass_g": 35.27521641586068,
+    "center_mm": [
+      5.204983772220141,
+      -0.006802163022468847,
+      -19.642472052655346
+    ],
+    "bbox_mm": [
+      136.0,
+      58.0,
+      48.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Designed geometry; print and fit verification pending; locally cleared harness passage with 0.6mm radial assembly allowance; locally cleared harness passage with 0.6mm radial assembly allowance"
+  },
+  {
+    "name": "P02_Crossbeam",
+    "label": "P02 Crossbeam",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 36434.7398117135,
+    "mass_g": 45.17907736652474,
+    "center_mm": [
+      -8.98239518598517,
+      4.3883717528856535e-10,
+      19.534830355939096
+    ],
+    "bbox_mm": [
+      73.0,
+      168.0,
+      19.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Designed geometry; print and fit verification pending"
+  },
+  {
+    "name": "P03_Avionics_deck",
+    "label": "P03 Avionics deck",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 5083.793683002822,
+    "mass_g": 6.303904166923499,
+    "center_mm": [
+      -0.29866295545176724,
+      0.2425457878617394,
+      1.9993886330219315
+    ],
+    "bbox_mm": [
+      54.0,
+      49.0,
+      4.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Designed geometry; print and fit verification pending; locally cleared harness passage with 0.6mm radial assembly allowance; locally cleared harness passage with 0.6mm radial assembly allowance"
+  },
+  {
+    "name": "FC_grommet",
+    "label": "FC grommet",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 60.695570067354815,
+    "mass_g": 0.0,
+    "center_mm": [
+      -15.25,
+      -15.249999999999996,
+      4.5
+    ],
+    "bbox_mm": [
+      5.99750339803375,
+      5.998751569135237,
+      3.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "FC_M3",
+    "label": "FC M3",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 116.49025559510953,
+    "mass_g": 0.0,
+    "center_mm": [
+      -15.249999999999998,
+      -15.249999999999998,
+      6.359223300970873
+    ],
+    "bbox_mm": [
+      5.399999999999999,
+      5.399999999999999,
+      12.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "FC_grommet001",
+    "label": "FC grommet001",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 60.69557006735482,
+    "mass_g": 0.0,
+    "center_mm": [
+      -15.249999999999998,
+      15.249999999999995,
+      4.499999999999999
+    ],
+    "bbox_mm": [
+      5.99750339803375,
+      5.998751569135237,
+      3.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "FC_M001",
+    "label": "FC M001",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 116.49025559510953,
+    "mass_g": 0.0,
+    "center_mm": [
+      -15.249999999999998,
+      15.249999999999998,
+      6.359223300970873
+    ],
+    "bbox_mm": [
+      5.399999999999999,
+      5.399999999999999,
+      12.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "FC_grommet002",
+    "label": "FC grommet002",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 60.69557006735477,
+    "mass_g": 0.0,
+    "center_mm": [
+      15.249999999999998,
+      -15.250000000000004,
+      4.5
+    ],
+    "bbox_mm": [
+      5.99750339803375,
+      5.998751569135237,
+      3.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "FC_M002",
+    "label": "FC M002",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 116.49025559510953,
+    "mass_g": 0.0,
+    "center_mm": [
+      15.249999999999998,
+      -15.249999999999998,
+      6.359223300970873
+    ],
+    "bbox_mm": [
+      5.399999999999999,
+      5.399999999999999,
+      12.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "FC_grommet003",
+    "label": "FC grommet003",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 60.69557006735477,
+    "mass_g": 0.0,
+    "center_mm": [
+      15.249999999999998,
+      15.250000000000004,
+      4.5
+    ],
+    "bbox_mm": [
+      5.99750339803375,
+      5.998751569135237,
+      3.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "FC_M003",
+    "label": "FC M003",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 116.49025559510953,
+    "mass_g": 0.0,
+    "center_mm": [
+      15.249999999999998,
+      15.249999999999998,
+      6.359223300970873
+    ],
+    "bbox_mm": [
+      5.399999999999999,
+      5.399999999999999,
+      12.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "U1_Matek_F405_TE",
+    "label": "U1 Matek F405 TE",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 2569.1752280681008,
+    "mass_g": 10.0,
+    "center_mm": [
+      1.1173206954160755e-15,
+      5.53129057136671e-17,
+      6.8
+    ],
+    "bbox_mm": [
+      46.0,
+      36.0,
+      1.5999999999999996
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Matek published 36x46 mm and 10g; pads/component positions approximate; 30.5mm mount to verify"
+  },
+  {
+    "name": "U1_CPU",
+    "label": "U1 CPU",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 201.6,
+    "mass_g": 0.0,
+    "center_mm": [
+      1.0070089052455084e-16,
+      6.938893903907228e-17,
+      8.3
+    ],
+    "bbox_mm": [
+      12.0,
+      12.0,
+      1.4000000000000004
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "U1_USB",
+    "label": "U1 USB",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 167.99999999999994,
+    "mass_g": 0.0,
+    "center_mm": [
+      20.5,
+      3.436404600030248e-17,
+      9.1
+    ],
+    "bbox_mm": [
+      7.0,
+      8.0,
+      3.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "U1_pad",
+    "label": "U1 pad",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 0.3999999999999997,
+    "mass_g": 0.0,
+    "center_mm": [
+      -18.000000000000007,
+      -15.000000000000004,
+      7.66
+    ],
+    "bbox_mm": [
+      2.0,
+      2.0,
+      0.09999999999999964
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "U1_pad001",
+    "label": "U1 pad001",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 0.3999999999999997,
+    "mass_g": 0.0,
+    "center_mm": [
+      -12.000000000000002,
+      -15.000000000000004,
+      7.66
+    ],
+    "bbox_mm": [
+      2.0,
+      2.0,
+      0.09999999999999964
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "U1_pad002",
+    "label": "U1 pad002",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 0.3999999999999997,
+    "mass_g": 0.0,
+    "center_mm": [
+      -6.000000000000001,
+      -15.000000000000004,
+      7.66
+    ],
+    "bbox_mm": [
+      2.0,
+      2.0,
+      0.09999999999999964
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "U1_pad003",
+    "label": "U1 pad003",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 0.3999999999999997,
+    "mass_g": 0.0,
+    "center_mm": [
+      1.282774181081162e-17,
+      -15.000000000000004,
+      7.66
+    ],
+    "bbox_mm": [
+      2.0,
+      2.0,
+      0.09999999999999964
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "U1_pad004",
+    "label": "U1 pad004",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 0.3999999999999997,
+    "mass_g": 0.0,
+    "center_mm": [
+      6.000000000000001,
+      -15.000000000000004,
+      7.66
+    ],
+    "bbox_mm": [
+      2.0,
+      2.0,
+      0.09999999999999964
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "U1_pad005",
+    "label": "U1 pad005",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 0.3999999999999997,
+    "mass_g": 0.0,
+    "center_mm": [
+      12.000000000000002,
+      -15.000000000000004,
+      7.66
+    ],
+    "bbox_mm": [
+      2.0,
+      2.0,
+      0.09999999999999964
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "U1_pad006",
+    "label": "U1 pad006",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 0.3999999999999997,
+    "mass_g": 0.0,
+    "center_mm": [
+      18.000000000000007,
+      -15.000000000000004,
+      7.66
+    ],
+    "bbox_mm": [
+      2.0,
+      2.0,
+      0.09999999999999964
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "U1_pad007",
+    "label": "U1 pad007",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 0.3999999999999997,
+    "mass_g": 0.0,
+    "center_mm": [
+      -18.000000000000007,
+      15.000000000000004,
+      7.66
+    ],
+    "bbox_mm": [
+      2.0,
+      2.0,
+      0.09999999999999964
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "U1_pad008",
+    "label": "U1 pad008",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 0.3999999999999997,
+    "mass_g": 0.0,
+    "center_mm": [
+      -12.000000000000002,
+      15.000000000000004,
+      7.66
+    ],
+    "bbox_mm": [
+      2.0,
+      2.0,
+      0.09999999999999964
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "U1_pad009",
+    "label": "U1 pad009",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 0.3999999999999997,
+    "mass_g": 0.0,
+    "center_mm": [
+      -6.000000000000001,
+      15.000000000000004,
+      7.66
+    ],
+    "bbox_mm": [
+      2.0,
+      2.0,
+      0.09999999999999964
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "U1_pad010",
+    "label": "U1 pad010",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 0.3999999999999997,
+    "mass_g": 0.0,
+    "center_mm": [
+      1.282774181081162e-17,
+      15.000000000000004,
+      7.66
+    ],
+    "bbox_mm": [
+      2.0,
+      2.0,
+      0.09999999999999964
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "U1_pad011",
+    "label": "U1 pad011",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 0.3999999999999997,
+    "mass_g": 0.0,
+    "center_mm": [
+      6.000000000000001,
+      15.000000000000004,
+      7.66
+    ],
+    "bbox_mm": [
+      2.0,
+      2.0,
+      0.09999999999999964
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "U1_pad012",
+    "label": "U1 pad012",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 0.3999999999999997,
+    "mass_g": 0.0,
+    "center_mm": [
+      12.000000000000002,
+      15.000000000000004,
+      7.66
+    ],
+    "bbox_mm": [
+      2.0,
+      2.0,
+      0.09999999999999964
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "U1_pad013",
+    "label": "U1 pad013",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 0.3999999999999997,
+    "mass_g": 0.0,
+    "center_mm": [
+      18.000000000000007,
+      15.000000000000004,
+      7.66
+    ],
+    "bbox_mm": [
+      2.0,
+      2.0,
+      0.09999999999999964
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "B1_4S_1300_LiPo",
+    "label": "B1 4S 1300 LiPo",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 89528.0,
+    "mass_g": 170.0,
+    "center_mm": [
+      39.0,
+      -4.82541756034024e-17,
+      -15.5
+    ],
+    "bbox_mm": [
+      76.0,
+      38.0,
+      31.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Tattu 4S1300 class; reserve 76x38x31mm and 170g including stock leads; final SKU to confirm"
+  },
+  {
+    "name": "B1_Label",
+    "label": "B1 Label",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 188.99999999999915,
+    "mass_g": 0.0,
+    "center_mm": [
+      31.500000000000004,
+      -19.1,
+      -15.5
+    ],
+    "bbox_mm": [
+      45.0,
+      0.1999999999999993,
+      21.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "Battery_pad",
+    "label": "Battery pad",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 6240.0,
+    "mass_g": 0.0,
+    "center_mm": [
+      39.0,
+      -1.8219044506669235e-16,
+      -32.0
+    ],
+    "bbox_mm": [
+      78.0,
+      40.0,
+      2.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "Battery_hook_loop_strap",
+    "label": "Battery hook loop strap",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 2232.0000000000005,
+    "mass_g": 0.0,
+    "center_mm": [
+      7.999999999999998,
+      -1.1937881985216734e-17,
+      -18.745161290322606
+    ],
+    "bbox_mm": [
+      10.0,
+      44.0,
+      37.8
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "Battery_hook_loop_strap001",
+    "label": "Battery hook loop strap001",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 2232.0000000000005,
+    "mass_g": 0.0,
+    "center_mm": [
+      66.00000000000003,
+      -1.1937881985216734e-17,
+      -18.745161290322606
+    ],
+    "bbox_mm": [
+      10.0,
+      44.0,
+      37.8
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "U2_Hobbywing_5A_UBEC",
+    "label": "U2 Hobbywing 5A UBEC",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 8500.0,
+    "mass_g": 21.0,
+    "center_mm": [
+      -56.0,
+      1.1368683772161603e-16,
+      -11.0
+    ],
+    "bbox_mm": [
+      50.0,
+      17.0,
+      10.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Hobbywing UBEC5A 50x17x10mm 21g; set output to 6.0V, servos only"
+  },
+  {
+    "name": "U3_RP1_receiver",
+    "label": "U3 RP1 receiver",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 429.0,
+    "mass_g": 2.2,
+    "center_mm": [
+      -52.5,
+      11.5,
+      6.5
+    ],
+    "bbox_mm": [
+      13.0,
+      11.0,
+      3.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "RadioMaster RP1 V2 13x11x3mm, 2.2g including antenna; ELRS radio required"
+  },
+  {
+    "name": "C1_470uF_35V",
+    "label": "C1 470uF 35V",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 1256.6370614359173,
+    "mass_g": 3.0,
+    "center_mm": [
+      -36.00000000000001,
+      -16.0,
+      -21.0
+    ],
+    "bbox_mm": [
+      16.0,
+      10.0,
+      10.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "J1_XT60",
+    "label": "J1 XT60",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 2047.9999999999995,
+    "mass_g": 4.0,
+    "center_mm": [
+      -14.0,
+      -6.93889390390723e-17,
+      -20.0
+    ],
+    "bbox_mm": [
+      16.0,
+      16.0,
+      8.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "J2_4S_balance",
+    "label": "J2 4S balance",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 546.0,
+    "mass_g": 0.0,
+    "center_mm": [
+      -12.5,
+      16.5,
+      -24.0
+    ],
+    "bbox_mm": [
+      7.0,
+      13.0,
+      6.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "Power_splice_insulated",
+    "label": "Power splice insulated",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 840.0,
+    "mass_g": 0.0,
+    "center_mm": [
+      45.99999999999999,
+      7.401486830834377e-17,
+      11.5
+    ],
+    "bbox_mm": [
+      12.0,
+      14.0,
+      5.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "Buzzer_5V",
+    "label": "Buzzer 5V",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 392.69908169872417,
+    "mass_g": 2.0,
+    "center_mm": [
+      60.00000000000001,
+      1.0672758888195507e-17,
+      3.5
+    ],
+    "bbox_mm": [
+      9.995838996722917,
+      9.997919281892065,
+      5.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "P09_Cabin_side_glazing_0",
+    "label": "P09 Cabin side glazing 0",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 425.0532257647845,
+    "mass_g": 0.5270659999483328,
+    "center_mm": [
+      27.30359013040512,
+      -29.996803437284576,
+      4.478515351831301
+    ],
+    "bbox_mm": [
+      18.000000000000007,
+      4.548772269672487,
+      27.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Fitted separate glazing; removed from upper shell, no overlapping sheets"
+  },
+  {
+    "name": "P09_Cabin_side_glazing_0_segment_2",
+    "label": "P09 Cabin side glazing 0 segment 2",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 887.3414212704286,
+    "mass_g": 1.1003033623753316,
+    "center_mm": [
+      -31.40940302883474,
+      -29.980434467203022,
+      5.233262290825256
+    ],
+    "bbox_mm": [
+      28.000000000000004,
+      4.77643699861299,
+      28.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Fitted separate glazing; removed from upper shell, no overlapping sheets"
+  },
+  {
+    "name": "P09_Cabin_side_glazing_0_segment_3",
+    "label": "P09 Cabin side glazing 0 segment 3",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 833.1901882862328,
+    "mass_g": 1.0331558334749287,
+    "center_mm": [
+      -74.99638522012341,
+      -29.481402008884828,
+      4.596177212755994
+    ],
+    "bbox_mm": [
+      28.0,
+      5.275370102606946,
+      28.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Fitted separate glazing; removed from upper shell, no overlapping sheets"
+  },
+  {
+    "name": "P09_Cabin_side_glazing_1",
+    "label": "P09 Cabin side glazing 1",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 425.05322547375835,
+    "mass_g": 0.5270659995874604,
+    "center_mm": [
+      27.303590131985473,
+      29.99680343836376,
+      4.4785153447602974
+    ],
+    "bbox_mm": [
+      18.00000000000001,
+      4.548772269672487,
+      27.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Fitted separate glazing; removed from upper shell, no overlapping sheets"
+  },
+  {
+    "name": "P09_Cabin_side_glazing_1_segment_2",
+    "label": "P09 Cabin side glazing 1 segment 2",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 887.3414212704272,
+    "mass_g": 1.1003033623753296,
+    "center_mm": [
+      -31.409403028834735,
+      29.98043446720303,
+      5.233262290825256
+    ],
+    "bbox_mm": [
+      28.0,
+      4.776436998612986,
+      28.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Fitted separate glazing; removed from upper shell, no overlapping sheets"
+  },
+  {
+    "name": "P09_Cabin_side_glazing_1_segment_3",
+    "label": "P09 Cabin side glazing 1 segment 3",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 833.1901882862328,
+    "mass_g": 1.0331558334749287,
+    "center_mm": [
+      -74.9963852201234,
+      29.481402008884828,
+      4.596177212755997
+    ],
+    "bbox_mm": [
+      28.0,
+      5.275370102606946,
+      28.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Fitted separate glazing; removed from upper shell, no overlapping sheets"
+  },
+  {
+    "name": "P06_Cabin_upper",
+    "label": "P06 Cabin upper",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 20723.365754340448,
+    "mass_g": 25.696973535382156,
+    "center_mm": [
+      -14.497657023982681,
+      -8.8949044467178e-06,
+      10.752823596413133
+    ],
+    "bbox_mm": [
+      210.0,
+      62.00001989457985,
+      51.000000000000014
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Continuous fitted upper skin and physical windshield mullions; no overlapping color sheets; locally cleared harness passage with 0.6mm radial assembly allowance; locally cleared harness passage with 0.6mm radial assembly allowance; locally cleared harness passage with 0.6mm radial assembly allowance; locally cleared harness passage with 0.6mm radial assembly allowance; locally cleared harness passage with 0.6mm radial assembly allowance; locally cleared harness passage with 0.6mm radial assembly allowance; locally cleared harness passage with 0.6mm radial assembly allowance; locally cleared harness passage with 0.6mm radial assembly allowance; locally cleared harness passage with 0.6mm radial assembly allowance; locally cleared harness passage with 0.6mm radial assembly allowance; locally cleared harness passage with 0.6mm radial assembly allowance; locally cleared harness passage with 0.6mm radial assembly allowance; locally cleared harness passage with 0.6mm radial assembly allowance"
+  },
+  {
+    "name": "P07_Cabin_lower",
+    "label": "P07 Cabin lower",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 18510.07598368448,
+    "mass_g": 22.952494219768756,
+    "center_mm": [
+      -5.194603829467307,
+      2.0744871601333263e-08,
+      -34.82200548198212
+    ],
+    "bbox_mm": [
+      208.79558986590263,
+      62.00000420525696,
+      17.000000000000014
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Straight cabin keel and low nose line; electronics envelope checked; seam at z=-22mm"
+  },
+  {
+    "name": "P08_Windshield",
+    "label": "P08 Windshield",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 1167.3677028586824,
+    "mass_g": 1.447535951544766,
+    "center_mm": [
+      47.612548025609556,
+      -22.233528479250488,
+      8.349009607823406
+    ],
+    "bbox_mm": [
+      20.00031089001071,
+      29.87902267006,
+      40.04347826086956
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Separate fitted cosmetic glazing panels; actual thickness 1.0mm class; not flight visibility glazing"
+  },
+  {
+    "name": "P08_Windshield_segment_2",
+    "label": "P08 Windshield segment 2",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 593.0509061573548,
+    "mass_g": 0.7353831236351199,
+    "center_mm": [
+      65.60216752333562,
+      -19.833090540458244,
+      2.312662464807963
+    ],
+    "bbox_mm": [
+      12.5,
+      28.760241019494345,
+      26.347543072206584
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Separate fitted cosmetic glazing panels; actual thickness 1.0mm class; not flight visibility glazing"
+  },
+  {
+    "name": "P08_Windshield_segment_3",
+    "label": "P08 Windshield segment 3",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 1167.3677028581583,
+    "mass_g": 1.4475359515441164,
+    "center_mm": [
+      47.612548025605484,
+      22.233528479257235,
+      8.349009607823605
+    ],
+    "bbox_mm": [
+      20.00031088991686,
+      29.879022670059996,
+      40.04347826086956
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Separate fitted cosmetic glazing panels; actual thickness 1.0mm class; not flight visibility glazing"
+  },
+  {
+    "name": "P08_Windshield_segment_4",
+    "label": "P08 Windshield segment 4",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 593.050906156999,
+    "mass_g": 0.7353831236346787,
+    "center_mm": [
+      65.60216752333834,
+      19.833090540466685,
+      2.312662464805544
+    ],
+    "bbox_mm": [
+      12.5,
+      28.760241019494345,
+      26.34754307220307
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Separate fitted cosmetic glazing panels; actual thickness 1.0mm class; not flight visibility glazing"
+  },
+  {
+    "name": "P19_Tapered_tail_boom",
+    "label": "P19 Tapered tail boom",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 18361.63456772555,
+    "mass_g": 22.76842686397968,
+    "center_mm": [
+      -159.9164898866427,
+      1.565387379772516e-05,
+      -13.208721939004292
+    ],
+    "bbox_mm": [
+      150.0,
+      56.58045782892244,
+      64.47876923076923
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Continuous tail profile; split at x=-105mm for printer fit; internal splice not released; locally cleared harness passage with 0.6mm radial assembly allowance"
+  },
+  {
+    "name": "P04_Tail_spine",
+    "label": "P04 Tail spine",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 2538.0304330139043,
+    "mass_g": 3.1471577369372414,
+    "center_mm": [
+      -121.44742511661532,
+      3.865642083852371e-12,
+      4.550873316978805
+    ],
+    "bbox_mm": [
+      163.31097450322804,
+      12.0,
+      35.46741093710729
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Long tail spine; rear segment follows rising boom; fit/reinforcement proof required"
+  },
+  {
+    "name": "P05_Vertical_tail_fin",
+    "label": "P05 Vertical tail fin",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 1764.1,
+    "mass_g": 2.187484,
+    "center_mm": [
+      -256.4465733235077,
+      0.65,
+      6.113976909850161
+    ],
+    "bbox_mm": [
+      52.0,
+      1.3,
+      70.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Designed geometry; print and fit verification pending"
+  },
+  {
+    "name": "P05_Horizontal_tailplane",
+    "label": "P05 Horizontal tailplane",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 1324.8000000000018,
+    "mass_g": 1.6427520000000022,
+    "center_mm": [
+      -227.03623188405797,
+      8.581434006764484e-17,
+      -13.4
+    ],
+    "bbox_mm": [
+      31.0,
+      48.0,
+      1.1999999999999993
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Designed geometry; print and fit verification pending"
+  },
+  {
+    "name": "P17_Shoulder_cowl__1",
+    "label": "P17 Shoulder cowl -1",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 3482.7532463459906,
+    "mass_g": 4.318614025469028,
+    "center_mm": [
+      4.065487723310395,
+      -52.75767197244812,
+      24.125806023359893
+    ],
+    "bbox_mm": [
+      46.0,
+      52.0,
+      20.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Designed geometry; print and fit verification pending"
+  },
+  {
+    "name": "P20_Servo_engine_cowl__1",
+    "label": "P20 Servo engine cowl -1",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 3488.51293762048,
+    "mass_g": 4.325756042649395,
+    "center_mm": [
+      -48.07937282963103,
+      -35.62509452303304,
+      35.51201249063152
+    ],
+    "bbox_mm": [
+      63.0,
+      30.400000000000002,
+      21.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Designed geometry; print and fit verification pending; locally cleared harness passage with 0.6mm radial assembly allowance; locally cleared harness passage with 0.6mm radial assembly allowance; locally cleared harness passage with 0.6mm radial assembly allowance"
+  },
+  {
+    "name": "P22_Cable_raceway__1",
+    "label": "P22 Cable raceway -1",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 3246.7506984604665,
+    "mass_g": 4.0259708660909785,
+    "center_mm": [
+      18.749481239652688,
+      -57.607847879718605,
+      6.025442766203039
+    ],
+    "bbox_mm": [
+      17.0,
+      54.0,
+      10.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Removable raceway; keeps fixed phase extensions hidden and accessible; hinge loop remains free; locally cleared harness passage with 0.6mm radial assembly allowance; locally cleared harness passage with 0.6mm radial assembly allowance; locally cleared harness passage with 0.6mm radial assembly allowance"
+  },
+  {
+    "name": "P10_Main_gear__1",
+    "label": "P10 Main gear -1",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 1031.6269315216935,
+    "mass_g": 1.2792173950869,
+    "center_mm": [
+      28.56292696016912,
+      -30.459268229601665,
+      -36.59454339321731
+    ],
+    "bbox_mm": [
+      27.680112097438666,
+      17.5,
+      26.673188071810575
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Designed geometry; print and fit verification pending"
+  },
+  {
+    "name": "P23_Main_wheel__1",
+    "label": "P23 Main wheel -1",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 514.7316751335367,
+    "mass_g": 0.6382672771655855,
+    "center_mm": [
+      23.999999999999996,
+      -43.0,
+      -48.99999999999999
+    ],
+    "bbox_mm": [
+      13.988645974401976,
+      4.0,
+      14.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Printed 14mm diameter wheel; M2 metal axle and positive retention to fit-test"
+  },
+  {
+    "name": "Main_gear_M2_axle__1",
+    "label": "Main gear M2 axle -1",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 37.69911184307752,
+    "mass_g": 0.0,
+    "center_mm": [
+      24.0,
+      -41.00000000000001,
+      -49.0
+    ],
+    "bbox_mm": [
+      2.0,
+      12.0,
+      2.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "P17_Shoulder_cowl_1",
+    "label": "P17 Shoulder cowl 1",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 3482.7532462267263,
+    "mass_g": 4.318614025321141,
+    "center_mm": [
+      4.065487723804011,
+      52.75767197596519,
+      24.125806023365488
+    ],
+    "bbox_mm": [
+      46.0,
+      52.0,
+      20.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Designed geometry; print and fit verification pending"
+  },
+  {
+    "name": "P20_Servo_engine_cowl_1",
+    "label": "P20 Servo engine cowl 1",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 3488.7133103781734,
+    "mass_g": 4.326004504868935,
+    "center_mm": [
+      -48.08014373605242,
+      35.625502923510496,
+      35.5108859976481
+    ],
+    "bbox_mm": [
+      63.0,
+      30.400000000000002,
+      21.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Designed geometry; print and fit verification pending; locally cleared harness passage with 0.6mm radial assembly allowance; locally cleared harness passage with 0.6mm radial assembly allowance; locally cleared harness passage with 0.6mm radial assembly allowance"
+  },
+  {
+    "name": "P22_Cable_raceway_1",
+    "label": "P22 Cable raceway 1",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 3251.3892233518036,
+    "mass_g": 4.0317226369562364,
+    "center_mm": [
+      18.74159011936297,
+      57.62379918528661,
+      6.0240630318430695
+    ],
+    "bbox_mm": [
+      17.000000000000004,
+      54.0,
+      10.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Removable raceway; keeps fixed phase extensions hidden and accessible; hinge loop remains free; locally cleared harness passage with 0.6mm radial assembly allowance; locally cleared harness passage with 0.6mm radial assembly allowance; locally cleared harness passage with 0.6mm radial assembly allowance"
+  },
+  {
+    "name": "P10_Main_gear_1",
+    "label": "P10 Main gear 1",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 1031.6303875973897,
+    "mass_g": 1.2792216806207632,
+    "center_mm": [
+      28.562903779927222,
+      30.459281103083196,
+      -36.59456655705859
+    ],
+    "bbox_mm": [
+      27.680112097438666,
+      17.5,
+      26.673188071810575
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Designed geometry; print and fit verification pending"
+  },
+  {
+    "name": "P23_Main_wheel_1",
+    "label": "P23 Main wheel 1",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 514.7316751335367,
+    "mass_g": 0.6382672771655855,
+    "center_mm": [
+      23.999999999999996,
+      43.0,
+      -48.99999999999999
+    ],
+    "bbox_mm": [
+      13.988645974401976,
+      4.0,
+      14.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Printed 14mm diameter wheel; M2 metal axle and positive retention to fit-test"
+  },
+  {
+    "name": "Main_gear_M2_axle_1",
+    "label": "Main gear M2 axle 1",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 37.69911184307752,
+    "mass_g": 0.0,
+    "center_mm": [
+      24.0,
+      41.00000000000001,
+      -49.0
+    ],
+    "bbox_mm": [
+      2.0,
+      12.0,
+      2.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "P24_Tailwheel_fork",
+    "label": "P24 Tailwheel fork",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 662.9251845925623,
+    "mass_g": 0.8220272288947773,
+    "center_mm": [
+      -185.20194676920187,
+      -2.1168631630561565e-16,
+      -42.77447081410198
+    ],
+    "bbox_mm": [
+      19.62173910844163,
+      7.0,
+      25.486594182738163
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Designed geometry; print and fit verification pending"
+  },
+  {
+    "name": "P25_Tailwheel",
+    "label": "P25 Tailwheel",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 233.94701527850202,
+    "mass_g": 0.2900942989453425,
+    "center_mm": [
+      -188.0,
+      2.1260365918324054e-16,
+      -50.5
+    ],
+    "bbox_mm": [
+      10.991078979887277,
+      3.0,
+      11.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Designed geometry; print and fit verification pending"
+  },
+  {
+    "name": "Tailwheel_M2_axle",
+    "label": "Tailwheel M2 axle",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 28.27433388230821,
+    "mass_g": 0.0,
+    "center_mm": [
+      -188.0,
+      0.0,
+      -50.499999999999986
+    ],
+    "bbox_mm": [
+      2.0,
+      9.0,
+      2.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "P11_L_bearing_yoke",
+    "label": "P11 L bearing yoke",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 8577.957583095516,
+    "mass_g": 10.636667403038441,
+    "center_mm": [
+      8.36722464534107e-16,
+      112.937134615593,
+      16.189985728148674
+    ],
+    "bbox_mm": [
+      18.0,
+      74.0,
+      35.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Designed geometry; print and fit verification pending"
+  },
+  {
+    "name": "L_MR104_bearing",
+    "label": "L MR104 bearing",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 263.8937829015426,
+    "mass_g": 1.3,
+    "center_mm": [
+      2.849171085746548e-16,
+      93.00000000000001,
+      34.99999999999999
+    ],
+    "bbox_mm": [
+      9.998023297700655,
+      4.0,
+      9.996046986136509
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "MR104 4x10x4mm bearing envelope; fit coupon required"
+  },
+  {
+    "name": "L_MR104_bearing001",
+    "label": "L MR104 bearing001",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 263.8937829015426,
+    "mass_g": 1.3,
+    "center_mm": [
+      2.849171085746548e-16,
+      141.0,
+      34.99999999999999
+    ],
+    "bbox_mm": [
+      9.998023297700655,
+      4.0,
+      9.996046986136509
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "MR104 4x10x4mm bearing envelope; fit coupon required"
+  },
+  {
+    "name": "L_M4_trunnion",
+    "label": "L M4 trunnion",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 175.92918860102844,
+    "mass_g": 2.0,
+    "center_mm": [
+      1.7197363759851635e-16,
+      93.0,
+      35.0
+    ],
+    "bbox_mm": [
+      4.0,
+      14.0,
+      4.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Metal smooth shoulder trunnion with spacers/retention; detailed stack needs received hardware"
+  },
+  {
+    "name": "L_M4_trunnion001",
+    "label": "L M4 trunnion001",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 175.92918860102844,
+    "mass_g": 2.0,
+    "center_mm": [
+      1.7197363759851635e-16,
+      141.0,
+      35.0
+    ],
+    "bbox_mm": [
+      4.0,
+      14.0,
+      4.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Metal smooth shoulder trunnion with spacers/retention; detailed stack needs received hardware"
+  },
+  {
+    "name": "P12_L_motor_cradle",
+    "label": "P12 L motor cradle",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 8359.003985558122,
+    "mass_g": 10.36516494209207,
+    "center_mm": [
+      7.645762974487335e-09,
+      102.4850756970264,
+      38.50251037613853
+    ],
+    "bbox_mm": [
+      36.0,
+      85.0,
+      22.5
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Designed geometry; print and fit verification pending"
+  },
+  {
+    "name": "M_L_RS2205_2300KV",
+    "label": "M L RS2205 2300KV",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 10504.266110256509,
+    "mass_g": 30.0,
+    "center_mm": [
+      -1.4448598956395936e-15,
+      117.0,
+      42.794410897886095
+    ],
+    "bbox_mm": [
+      27.9,
+      27.89999999999999,
+      31.700000000000003
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "EMAX drawing 27.9mm dia,31.7 overall,16x19 M3 pattern; internal detail omitted"
+  },
+  {
+    "name": "L_Motor_bell_band",
+    "label": "L Motor bell band",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 69.86902061583669,
+    "mass_g": 0.0,
+    "center_mm": [
+      1.4969709004362327e-13,
+      117.00000000000084,
+      47.00000000000012
+    ],
+    "bbox_mm": [
+      28.0,
+      28.0,
+      4.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "L_motor_M3",
+    "label": "L motor M3",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 95.28450518337844,
+    "mass_g": 0.0,
+    "center_mm": [
+      -7.999999999999999,
+      107.5,
+      30.336795252225514
+    ],
+    "bbox_mm": [
+      5.3999999999999995,
+      5.400000000000006,
+      9.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "M3 bottom-entry screw envelope; verify 3mm engagement without touching windings"
+  },
+  {
+    "name": "L_motor_M001",
+    "label": "L motor M001",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 95.28450518337844,
+    "mass_g": 0.0,
+    "center_mm": [
+      -7.999999999999999,
+      126.5,
+      30.336795252225514
+    ],
+    "bbox_mm": [
+      5.3999999999999995,
+      5.3999999999999915,
+      9.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "M3 bottom-entry screw envelope; verify 3mm engagement without touching windings"
+  },
+  {
+    "name": "L_motor_M002",
+    "label": "L motor M002",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 95.28450518337844,
+    "mass_g": 0.0,
+    "center_mm": [
+      7.999999999999999,
+      107.5,
+      30.336795252225514
+    ],
+    "bbox_mm": [
+      5.3999999999999995,
+      5.400000000000006,
+      9.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "M3 bottom-entry screw envelope; verify 3mm engagement without touching windings"
+  },
+  {
+    "name": "L_motor_M003",
+    "label": "L motor M003",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 95.28450518337844,
+    "mass_g": 0.0,
+    "center_mm": [
+      7.999999999999999,
+      126.5,
+      30.336795252225514
+    ],
+    "bbox_mm": [
+      5.3999999999999995,
+      5.3999999999999915,
+      9.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "M3 bottom-entry screw envelope; verify 3mm engagement without touching windings"
+  },
+  {
+    "name": "PROP_L_HQ5045BN_BUY_DO_NOT_PRINT",
+    "label": "PROP L HQ5045BN BUY DO NOT PRINT",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 2492.6990505087992,
+    "mass_g": 3.0,
+    "center_mm": [
+      3.552713678800501e-14,
+      117.00000000000003,
+      58.693285704953944
+    ],
+    "bbox_mm": [
+      120.08763955136833,
+      57.743707402540096,
+      5.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Commercial CW/CCW 5 inch prop; visualization only, not an aerodynamic CAD blade"
+  },
+  {
+    "name": "P13_L_tilting_guard",
+    "label": "OPTIONAL \u2014 P13 L tilting guard",
+    "printed": true,
+    "installed": false,
+    "volume_mm3": 10228.614825077813,
+    "mass_g": 12.683482383096488,
+    "center_mm": [
+      -4.987575411096188e-07,
+      117.00000886096008,
+      54.4267246553449
+    ],
+    "bbox_mm": [
+      142.2,
+      142.2,
+      32.68794776930267
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Light visual/stand-off ring; no rotor containment or positive thrust augmentation credit; spoke bonds require proof"
+  },
+  {
+    "name": "A_L_BMS115WVplus",
+    "label": "A L BMS115WVplus",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 5392.548667764617,
+    "mass_g": 12.0,
+    "center_mm": [
+      -40.442324549694916,
+      35.144188625762695,
+      35.0
+    ],
+    "bbox_mm": [
+      23.2,
+      27.5,
+      10.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Blue Bird BMS-115WV+: 23.2x10x23mm, catalog 11+/-0.5g; 12g planning; 6V 5.5kgcm catalog torque, 0.13s/60deg no-load; exact spline and ear positions provisional"
+  },
+  {
+    "name": "L_OEM_servo_horn",
+    "label": "L OEM servo horn",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 175.92918860102841,
+    "mass_g": 0.8,
+    "center_mm": [
+      -35.0,
+      52.00000000000001,
+      42.0
+    ],
+    "bbox_mm": [
+      4.0,
+      4.0,
+      14.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "L_M2_ball_link",
+    "label": "L M2 ball link",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 109.95574287564271,
+    "mass_g": 2.0,
+    "center_mm": [
+      -17.5,
+      52.0,
+      48.99999999999999
+    ],
+    "bbox_mm": [
+      35.0,
+      2.0,
+      2.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "35mm center-to-center linkage at neutral; equal14mm horns; spherical ends required"
+  },
+  {
+    "name": "L_ball_joint",
+    "label": "L ball joint",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 57.90583579096704,
+    "mass_g": 0.0,
+    "center_mm": [
+      -35.0,
+      52.0,
+      49.0
+    ],
+    "bbox_mm": [
+      4.7976509436479375,
+      4.7988253280891655,
+      4.799999999999997
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "L_ball_joint001",
+    "label": "L ball joint001",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 57.90583579096704,
+    "mass_g": 0.0,
+    "center_mm": [
+      -8.765142782860677e-17,
+      52.0,
+      49.0
+    ],
+    "bbox_mm": [
+      4.797650943647937,
+      4.7988253280891655,
+      4.799999999999997
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "P14_L_servo_retainer",
+    "label": "P14 L servo retainer",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 487.4999999999998,
+    "mass_g": 0.6044999999999997,
+    "center_mm": [
+      -40.499999999999986,
+      38.73076923076923,
+      27.749999999999996
+    ],
+    "bbox_mm": [
+      29.0,
+      30.0,
+      2.5
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Prototype retainer; exact OEM mounting ears and screw seats require measurement"
+  },
+  {
+    "name": "ESC_L_Lightning30A",
+    "label": "ESC L Lightning30A",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 1620.0,
+    "mass_g": 8.0,
+    "center_mm": [
+      42.5,
+      14.0,
+      5.5
+    ],
+    "bbox_mm": [
+      27.0,
+      12.0,
+      5.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Reserve 27x12x5mm 8g per ESC; final heatshrink dimension must be measured; no BEC"
+  },
+  {
+    "name": "P15_L_ESC_tray",
+    "label": "P15 L ESC tray",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 987.6866435659391,
+    "mass_g": 1.2247314380217647,
+    "center_mm": [
+      42.564783029524115,
+      13.96828174911703,
+      2.000226647514161
+    ],
+    "bbox_mm": [
+      31.0,
+      16.0,
+      2.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Designed geometry; print and fit verification pending; locally cleared harness passage with 0.6mm radial assembly allowance"
+  },
+  {
+    "name": "L_ESC_VBAT",
+    "label": "L ESC VBAT",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 106.61533404168246,
+    "mass_g": 0.0,
+    "center_mm": [
+      39.692942939938426,
+      8.17020425524792,
+      9.665655926381218
+    ],
+    "bbox_mm": [
+      16.579671605331026,
+      15.710383496688193,
+      6.4516777690195815
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "L_ESC_GND",
+    "label": "L ESC GND",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 85.07787071362358,
+    "mass_g": 0.0,
+    "center_mm": [
+      40.8951710807606,
+      9.311525722642656,
+      9.573012931401353
+    ],
+    "bbox_mm": [
+      13.60889752106484,
+      12.801923508946107,
+      6.412458495239354
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "L_Phase_0",
+    "label": "L Phase 0",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 724.4565319985614,
+    "mass_g": 0.0,
+    "center_mm": [
+      22.277713168787994,
+      65.17654226387714,
+      11.940901017271049
+    ],
+    "bbox_mm": [
+      45.07686719544026,
+      105.37724770794703,
+      34.944893979486785
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "L_Phase_1",
+    "label": "L Phase 1",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 718.3952624998386,
+    "mass_g": 0.0,
+    "center_mm": [
+      23.97890441733014,
+      67.11553966679203,
+      12.508652749765085
+    ],
+    "bbox_mm": [
+      41.87041510020617,
+      105.34287449293159,
+      35.32916736027604
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "L_Phase_2",
+    "label": "L Phase 2",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 714.1528305424033,
+    "mass_g": 0.0,
+    "center_mm": [
+      25.665024697834294,
+      69.13558754323934,
+      13.131050158178857
+    ],
+    "bbox_mm": [
+      40.64590697134818,
+      105.29757476547891,
+      35.81469977439358
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "L_Servo_0",
+    "label": "L Servo 0",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 100.4798341117391,
+    "mass_g": 0.0,
+    "center_mm": [
+      -40.389903114130036,
+      18.116394707372226,
+      11.352173601301821
+    ],
+    "bbox_mm": [
+      52.20400078949592,
+      14.532525622531361,
+      28.025051614141375
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "L_Servo_1",
+    "label": "L Servo 1",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 86.72583578088184,
+    "mass_g": 0.0,
+    "center_mm": [
+      -47.52083583682664,
+      18.688506048920253,
+      9.556700522415039
+    ],
+    "bbox_mm": [
+      25.665717523941247,
+      24.434363729348735,
+      43.0523699558305
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "L_Servo_2",
+    "label": "L Servo 2",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 87.86421404929146,
+    "mass_g": 0.0,
+    "center_mm": [
+      -47.30701815953406,
+      20.239744488940055,
+      9.710443221352278
+    ],
+    "bbox_mm": [
+      26.119185777678986,
+      24.45158008852609,
+      43.01494836809803
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "L_ESC_signal",
+    "label": "L ESC signal",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 18.97324056640227,
+    "mass_g": 0.0,
+    "center_mm": [
+      25.225693390108585,
+      20.597180649063016,
+      5.291181824860765
+    ],
+    "bbox_mm": [
+      26.59555350395273,
+      8.492321997369121,
+      4.531099484877247
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "L_ESC_signal_ground",
+    "label": "L ESC signal ground",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 20.28112776276648,
+    "mass_g": 0.0,
+    "center_mm": [
+      27.988715045385714,
+      21.710764485851374,
+      5.363233765933642
+    ],
+    "bbox_mm": [
+      26.67541254928023,
+      10.285952725241481,
+      4.469287348058272
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "P11_R_bearing_yoke",
+    "label": "P11 R bearing yoke",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 8577.957583095516,
+    "mass_g": 10.636667403038441,
+    "center_mm": [
+      9.59730296221586e-16,
+      -112.93713461559301,
+      16.189985728148674
+    ],
+    "bbox_mm": [
+      18.0,
+      74.0,
+      35.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Designed geometry; print and fit verification pending"
+  },
+  {
+    "name": "R_MR104_bearing",
+    "label": "R MR104 bearing",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 263.8937829015426,
+    "mass_g": 1.3,
+    "center_mm": [
+      2.849171085746548e-16,
+      -93.00000000000001,
+      34.99999999999999
+    ],
+    "bbox_mm": [
+      9.998023297700655,
+      4.0,
+      9.996046986136509
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "MR104 4x10x4mm bearing envelope; fit coupon required"
+  },
+  {
+    "name": "R_MR104_bearing001",
+    "label": "R MR104 bearing001",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 263.8937829015426,
+    "mass_g": 1.3,
+    "center_mm": [
+      2.849171085746548e-16,
+      -141.0,
+      34.99999999999999
+    ],
+    "bbox_mm": [
+      9.998023297700655,
+      4.0,
+      9.996046986136509
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "MR104 4x10x4mm bearing envelope; fit coupon required"
+  },
+  {
+    "name": "R_M4_trunnion",
+    "label": "R M4 trunnion",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 175.92918860102844,
+    "mass_g": 2.0,
+    "center_mm": [
+      1.7197363759851635e-16,
+      -93.0,
+      35.0
+    ],
+    "bbox_mm": [
+      4.0,
+      14.0,
+      4.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Metal smooth shoulder trunnion with spacers/retention; detailed stack needs received hardware"
+  },
+  {
+    "name": "R_M4_trunnion001",
+    "label": "R M4 trunnion001",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 175.92918860102844,
+    "mass_g": 2.0,
+    "center_mm": [
+      1.7197363759851635e-16,
+      -141.0,
+      35.0
+    ],
+    "bbox_mm": [
+      4.0,
+      14.0,
+      4.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Metal smooth shoulder trunnion with spacers/retention; detailed stack needs received hardware"
+  },
+  {
+    "name": "P12_R_motor_cradle",
+    "label": "P12 R motor cradle",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 8359.003985558122,
+    "mass_g": 10.36516494209207,
+    "center_mm": [
+      7.645763163460246e-09,
+      -102.4850756970264,
+      38.50251037613853
+    ],
+    "bbox_mm": [
+      36.0,
+      85.0,
+      22.5
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Designed geometry; print and fit verification pending"
+  },
+  {
+    "name": "M_R_RS2205_2300KV",
+    "label": "M R RS2205 2300KV",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 10504.266110256509,
+    "mass_g": 30.0,
+    "center_mm": [
+      -1.4448598956395936e-15,
+      -117.0,
+      42.794410897886095
+    ],
+    "bbox_mm": [
+      27.9,
+      27.89999999999999,
+      31.700000000000003
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "EMAX drawing 27.9mm dia,31.7 overall,16x19 M3 pattern; internal detail omitted"
+  },
+  {
+    "name": "R_Motor_bell_band",
+    "label": "R Motor bell band",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 69.86902061583669,
+    "mass_g": 0.0,
+    "center_mm": [
+      1.4969709004362327e-13,
+      -117.00000000000084,
+      47.00000000000012
+    ],
+    "bbox_mm": [
+      28.0,
+      28.0,
+      4.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "R_motor_M3",
+    "label": "R motor M3",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 95.28450518337844,
+    "mass_g": 0.0,
+    "center_mm": [
+      -7.999999999999999,
+      -107.5,
+      30.336795252225514
+    ],
+    "bbox_mm": [
+      5.3999999999999995,
+      5.400000000000006,
+      9.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "M3 bottom-entry screw envelope; verify 3mm engagement without touching windings"
+  },
+  {
+    "name": "R_motor_M001",
+    "label": "R motor M001",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 95.28450518337844,
+    "mass_g": 0.0,
+    "center_mm": [
+      -7.999999999999999,
+      -126.5,
+      30.336795252225514
+    ],
+    "bbox_mm": [
+      5.399999999999999,
+      5.3999999999999915,
+      9.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "M3 bottom-entry screw envelope; verify 3mm engagement without touching windings"
+  },
+  {
+    "name": "R_motor_M002",
+    "label": "R motor M002",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 95.28450518337844,
+    "mass_g": 0.0,
+    "center_mm": [
+      7.999999999999999,
+      -107.5,
+      30.336795252225514
+    ],
+    "bbox_mm": [
+      5.3999999999999995,
+      5.400000000000006,
+      9.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "M3 bottom-entry screw envelope; verify 3mm engagement without touching windings"
+  },
+  {
+    "name": "R_motor_M003",
+    "label": "R motor M003",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 95.28450518337844,
+    "mass_g": 0.0,
+    "center_mm": [
+      7.999999999999999,
+      -126.5,
+      30.33679525222552
+    ],
+    "bbox_mm": [
+      5.3999999999999995,
+      5.3999999999999915,
+      9.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "M3 bottom-entry screw envelope; verify 3mm engagement without touching windings"
+  },
+  {
+    "name": "PROP_R_HQ5045BN_BUY_DO_NOT_PRINT",
+    "label": "PROP R HQ5045BN BUY DO NOT PRINT",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 2492.6990505087983,
+    "mass_g": 3.0,
+    "center_mm": [
+      4.9737991503207007e-14,
+      -117.00000000000004,
+      58.693285704953965
+    ],
+    "bbox_mm": [
+      116.53352989228894,
+      60.79100824705269,
+      5.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Commercial CW/CCW 5 inch prop; visualization only, not an aerodynamic CAD blade"
+  },
+  {
+    "name": "P13_R_tilting_guard",
+    "label": "OPTIONAL \u2014 P13 R tilting guard",
+    "printed": true,
+    "installed": false,
+    "volume_mm3": 10228.614825077815,
+    "mass_g": 12.68348238309649,
+    "center_mm": [
+      -4.987575391638711e-07,
+      -117.00000886096002,
+      54.426724655344884
+    ],
+    "bbox_mm": [
+      142.2,
+      142.2,
+      32.68794776930267
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Light visual/stand-off ring; no rotor containment or positive thrust augmentation credit; spoke bonds require proof"
+  },
+  {
+    "name": "A_R_BMS115WVplus",
+    "label": "A R BMS115WVplus",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 5392.548667764617,
+    "mass_g": 12.0,
+    "center_mm": [
+      -40.442324549694916,
+      -35.144188625762695,
+      35.0
+    ],
+    "bbox_mm": [
+      23.2,
+      27.5,
+      10.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Blue Bird BMS-115WV+: 23.2x10x23mm, catalog 11+/-0.5g; 12g planning; 6V 5.5kgcm catalog torque, 0.13s/60deg no-load; exact spline and ear positions provisional"
+  },
+  {
+    "name": "R_OEM_servo_horn",
+    "label": "R OEM servo horn",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 175.92918860102841,
+    "mass_g": 0.8,
+    "center_mm": [
+      -35.0,
+      -52.00000000000001,
+      42.0
+    ],
+    "bbox_mm": [
+      4.0,
+      4.0,
+      14.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "R_M2_ball_link",
+    "label": "R M2 ball link",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 109.95574287564271,
+    "mass_g": 2.0,
+    "center_mm": [
+      -17.5,
+      -52.0,
+      48.99999999999999
+    ],
+    "bbox_mm": [
+      35.0,
+      2.0,
+      2.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "35mm center-to-center linkage at neutral; equal14mm horns; spherical ends required"
+  },
+  {
+    "name": "R_ball_joint",
+    "label": "R ball joint",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 57.90583579096704,
+    "mass_g": 0.0,
+    "center_mm": [
+      -35.0,
+      -52.0,
+      49.0
+    ],
+    "bbox_mm": [
+      4.7976509436479375,
+      4.7988253280891655,
+      4.799999999999997
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "R_ball_joint001",
+    "label": "R ball joint001",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 57.90583579096704,
+    "mass_g": 0.0,
+    "center_mm": [
+      -8.765142782860677e-17,
+      -52.0,
+      49.0
+    ],
+    "bbox_mm": [
+      4.797650943647937,
+      4.7988253280891655,
+      4.799999999999997
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "P14_R_servo_retainer",
+    "label": "P14 R servo retainer",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 487.4999999999998,
+    "mass_g": 0.6044999999999997,
+    "center_mm": [
+      -40.499999999999986,
+      -38.73076923076923,
+      27.749999999999996
+    ],
+    "bbox_mm": [
+      29.0,
+      30.0,
+      2.5
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Prototype retainer; exact OEM mounting ears and screw seats require measurement"
+  },
+  {
+    "name": "ESC_R_Lightning30A",
+    "label": "ESC R Lightning30A",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 1620.0,
+    "mass_g": 8.0,
+    "center_mm": [
+      42.5,
+      -14.0,
+      5.5
+    ],
+    "bbox_mm": [
+      27.0,
+      12.0,
+      5.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Reserve 27x12x5mm 8g per ESC; final heatshrink dimension must be measured; no BEC"
+  },
+  {
+    "name": "P15_R_ESC_tray",
+    "label": "P15 R ESC tray",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 987.6876285963976,
+    "mass_g": 1.2247326594595331,
+    "center_mm": [
+      42.56477146219748,
+      -13.968287596055763,
+      2.000227059725947
+    ],
+    "bbox_mm": [
+      31.0,
+      16.0,
+      2.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Designed geometry; print and fit verification pending; locally cleared harness passage with 0.6mm radial assembly allowance"
+  },
+  {
+    "name": "R_ESC_VBAT",
+    "label": "R ESC VBAT",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 106.61533404168571,
+    "mass_g": 0.0,
+    "center_mm": [
+      39.69294293991828,
+      -8.17020425526197,
+      9.66565592640674
+    ],
+    "bbox_mm": [
+      16.579671605331047,
+      15.709995013597178,
+      6.451718202076592
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "R_ESC_GND",
+    "label": "R ESC GND",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 112.74598225837588,
+    "mass_g": 0.0,
+    "center_mm": [
+      42.067611488465644,
+      -6.9732775283268635,
+      10.036997339757843
+    ],
+    "bbox_mm": [
+      13.679183918160113,
+      18.37409025283015,
+      6.469938329300897
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "R_Phase_0",
+    "label": "R Phase 0",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 724.4565319991668,
+    "mass_g": 0.0,
+    "center_mm": [
+      22.277713168805544,
+      -65.17654226384253,
+      11.940901017301522
+    ],
+    "bbox_mm": [
+      45.07486443799435,
+      105.37720794143557,
+      34.94442955377689
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "R_Phase_1",
+    "label": "R Phase 1",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 718.3952625005151,
+    "mass_g": 0.0,
+    "center_mm": [
+      23.978904417346527,
+      -67.11553966675865,
+      12.508652749795724
+    ],
+    "bbox_mm": [
+      41.87041510020617,
+      105.34319078361563,
+      35.32916736027615
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "R_Phase_2",
+    "label": "R Phase 2",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 714.1528305431106,
+    "mass_g": 0.0,
+    "center_mm": [
+      25.665024697850008,
+      -69.1355875432044,
+      13.131050158208668
+    ],
+    "bbox_mm": [
+      40.64588220320961,
+      105.29737963478695,
+      35.81469977439255
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "R_Servo_0",
+    "label": "R Servo 0",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 100.47983411173594,
+    "mass_g": 0.0,
+    "center_mm": [
+      -40.38990311413013,
+      -18.116394707372187,
+      11.352173601301667
+    ],
+    "bbox_mm": [
+      52.20279043628016,
+      14.53137014463673,
+      28.024404121242164
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "R_Servo_1",
+    "label": "R Servo 1",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 86.72583578089109,
+    "mass_g": 0.0,
+    "center_mm": [
+      -47.520835836830415,
+      -18.688506048920296,
+      9.556700522415438
+    ],
+    "bbox_mm": [
+      25.66571752393864,
+      24.434269338082697,
+      43.0521185661887
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "R_Servo_2",
+    "label": "R Servo 2",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 87.8642140492924,
+    "mass_g": 0.0,
+    "center_mm": [
+      -47.30701815953403,
+      -20.239744488940016,
+      9.710443221352227
+    ],
+    "bbox_mm": [
+      26.119124580421975,
+      24.451607310620165,
+      43.01497188718124
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "R_ESC_signal",
+    "label": "R ESC signal",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 18.973240566403163,
+    "mass_g": 0.0,
+    "center_mm": [
+      25.2256933901347,
+      -20.597180649067546,
+      5.2911818248503355
+    ],
+    "bbox_mm": [
+      26.595564128125304,
+      8.491730742908755,
+      4.530785848317065
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "R_ESC_signal_ground",
+    "label": "R ESC signal ground",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 20.281127762768985,
+    "mass_g": 0.0,
+    "center_mm": [
+      27.988715045405822,
+      -21.710764485854032,
+      5.363233765923817
+    ],
+    "bbox_mm": [
+      26.67533513373121,
+      10.285857545761452,
+      4.469322568770642
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "Battery_stock_positive",
+    "label": "Battery stock positive",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 131.70876432349044,
+    "mass_g": 0.0,
+    "center_mm": [
+      -3.3303436102107216,
+      -6.374650133646967,
+      -14.725604447075176
+    ],
+    "bbox_mm": [
+      10.938172229239026,
+      5.26983818837515,
+      12.613278455789747
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "Battery_stock_negative",
+    "label": "Battery stock negative",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 131.70876432334674,
+    "mass_g": 0.0,
+    "center_mm": [
+      -3.33034361010807,
+      6.374650133623828,
+      -14.725604447106424
+    ],
+    "bbox_mm": [
+      10.938812689894846,
+      5.269451389486079,
+      12.614939389173115
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "B1_positive",
+    "label": "B1 positive",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 1163.168994033452,
+    "mass_g": 0.0,
+    "center_mm": [
+      12.087775163401558,
+      -18.165490114428362,
+      -6.657705350235083
+    ],
+    "bbox_mm": [
+      73.56715609529655,
+      22.70840119691214,
+      37.11108868398942
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "B1_negative",
+    "label": "B1 negative",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 1163.1689940343715,
+    "mass_g": 0.0,
+    "center_mm": [
+      12.08777516338698,
+      18.165490114414144,
+      -6.657705350255567
+    ],
+    "bbox_mm": [
+      73.56692557036592,
+      22.708545587743654,
+      37.111092098894886
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "UBEC_input_0",
+    "label": "UBEC input 0",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 209.02985970010963,
+    "mass_g": 0.0,
+    "center_mm": [
+      0.7284954450915423,
+      -16.004277757188497,
+      4.627180121333544
+    ],
+    "bbox_mm": [
+      80.55993260619,
+      17.066064892792127,
+      24.348736501421918
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "FC_input_0",
+    "label": "FC input 0",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 33.4572940172814,
+    "mass_g": 0.0,
+    "center_mm": [
+      28.42799920449389,
+      3.5458020752169626,
+      11.1573057038576
+    ],
+    "bbox_mm": [
+      32.67508230628612,
+      6.657723581353222,
+      5.757150508192617
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "Capacitor_0",
+    "label": "Capacitor 0",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 108.02566821775989,
+    "mass_g": 0.0,
+    "center_mm": [
+      -1.2299007895663816,
+      -18.25601445120685,
+      2.8554674053576057
+    ],
+    "bbox_mm": [
+      82.23966388219655,
+      18.614540337392267,
+      33.99001269356906
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "UBEC_input_1",
+    "label": "UBEC input 1",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 226.79882896637457,
+    "mass_g": 0.0,
+    "center_mm": [
+      1.6277212093550137,
+      -13.116929241726961,
+      4.6358854673082455
+    ],
+    "bbox_mm": [
+      81.3270141505148,
+      23.806259529520553,
+      24.417561451786668
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "FC_input_1",
+    "label": "FC input 1",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 32.58569541212449,
+    "mass_g": 0.0,
+    "center_mm": [
+      28.562464829309807,
+      6.8357210030854265,
+      11.17799891730777
+    ],
+    "bbox_mm": [
+      32.57762262948821,
+      5.597145332445916,
+      5.713599566559202
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "Capacitor_1",
+    "label": "Capacitor 1",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 112.26615341168349,
+    "mass_g": 0.0,
+    "center_mm": [
+      0.17091186252578905,
+      -16.12105298176826,
+      3.068563580858396
+    ],
+    "bbox_mm": [
+      82.30142201715346,
+      23.48960810578554,
+      33.999067001726466
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "Receiver_0",
+    "label": "Receiver 0",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 16.10485465248521,
+    "mass_g": 0.0,
+    "center_mm": [
+      -35.56320463947096,
+      9.912972280972932,
+      7.239276252796171
+    ],
+    "bbox_mm": [
+      25.207022229159616,
+      3.4312382329314355,
+      1.9500761681910594
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "Receiver_1",
+    "label": "Receiver 1",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 16.104854652485187,
+    "mass_g": 0.0,
+    "center_mm": [
+      -35.563204639470975,
+      11.912972280972928,
+      7.23927625279617
+    ],
+    "bbox_mm": [
+      25.20702222915961,
+      3.4312382329314346,
+      1.9500761681910577
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "Receiver_2",
+    "label": "Receiver 2",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 16.104854652485155,
+    "mass_g": 0.0,
+    "center_mm": [
+      -35.563204639470975,
+      13.912972280972928,
+      7.23927625279617
+    ],
+    "bbox_mm": [
+      25.207022229159616,
+      3.431238232931431,
+      1.9500761681910577
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "Receiver_3",
+    "label": "Receiver 3",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 16.10485465248516,
+    "mass_g": 0.0,
+    "center_mm": [
+      -35.56320463947098,
+      15.91297228097293,
+      7.239276252796168
+    ],
+    "bbox_mm": [
+      25.207022229159612,
+      3.4312382329314364,
+      1.9500761681910594
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "Balance_0",
+    "label": "Balance 0",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 9.631467074700845,
+    "mass_g": 0.0,
+    "center_mm": [
+      -5.193466576159414,
+      16.39959517805835,
+      -27.636727794079647
+    ],
+    "bbox_mm": [
+      13.649897951730017,
+      11.657676107107322,
+      5.706454610211718
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "Balance_1",
+    "label": "Balance 1",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 9.631467074700998,
+    "mass_g": 0.0,
+    "center_mm": [
+      -5.193466576159412,
+      16.39959517805835,
+      -26.636727794079647
+    ],
+    "bbox_mm": [
+      13.649897951730013,
+      11.657676107107322,
+      5.70645461021174
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "Balance_2",
+    "label": "Balance 2",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 9.631467074700936,
+    "mass_g": 0.0,
+    "center_mm": [
+      -5.193466576159415,
+      16.39959517805835,
+      -25.636727794079647
+    ],
+    "bbox_mm": [
+      13.649897951730015,
+      11.657676107107326,
+      5.706454610211711
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "Balance_3",
+    "label": "Balance 3",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 9.631467074700799,
+    "mass_g": 0.0,
+    "center_mm": [
+      -5.193466576159411,
+      16.399595178058355,
+      -24.63672779407966
+    ],
+    "bbox_mm": [
+      13.649897951730017,
+      11.657676107107326,
+      5.706388248736033
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "Balance_4",
+    "label": "Balance 4",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 9.631467074700913,
+    "mass_g": 0.0,
+    "center_mm": [
+      -5.193466576159464,
+      16.39959517805839,
+      -23.63672779407964
+    ],
+    "bbox_mm": [
+      13.649897951730015,
+      11.657676107107322,
+      5.706454610211704
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "Antenna_coax",
+    "label": "Antenna coax",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 71.28385945656863,
+    "mass_g": 0.0,
+    "center_mm": [
+      -88.31394337483789,
+      6.340506052073517,
+      19.87995180135024
+    ],
+    "bbox_mm": [
+      58.09694057145266,
+      15.115104730305694,
+      25.300083929164135
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "RP1_T_antenna",
+    "label": "RP1 T antenna",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 204.20352248333643,
+    "mass_g": 0.0,
+    "center_mm": [
+      -114.00000000000001,
+      5.567329903963493e-16,
+      32.0
+    ],
+    "bbox_mm": [
+      2.0,
+      65.0,
+      2.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "P16_Antenna_mast",
+    "label": "P16 Antenna mast",
+    "printed": true,
+    "installed": true,
+    "volume_mm3": 82.93804605477027,
+    "mass_g": 0.10284317710791514,
+    "center_mm": [
+      -114.00000000000003,
+      2.9680731598151427e-16,
+      28.000000000000007
+    ],
+    "bbox_mm": [
+      5.0,
+      5.0,
+      10.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Designed geometry; print and fit verification pending"
+  },
+  {
+    "name": "Buzzer_wire_0",
+    "label": "Buzzer wire 0",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 31.994683935351212,
+    "mass_g": 0.0,
+    "center_mm": [
+      47.20515040478779,
+      12.125144437354768,
+      5.237700639271528
+    ],
+    "bbox_mm": [
+      48.90891525982162,
+      16.178515924942193,
+      5.82733324586269
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "Buzzer_wire_1",
+    "label": "Buzzer wire 1",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 32.00161945629724,
+    "mass_g": 0.0,
+    "center_mm": [
+      46.9792898779463,
+      14.670445837146884,
+      5.0994503638798765
+    ],
+    "bbox_mm": [
+      47.73904763657849,
+      19.64210422094174,
+      5.832461288731045
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Insulated wire envelope; hand dressed route; endpoint function not exact pad geometry"
+  },
+  {
+    "name": "Beam_keel_M3",
+    "label": "Beam keel M3",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 201.31325724203396,
+    "mass_g": 0.0,
+    "center_mm": [
+      -11.0,
+      -25.499999999999996,
+      19.730337078651683
+    ],
+    "bbox_mm": [
+      5.399999999999999,
+      5.399999999999999,
+      24.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "Beam_keel_M001",
+    "label": "Beam keel M001",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 201.31325724203396,
+    "mass_g": 0.0,
+    "center_mm": [
+      -11.0,
+      25.499999999999996,
+      19.730337078651683
+    ],
+    "bbox_mm": [
+      5.399999999999999,
+      5.399999999999999,
+      24.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "Beam_keel_M002",
+    "label": "Beam keel M002",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 201.31325724203396,
+    "mass_g": 0.0,
+    "center_mm": [
+      10.999999999999996,
+      -25.499999999999996,
+      19.730337078651683
+    ],
+    "bbox_mm": [
+      5.399999999999999,
+      5.399999999999999,
+      24.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "Beam_keel_M003",
+    "label": "Beam keel M003",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 201.31325724203396,
+    "mass_g": 0.0,
+    "center_mm": [
+      10.999999999999996,
+      25.499999999999996,
+      19.730337078651683
+    ],
+    "bbox_mm": [
+      5.399999999999999,
+      5.399999999999999,
+      24.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "Yoke_joint_M3",
+    "label": "Yoke joint M3",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 116.49025559510956,
+    "mass_g": 0.0,
+    "center_mm": [
+      3.0497947323154896e-17,
+      -76.0,
+      11.359223300970873
+    ],
+    "bbox_mm": [
+      5.4,
+      5.400000000000006,
+      12.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "Yoke_joint_M001",
+    "label": "Yoke joint M001",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 116.49025559510956,
+    "mass_g": 0.0,
+    "center_mm": [
+      3.0497947323154896e-17,
+      -82.0,
+      11.359223300970873
+    ],
+    "bbox_mm": [
+      5.4,
+      5.400000000000006,
+      12.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "Yoke_joint_M002",
+    "label": "Yoke joint M002",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 116.49025559510956,
+    "mass_g": 0.0,
+    "center_mm": [
+      3.0497947323154896e-17,
+      76.0,
+      11.359223300970873
+    ],
+    "bbox_mm": [
+      5.4,
+      5.400000000000006,
+      12.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  },
+  {
+    "name": "Yoke_joint_M003",
+    "label": "Yoke joint M003",
+    "printed": false,
+    "installed": true,
+    "volume_mm3": 116.49025559510956,
+    "mass_g": 0.0,
+    "center_mm": [
+      3.0497947323154896e-17,
+      82.0,
+      11.359223300970873
+    ],
+    "bbox_mm": [
+      5.4,
+      5.400000000000006,
+      12.0
+    ],
+    "valid": true,
+    "solids": 1,
+    "evidence": "Simplified installation envelope; verify received part"
+  }
+]

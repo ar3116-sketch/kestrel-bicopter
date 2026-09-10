@@ -1,0 +1,20 @@
+[
+  {
+    "wheel": "P23_Main_wheel_1",
+    "fork_or_leg": "P10_Main_gear_1",
+    "overlap_mm3": 0.0,
+    "wheel_ground_z_mm": -56.0
+  },
+  {
+    "wheel": "P23_Main_wheel__1",
+    "fork_or_leg": "P10_Main_gear__1",
+    "overlap_mm3": 0.0,
+    "wheel_ground_z_mm": -56.0
+  },
+  {
+    "wheel": "P25_Tailwheel",
+    "fork_or_leg": "P24_Tailwheel_fork",
+    "overlap_mm3": 0.0,
+    "wheel_ground_z_mm": -56.0
+  }
+]

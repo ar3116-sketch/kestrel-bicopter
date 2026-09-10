@@ -1,0 +1,137 @@
+[
+  {
+    "quantity": 2,
+    "part": "EMAX RS2205 2300KV motor",
+    "mass_each_g": 30,
+    "allocated_total_g": 60,
+    "notes": "Genuine original RS2205; 16 x 19 mm M3 mounting. Verify lead exit, shaft and screw engagement.",
+    "reference": "MOTOR",
+    "source_url": "https://emaxmodel.com/products/emax-rs2205-racespec-motor-cooling-series"
+  },
+  {
+    "quantity": 2,
+    "part": "HQProp HQ5045BN two-blade propeller",
+    "mass_each_g": 3,
+    "allocated_total_g": 6,
+    "notes": "One CW and one CCW; exact blade from thrust table. Buy commercial props; never print these.",
+    "reference": "MOTOR",
+    "source_url": "https://emaxmodel.com/products/emax-rs2205-racespec-motor-cooling-series"
+  },
+  {
+    "quantity": 2,
+    "part": "EMAX Lightning 30A ESC",
+    "mass_each_g": 8,
+    "allocated_total_g": 16,
+    "notes": "Legacy BLHeli; 27 x 12 x 5 mm model reserve. Confirm actual dimensions, cooling and supported input protocol.",
+    "reference": "ESC",
+    "source_url": "https://shop.emaxmodel.com/products/emax-rs2205-2300kv-2600kv-racespec-brushless-motor-with-3-4s-30a-blheli-lightning-esc-power-combo"
+  },
+  {
+    "quantity": 2,
+    "part": "Blue Bird BMS-115WV+ tilt servo",
+    "mass_each_g": 12,
+    "allocated_total_g": 24,
+    "notes": "6 V; 23.2 x 10 x 23 mm body. Catalog 11 +/-0.5 g; 12 g planning allowance. Ears/spline stack provisional.",
+    "reference": "SERVO",
+    "source_url": "https://www.blue-bird-model.com/products_detail/55.htm"
+  },
+  {
+    "quantity": 1,
+    "part": "Matek F405-TE flight controller",
+    "mass_each_g": 10,
+    "allocated_total_g": 10,
+    "notes": "36 x 46 mm; verify 30.5 mm mount spacing and exact board variant. Bicopter firmware support required.",
+    "reference": "FC",
+    "source_url": "https://www.mateksys.com/?portfolio=f405-te"
+  },
+  {
+    "quantity": 1,
+    "part": "Hobbywing UBEC 5A",
+    "mass_each_g": 21,
+    "allocated_total_g": 21,
+    "notes": "50 x 17 x 10 mm; set to 6 V for servos only. 5 A continuous rating; actual simultaneous servo demand unknown.",
+    "reference": "BEC",
+    "source_url": "https://www.hobbywing.com/en/products/ubec-5a93.html"
+  },
+  {
+    "quantity": 1,
+    "part": "RadioMaster RP1 V2 ELRS 2.4 GHz receiver",
+    "mass_each_g": 2.2,
+    "allocated_total_g": 2.2,
+    "notes": "13 x 11 x 3 mm, antenna included in allocation. Requires compatible ELRS transmitter; FlySky AFHDS radio is not compatible.",
+    "reference": "RX",
+    "source_url": "https://www.radiomasterrc.com/products/rp1-expresslrs-2-4ghz-nano-receiver"
+  },
+  {
+    "quantity": 1,
+    "part": "4S 1300 mAh LiPo - exact SKU OPEN",
+    "mass_each_g": 170,
+    "allocated_total_g": 170,
+    "notes": "76 x 38 x 31 mm maximum planning envelope, including stock leads in mass. Must support measured pack current and fit; no C-label guarantee.",
+    "reference": "BATTERY",
+    "source_url": "https://www.genstattu.com/blog/tattu-fpv-battery-recommend"
+  },
+  {
+    "quantity": 1,
+    "part": "XT60 aircraft-side connector",
+    "mass_each_g": 4,
+    "allocated_total_g": 4,
+    "notes": "Mate to battery connector; insulated solder cups and strain relief. Stock battery half is counted with battery.",
+    "reference": "",
+    "source_url": null
+  },
+  {
+    "quantity": 1,
+    "part": "470 uF 35 V low-ESR capacitor",
+    "mass_each_g": 3,
+    "allocated_total_g": 3,
+    "notes": "Reserve diameter 10 x 16 mm; confirm ripple rating and polarity. Lead length affects suppression.",
+    "reference": "",
+    "source_url": null
+  },
+  {
+    "quantity": 1,
+    "part": "5 V active buzzer",
+    "mass_each_g": 2,
+    "allocated_total_g": 2,
+    "notes": "Reserve diameter 10 x 5 mm; verify compatibility with FC buzzer output and polarity.",
+    "reference": "",
+    "source_url": null
+  },
+  {
+    "quantity": 4,
+    "part": "MR104 bearing, 4 x 10 x 4 mm",
+    "mass_each_g": 1.3,
+    "allocated_total_g": 5.2,
+    "notes": "Metal bearings; confirm fit, shields, axial support and smooth rotation.",
+    "reference": "",
+    "source_url": null
+  },
+  {
+    "quantity": 4,
+    "part": "4 mm metal trunnion / shoulder pin",
+    "mass_each_g": 2,
+    "allocated_total_g": 8,
+    "notes": "Nominal 14 mm modeled length. Final shoulders, spacers, retaining method and bearing stack OPEN.",
+    "reference": "",
+    "source_url": null
+  },
+  {
+    "quantity": 2,
+    "part": "OEM-compatible 25T servo horn",
+    "mass_each_g": 0.8,
+    "allocated_total_g": 1.6,
+    "notes": "14 mm effective pivot-to-ball radius. Verify spline and screw; do not substitute a loose printed spline.",
+    "reference": "SERVO",
+    "source_url": "https://www.blue-bird-model.com/products_detail/55.htm"
+  },
+  {
+    "quantity": 2,
+    "part": "M2 pushrod with ball-link ends",
+    "mass_each_g": 2,
+    "allocated_total_g": 4,
+    "notes": "35 mm center-to-center modeled link; four ball joints total. Verify travel, clearance and attachment geometry.",
+    "reference": "",
+    "source_url": null
+  }
+]

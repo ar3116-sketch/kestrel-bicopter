@@ -1,0 +1,296 @@
+[
+  {
+    "name": "P01_Battery_keel",
+    "installed": true,
+    "closed": true,
+    "facets": 2318,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P02_Crossbeam",
+    "installed": true,
+    "closed": true,
+    "facets": 2790,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P03_Avionics_deck",
+    "installed": true,
+    "closed": true,
+    "facets": 1492,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P09_Cabin_side_glazing_0",
+    "installed": true,
+    "closed": true,
+    "facets": 98,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P09_Cabin_side_glazing_0_segment_2",
+    "installed": true,
+    "closed": true,
+    "facets": 34,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P09_Cabin_side_glazing_0_segment_3",
+    "installed": true,
+    "closed": true,
+    "facets": 28,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P09_Cabin_side_glazing_1",
+    "installed": true,
+    "closed": true,
+    "facets": 98,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P09_Cabin_side_glazing_1_segment_2",
+    "installed": true,
+    "closed": true,
+    "facets": 34,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P09_Cabin_side_glazing_1_segment_3",
+    "installed": true,
+    "closed": true,
+    "facets": 28,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P06_Cabin_upper",
+    "installed": true,
+    "closed": true,
+    "facets": 21602,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P07_Cabin_lower",
+    "installed": true,
+    "closed": true,
+    "facets": 1744,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P08_Windshield",
+    "installed": true,
+    "closed": true,
+    "facets": 62,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P08_Windshield_segment_2",
+    "installed": true,
+    "closed": true,
+    "facets": 60,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P08_Windshield_segment_3",
+    "installed": true,
+    "closed": true,
+    "facets": 60,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P08_Windshield_segment_4",
+    "installed": true,
+    "closed": true,
+    "facets": 60,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P19_Tapered_tail_boom",
+    "installed": true,
+    "closed": true,
+    "facets": 1640,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P04_Tail_spine",
+    "installed": true,
+    "closed": true,
+    "facets": 226,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P05_Vertical_tail_fin",
+    "installed": true,
+    "closed": true,
+    "facets": 12,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P05_Horizontal_tailplane",
+    "installed": true,
+    "closed": true,
+    "facets": 16,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P17_Shoulder_cowl__1",
+    "installed": true,
+    "closed": true,
+    "facets": 254,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P20_Servo_engine_cowl__1",
+    "installed": true,
+    "closed": true,
+    "facets": 2418,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P22_Cable_raceway__1",
+    "installed": true,
+    "closed": true,
+    "facets": 1492,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P10_Main_gear__1",
+    "installed": true,
+    "closed": true,
+    "facets": 1082,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P23_Main_wheel__1",
+    "installed": true,
+    "closed": true,
+    "facets": 4572,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P17_Shoulder_cowl_1",
+    "installed": true,
+    "closed": true,
+    "facets": 252,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P20_Servo_engine_cowl_1",
+    "installed": true,
+    "closed": true,
+    "facets": 2306,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P22_Cable_raceway_1",
+    "installed": true,
+    "closed": true,
+    "facets": 1528,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P10_Main_gear_1",
+    "installed": true,
+    "closed": true,
+    "facets": 1096,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P23_Main_wheel_1",
+    "installed": true,
+    "closed": true,
+    "facets": 4572,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P24_Tailwheel_fork",
+    "installed": true,
+    "closed": true,
+    "facets": 658,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P25_Tailwheel",
+    "installed": true,
+    "closed": true,
+    "facets": 4590,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P11_L_bearing_yoke",
+    "installed": true,
+    "closed": true,
+    "facets": 876,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P12_L_motor_cradle",
+    "installed": true,
+    "closed": true,
+    "facets": 1764,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P13_L_tilting_guard",
+    "installed": false,
+    "closed": true,
+    "facets": 1306,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P14_L_servo_retainer",
+    "installed": true,
+    "closed": true,
+    "facets": 32,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P15_L_ESC_tray",
+    "installed": true,
+    "closed": true,
+    "facets": 78,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P11_R_bearing_yoke",
+    "installed": true,
+    "closed": true,
+    "facets": 876,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P12_R_motor_cradle",
+    "installed": true,
+    "closed": true,
+    "facets": 1764,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P13_R_tilting_guard",
+    "installed": false,
+    "closed": true,
+    "facets": 1306,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P14_R_servo_retainer",
+    "installed": true,
+    "closed": true,
+    "facets": 32,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P15_R_ESC_tray",
+    "installed": true,
+    "closed": true,
+    "facets": 76,
+    "fits_256_cube_in_export_orientation": true
+  },
+  {
+    "name": "P16_Antenna_mast",
+    "installed": true,
+    "closed": true,
+    "facets": 408,
+    "fits_256_cube_in_export_orientation": true
+  }
+]

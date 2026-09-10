@@ -1,0 +1,28 @@
+{
+  "1": [
+    "L_M4_trunnion",
+    "L_M4_trunnion001",
+    "P12_L_motor_cradle",
+    "M_L_RS2205_2300KV",
+    "L_Motor_bell_band",
+    "L_motor_M3",
+    "L_motor_M001",
+    "L_motor_M002",
+    "L_motor_M003",
+    "PROP_L_HQ5045BN_BUY_DO_NOT_PRINT",
+    "P13_L_tilting_guard"
+  ],
+  "-1": [
+    "R_M4_trunnion",
+    "R_M4_trunnion001",
+    "P12_R_motor_cradle",
+    "M_R_RS2205_2300KV",
+    "R_Motor_bell_band",
+    "R_motor_M3",
+    "R_motor_M001",
+    "R_motor_M002",
+    "R_motor_M003",
+    "PROP_R_HQ5045BN_BUY_DO_NOT_PRINT",
+    "P13_R_tilting_guard"
+  ]
+}
